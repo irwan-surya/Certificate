@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Kategori_pengajuan KUR</name>
+   <tag></tag>
+   <elementGuidId>d2ffa559-3225-4b90-95f3-5f836fb52983</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'm-action-button active css-1mpuix7' and (text() = 'Pengajuan KURKredit Usaha Rakyat hadir untuk memberikan solusi pembiayaan modal kerja dan investasi untuk meningkatkan kemampuan usaha kecil yang belum memenuhi persyaratan perbankan (non bankable).' or . = 'Pengajuan KURKredit Usaha Rakyat hadir untuk memberikan solusi pembiayaan modal kerja dan investasi untuk meningkatkan kemampuan usaha kecil yang belum memenuhi persyaratan perbankan (non bankable).')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.m-action-button.active.css-1mpuix7</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>311d6eae-263d-4055-8a73-f00b1ef96542</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-action-button active css-1mpuix7</value>
+      <webElementGuid>2388977d-66f9-471b-8191-5dbdccd2cb12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pengajuan KURKredit Usaha Rakyat hadir untuk memberikan solusi pembiayaan modal kerja dan investasi untuk meningkatkan kemampuan usaha kecil yang belum memenuhi persyaratan perbankan (non bankable).</value>
+      <webElementGuid>dd135e75-6f13-4ef6-8a62-d5c00a473506</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1ik9yx5&quot;]/div[@class=&quot;css-79elbk&quot;]/div[@class=&quot;css-wrvspg&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yqle2a&quot;]/div[@class=&quot;css-10c5ekf&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19d7qka&quot;]/div[@class=&quot;css-c3wesr&quot;]/div[@class=&quot;css-rkoww3&quot;]/div[@class=&quot;m-action-button active css-1mpuix7&quot;]</value>
+      <webElementGuid>57015ffb-5e16-4dd8-bab7-eff59d495203</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div</value>
+      <webElementGuid>58332629-3d48-4b22-a066-ed16de55b74e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BB'])[2]/following::div[104]</value>
+      <webElementGuid>7e27a130-7be8-4944-af73-59c647d81d68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BB'])[3]/preceding::div[10]</value>
+      <webElementGuid>924c55f0-23f5-48fd-899e-762bddf82315</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div/div</value>
+      <webElementGuid>49b9e4e8-af4b-4ead-8de9-ca2805d175ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pengajuan KURKredit Usaha Rakyat hadir untuk memberikan solusi pembiayaan modal kerja dan investasi untuk meningkatkan kemampuan usaha kecil yang belum memenuhi persyaratan perbankan (non bankable).' or . = 'Pengajuan KURKredit Usaha Rakyat hadir untuk memberikan solusi pembiayaan modal kerja dan investasi untuk meningkatkan kemampuan usaha kecil yang belum memenuhi persyaratan perbankan (non bankable).')]</value>
+      <webElementGuid>045056a4-3f06-451d-813b-c8c77d8d32e0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

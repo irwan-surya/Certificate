@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Sidebar_Pengajuan Produk</name>
+   <tag></tag>
+   <elementGuidId>e289d468-78dd-4d08-baaf-0ef43ea2cb51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@tabindex = '0' and @role = 'button' and (text() = 'Pengajuan Produk' or . = 'Pengajuan Produk')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/nav/div/div/div[2]/div/ul/div[9]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9cf7e675-2f1c-4aa6-9e7c-fb8d74a7713b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1hhlftt</value>
+      <webElementGuid>e7ed358c-ebc5-4982-b1c0-cf92b7b73165</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>8db634a8-328d-4cb6-8b99-3ea430e45354</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e6caee78-2e87-4902-80bb-2536f98f8d36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pengajuan Produk</value>
+      <webElementGuid>5ba48732-6a1e-4e4c-a080-4d7e9bd9b657</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/nav[@class=&quot;MuiBox-root css-mltz74&quot;]/div[@class=&quot;MuiDrawer-root MuiDrawer-docked css-7ffvr8&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-1l8j5k8&quot;]/div[@class=&quot;MuiBox-root css-avjogy&quot;]/div[1]/ul[@class=&quot;MuiList-root MuiList-padding css-1ontqvh&quot;]/div[@class=&quot;MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1hhlftt&quot;]</value>
+      <webElementGuid>8b3f57bd-f5dd-4cce-bf35-2e72963e33b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/nav/div/div/div[2]/div/ul/div[9]</value>
+      <webElementGuid>c6018a76-9942-4dad-bc50-7e077105cde1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BB'])[2]/following::div[35]</value>
+      <webElementGuid>30cc755a-a2de-490e-8f98-be84e95b04fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BB'])[3]/preceding::div[168]</value>
+      <webElementGuid>5b0f4297-5d0b-4b48-87ce-cd68576b6e3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]</value>
+      <webElementGuid>eae550b6-29ce-467c-9d6a-925e7dd061a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pengajuan Produk' or . = 'Pengajuan Produk')]</value>
+      <webElementGuid>d4e325cb-a93a-47f7-b66a-32f7735e8c0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

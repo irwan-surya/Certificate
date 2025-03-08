@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Provider_GoPay</name>
+   <tag></tag>
+   <elementGuidId>76f0bd29-31ea-449e-b81a-f5b2debfd049</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[17]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-select-item.ant-select-item-option.ant-select-item-option-active > div.ant-select-item-option-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0937428a-a5ed-4d2b-8ff9-c3fc6b643f19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-item-option-content</value>
+      <webElementGuid>c028fe94-ca16-483f-bce1-729f8029a775</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GoPay</value>
+      <webElementGuid>0f775e0f-53e3-4cba-b9ce-84e4786948dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[1]/div[@class=&quot;ant-select-dropdown ant-select-dropdown-placement-bottomLeft&quot;]/div[1]/div[@class=&quot;css-6a3e2r&quot;]/div[@class=&quot;rc-virtual-list&quot;]/div[@class=&quot;rc-virtual-list-holder&quot;]/div[1]/div[@class=&quot;rc-virtual-list-holder-inner&quot;]/div[@class=&quot;ant-select-item ant-select-item-option ant-select-item-option-active&quot;]/div[@class=&quot;ant-select-item-option-content&quot;]</value>
+      <webElementGuid>b2aa2984-f30f-4b28-9c1d-661da16481a3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[17]</value>
+      <webElementGuid>dc6897e8-c9cf-4b55-a06b-bf798366f0b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/div/div/div/div[2]/div</value>
+      <webElementGuid>7bdc6c30-7f6e-42d3-91ef-2a4e90b7228e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'GoPay' or . = 'GoPay')]</value>
+      <webElementGuid>4d781c87-eb50-4ba4-85d0-470497fb0fe5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

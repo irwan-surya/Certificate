@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>msg_Empty Corp ID</name>
+   <tag></tag>
+   <elementGuidId>56426726-a273-496c-b526-dcd1000b97cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='corporateID-helper-text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#corporateID-helper-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>12ef8d21-7a8b-4341-952c-d289733adfcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormHelperText-root Mui-error MuiFormHelperText-sizeMedium MuiFormHelperText-contained css-1ibraje</value>
+      <webElementGuid>560ebf97-1024-4229-83d8-956cb489094e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>corporateID-helper-text</value>
+      <webElementGuid>bc18e443-482a-4d9a-9d11-70fdcea946e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ID Perusahaan wajib diisi</value>
+      <webElementGuid>b0f2b409-ad2d-4fcf-8a36-283dd9f0928c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;corporateID-helper-text&quot;)</value>
+      <webElementGuid>367a6896-7154-4b51-8469-5077b8f73e18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id='corporateID-helper-text']</value>
+      <webElementGuid>2edc2e03-44b0-4857-976f-5e9704dacfb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/form/div/div/p</value>
+      <webElementGuid>15649020-649e-4d43-921d-7faed1a3ba28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::p[1]</value>
+      <webElementGuid>fd30ddf9-f08e-4037-a831-c7c7574781f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::p[3]</value>
+      <webElementGuid>140561ea-7222-4f6e-b749-a25b2145b886</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/preceding::p[2]</value>
+      <webElementGuid>0f38d237-a225-4e6f-aea0-7b075563dde7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[3]/preceding::p[3]</value>
+      <webElementGuid>72ab9c97-dbd6-4b66-a828-b065ccd8c064</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ID Perusahaan wajib diisi']/parent::*</value>
+      <webElementGuid>a891ca65-6292-402b-92f7-c82d93251945</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/p</value>
+      <webElementGuid>2a059e02-28a7-43fd-959c-83daf0b9b8ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'corporateID-helper-text' and (text() = 'ID Perusahaan wajib diisi' or . = 'ID Perusahaan wajib diisi')]</value>
+      <webElementGuid>743a8091-fd5c-4d94-b4a4-80833bb50745</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

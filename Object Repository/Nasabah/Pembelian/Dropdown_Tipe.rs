@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dropdown_Tipe</name>
+   <tag></tag>
+   <elementGuidId>0a878b42-8a94-47e6-93f9-bf8d4d0633b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div/form/div[2]/div[2]/div[2]/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-select.select-dropdown.lg.css-1nk1ln7.ant-select-focused.ant-select-single.ant-select-show-arrow.ant-select-open > div.ant-select-selector</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9dbce067-638b-43a4-a50f-b30e3152213c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-selector</value>
+      <webElementGuid>94aee9e5-7d32-4caa-9990-8b068b583c5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tipe</value>
+      <webElementGuid>1e98f37a-7958-4fe1-855f-cce1c9ea3301</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/form[1]/div[@class=&quot;css-14yanc6&quot;]/div[@class=&quot;css-mie8ys&quot;]/div[@class=&quot;css-1kkeytc&quot;]/div[@class=&quot;ant-select select-dropdown lg css-1nk1ln7 ant-select-focused ant-select-single ant-select-show-arrow ant-select-open&quot;]/div[@class=&quot;ant-select-selector&quot;]</value>
+      <webElementGuid>57e8720b-46cd-4ad9-84ea-36c52a57b002</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/form/div[2]/div[2]/div[2]/div[2]/div</value>
+      <webElementGuid>60e22a3b-3cf9-4152-b68d-d22fa2bd29f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::div[10]</value>
+      <webElementGuid>b987bcb9-8816-486a-bb3f-5c67c7d99714</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaksi Terakhir'])[1]/following::div[12]</value>
+      <webElementGuid>884d90f4-0f02-465e-8a74-fcc555627fd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/preceding::div[1]</value>
+      <webElementGuid>9e7fb881-3db1-4340-a442-d679b648faeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div[2]/div</value>
+      <webElementGuid>aae1d6b8-8f40-43b8-829c-f05e13b59cd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tipe' or . = 'Tipe')]</value>
+      <webElementGuid>45bd5a6c-8c2a-48b6-a392-f0fd60477994</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

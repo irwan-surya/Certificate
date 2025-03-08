@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_profile</name>
+   <tag></tag>
+   <elementGuidId>f77debe0-f686-4d00-b688-41ff8009d213</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'MuiBadge-root a-avatar avatar #bdbdbd css-1oowm8o']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/header/div/div/div[2]/button/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bd861598-708d-4032-8b26-290c2fd10567</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiBadge-root a-avatar avatar #bdbdbd css-1oowm8o</value>
+      <webElementGuid>b8d9f3af-5205-4dc1-8e2e-85138a1c3bb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>U</value>
+      <webElementGuid>dfcc4200-c49e-4f77-9f71-c5c798bf09fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/div[@class=&quot;o-header css-b2f2rd&quot;]/header[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic app-bar css-eg2gz0&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1opt7mz&quot;]/div[@class=&quot;MuiBox-root css-fe1sfx&quot;]/div[@class=&quot;MuiBox-root css-1xhj18k&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall ant-popover-open css-9xgzfu&quot;]/div[1]/span[@class=&quot;MuiBadge-root a-avatar avatar #bdbdbd css-1oowm8o&quot;]</value>
+      <webElementGuid>6f3b8f91-b90c-47c1-9160-65d5dd9fb826</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/header/div/div/div[2]/button/div/span</value>
+      <webElementGuid>52c33f2f-3b97-4357-86d7-d073d7ee8f1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='U'])[2]/preceding::span[6]</value>
+      <webElementGuid>18d69a37-daf9-4314-8133-80ee12286020</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>6bda5720-56d3-4305-8f93-4f6a588bbc8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'U' or . = 'U')]</value>
+      <webElementGuid>94e7e343-f91a-40f8-b6cd-a6aac014473e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

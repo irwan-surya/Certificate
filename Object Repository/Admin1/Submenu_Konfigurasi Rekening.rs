@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Submenu_Konfigurasi Rekening</name>
+   <tag></tag>
+   <elementGuidId>6165a684-5ee8-4f28-8d77-d6c36c25aeee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/nav/div/div/div[2]/div/ul/div[5]/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters.MuiListItemButton-root.MuiListItemButton-gutters.css-ci7uu2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>288f6a84-c5a4-4e6a-845d-b1052659f7b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-ci7uu2</value>
+      <webElementGuid>de8e7994-66c8-4488-a2fe-be30b81209e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>b8e614e3-9938-43f3-abb2-9511a22376d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2dd68658-1ba7-4898-a875-0eb972140664</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Konfigurasi Rekening</value>
+      <webElementGuid>a7a4f09c-54f8-47cb-90a9-9e4fae14222b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/nav[@class=&quot;MuiBox-root css-mltz74&quot;]/div[@class=&quot;MuiDrawer-root MuiDrawer-docked css-7ffvr8&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-1l8j5k8&quot;]/div[@class=&quot;MuiBox-root css-avjogy&quot;]/div[1]/ul[@class=&quot;MuiList-root MuiList-padding css-1ontqvh&quot;]/div[@class=&quot;MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-c4sutr&quot;]/div[@class=&quot;MuiCollapse-wrapper MuiCollapse-vertical css-hboir5&quot;]/div[@class=&quot;MuiCollapse-wrapperInner MuiCollapse-vertical css-8atqhb&quot;]/div[@class=&quot;MuiList-root css-1uzmcsd&quot;]/div[@class=&quot;MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-ci7uu2&quot;]</value>
+      <webElementGuid>f47d632a-e24c-4ce7-941f-4ff8f0191143</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/nav/div/div/div[2]/div/ul/div[5]/div/div/div/div</value>
+      <webElementGuid>9bf15638-3e8b-4ebd-aef8-8feafa032d2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SN'])[2]/following::div[22]</value>
+      <webElementGuid>78e716e6-8ad0-4a29-8a0f-65d54d0656a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SN'])[1]/following::div[31]</value>
+      <webElementGuid>7d380056-57be-453f-b4a8-a8f119d13291</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SN'])[3]/preceding::div[167]</value>
+      <webElementGuid>f47fdc1f-6c5b-4200-b8d0-8c4f9eb5247c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div</value>
+      <webElementGuid>8069d7ab-341c-408a-91d6-115f052a2891</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Konfigurasi Rekening' or . = 'Konfigurasi Rekening')]</value>
+      <webElementGuid>26c6ff55-5184-4d60-8b0e-325e11e95b6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

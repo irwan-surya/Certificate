@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Provider_ShopeePay</name>
+   <tag></tag>
+   <elementGuidId>00c1d7d9-b26a-4fc5-9a7f-12eb6923830c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[21]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-select-item.ant-select-item-option.ant-select-item-option-active > div.ant-select-item-option-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e02e6fcd-c632-47a2-9f31-67fb7b3ec716</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-item-option-content</value>
+      <webElementGuid>a8759ebe-7d2b-4e12-9d40-74b85adb26e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ShopeePay</value>
+      <webElementGuid>b88c096b-0c26-47ed-af79-259aadcd3b6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[1]/div[@class=&quot;ant-select-dropdown ant-select-dropdown-placement-bottomLeft&quot;]/div[1]/div[@class=&quot;css-6a3e2r&quot;]/div[@class=&quot;rc-virtual-list&quot;]/div[@class=&quot;rc-virtual-list-holder&quot;]/div[1]/div[@class=&quot;rc-virtual-list-holder-inner&quot;]/div[@class=&quot;ant-select-item ant-select-item-option ant-select-item-option-active&quot;]/div[@class=&quot;ant-select-item-option-content&quot;]</value>
+      <webElementGuid>df563016-9be1-4dac-8452-a0260ab9740a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[21]</value>
+      <webElementGuid>e159696e-0474-47b6-99bb-b118a1509fb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[4]/div</value>
+      <webElementGuid>2a2db410-f2ec-4f8d-ac22-3ab03d98ed8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ShopeePay' or . = 'ShopeePay')]</value>
+      <webElementGuid>7ee4bc6f-c92f-42aa-bd46-1a9206010a10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

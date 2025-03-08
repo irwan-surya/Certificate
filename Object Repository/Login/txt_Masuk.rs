@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Masuk</name>
+   <tag></tag>
+   <elementGuidId>035fe927-dda9-49a4-a3a0-0c1aec1c4efc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div[2]/div/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.MuiTypography-root.MuiTypography-body2.a-text-style.400.css-t8bgs9</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>07d92857-3927-427c-85d4-87bbba05c048</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body2 a-text-style 400 css-t8bgs9</value>
+      <webElementGuid>6ebe7a07-b647-43f2-8a52-558b82721dff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Masuk</value>
+      <webElementGuid>76128fa0-305e-4145-b6c8-98bf2eda9d84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;css-ietzmr&quot;]/div[@class=&quot;css-y09veg&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-18od73n&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-sm-8 MuiGrid-grid-md-4.5 css-17eop0f&quot;]/div[@class=&quot;css-j7qwjs&quot;]/div[@class=&quot;css-yqs4zs&quot;]/div[@class=&quot;css-q5371m&quot;]/p[@class=&quot;MuiTypography-root MuiTypography-body2 a-text-style 400 css-t8bgs9&quot;]</value>
+      <webElementGuid>2b17045c-7d65-4494-8648-908788fcb377</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div[2]/div/div/div/p</value>
+      <webElementGuid>21ff4b4a-1110-4d2f-b509-7d5a3a5612bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/following::p[1]</value>
+      <webElementGuid>ea335587-a04a-4843-8c94-02b6b5b01d46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID'])[1]/following::p[1]</value>
+      <webElementGuid>bd37e013-cb9d-4dbc-9473-7ba1290ab3b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/preceding::p[2]</value>
+      <webElementGuid>72d1e8e6-20bd-480b-b3e4-fe4b9388371d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/preceding::p[3]</value>
+      <webElementGuid>844c8cda-5054-4c2d-9740-22faa7a96263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Masuk']/parent::*</value>
+      <webElementGuid>736d5b82-8c1f-47cd-ae2b-5bb575dda904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>19fd2d00-c54c-4834-9fa5-922a1dff0380</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Masuk' or . = 'Masuk')]</value>
+      <webElementGuid>d4c1c9be-25e7-4eb6-9342-e6f3d08a06e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pembelian_Topup_Gopay</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>91f7bbcf-3329-4ee3-aae1-866f1bfa1d4f</testCaseGuid>
+</TestCaseEntity>

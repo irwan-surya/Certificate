@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Keluar</name>
+   <tag></tag>
+   <elementGuidId>ed221ee6-a38a-4f94-9878-423fc7f97fd9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'menuitem' and (text() = 'Keluar' or . = 'Keluar')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile Saya'])[3]/following::li[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters.logout-menu.css-b0ly0b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>f0eb5848-a0f7-4918-a249-1d26ef6dc742</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters logout-menu css-b0ly0b</value>
+      <webElementGuid>6c40c862-57db-4707-9a09-8a4df7d9c151</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>a4fe5ba1-20d8-438c-9575-76673b0e9521</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>menuitem</value>
+      <webElementGuid>755e7efa-21b3-4d73-b9c8-7c76c4fcae5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Keluar</value>
+      <webElementGuid>31a1902e-7802-4626-98a6-186a7b979d0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/div[1]/div[@class=&quot;ant-popover ant-popover-placement-bottomRight&quot;]/div[@class=&quot;ant-popover-content&quot;]/div[@class=&quot;ant-popover-inner&quot;]/div[@class=&quot;ant-popover-inner-content&quot;]/div[@class=&quot;css-1gruorp&quot;]/li[@class=&quot;MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters logout-menu css-b0ly0b&quot;]</value>
+      <webElementGuid>72b9f879-2d88-4921-b56e-c2194e4bf304</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile Saya'])[3]/following::li[1]</value>
+      <webElementGuid>7b50a778-576d-406f-9ca8-0f57129e8e54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::li[2]</value>
+      <webElementGuid>7ec6b081-6d8d-4244-bb56-b8904f291479</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]</value>
+      <webElementGuid>30638900-648e-4c10-bbd7-3a32b24aaf10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Keluar' or . = 'Keluar')]</value>
+      <webElementGuid>21eb6f6d-a7fd-4e0d-a483-29c1e6bb85af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
