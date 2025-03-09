@@ -25,3 +25,13 @@ WebUI.sendKeys(findTestObject('Login/input_userID'), 'Admin1')
 
 WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
 
+WebUI.click(findTestObject('Login/button_Login'))
+
+WebUI.click(findTestObject('Admin1/Konfigurasi Rekening/Sidebar_Pengaturan Rekening'))
+
+WebUI.click(findTestObject('Admin1/Konfigurasi Rekening/Submenu_Konfigurasi Rekening'))
+
+WebUI.click(findTestObject('Admin1/Konfigurasi Rekening/Rekening_Tabungan BTN Batara'))
+
+WebUI.clearText(findTestObject('Admin1/Konfigurasi Rekening/input_payment Limit'))
+
