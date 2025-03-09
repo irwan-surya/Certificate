@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://balebisnis.btn.co.id/login')
+WebUI.openBrowser(GlobalVariable.PROD_Url)
 
 WebUI.sendKeys(findTestObject('Login/input_CorpID'), 'MULTIE1')
 
@@ -27,13 +27,27 @@ WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
 
 WebUI.click(findTestObject('Login/button_Login'))
 
-WebUI.click(findTestObject('Admin1/Konfigurasi Rekening/Sidebar_Pengaturan Rekening'))
+WebUI.click(findTestObject('Admin1/Sidebar_Pengaturan Rekening'))
 
-WebUI.click(findTestObject('Admin1/Konfigurasi Rekening/Submenu_Konfigurasi Rekening'))
+WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Submenu_Pengelompokan Rekening'))
 
-WebUI.click(findTestObject('Admin1/Konfigurasi Rekening/Rekening_Tabungan BTN Batara'))
+WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/button_Tambah Kelompok Baru'))
 
-WebUI.clearText(findTestObject('Admin1/Konfigurasi Rekening/input_payment Limit'))
+WebUI.sendKeys(findTestObject('Admin1/Pengelompokan Rekening/Admin1/input_Nama Kelompok'), 'Kelompok 1')
+
+WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/button_Tambah Rekening Baru'))
+
+WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/Checkbox_Pilih Semua Rekening'))
+
+WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/button_Simpan (pilih rekening)'))
+
+WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/svg_multiMenu'))
+
+WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/svg_Rekening Utama'))
+
+WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/button_Simpan'))
+
+WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/button_OK waiting approval'))
 
 WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
 

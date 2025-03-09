@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>List_kelompok 2</name>
+   <tag></tag>
+   <elementGuidId>7d9ce475-447a-4e74-9810-853bfabcafe7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div/div[2]/div/div[2]/div[2]/button/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4a622b57-1094-46b0-b9fe-9effc2810aef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiCardContent-root css-mc4big</value>
+      <webElementGuid>23aaf9a5-07db-4b54-b1b3-be74da450e60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TO testing K2 Rekening</value>
+      <webElementGuid>2b62a3ea-a175-4467-989a-8f3e30170881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/div[@class=&quot;css-m31y3a&quot;]/div[@class=&quot;css-bqf3x&quot;]/div[@class=&quot;css-1396ytu&quot;]/div[@class=&quot;scrollbar css-n3t92i&quot;]/div[@class=&quot;css-mdlgza&quot;]/button[@class=&quot;MuiButtonBase-root MuiCardActionArea-root css-4y6mhd&quot;]/div[@class=&quot;MuiCardContent-root css-mc4big&quot;]</value>
+      <webElementGuid>7dd83017-82b2-43ae-9389-5b96c9f18795</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/div[2]/div/div[2]/div[2]/button/div</value>
+      <webElementGuid>2f654c7d-04d3-434a-b049-c7800f7e9cd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SN'])[2]/following::div[56]</value>
+      <webElementGuid>ea922a7a-f1b6-49e0-8eb1-05f1869a6828</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SN'])[1]/following::div[65]</value>
+      <webElementGuid>e42788aa-0993-49da-8530-3ea4a8242d27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SN'])[3]/preceding::div[10]</value>
+      <webElementGuid>d4b04b14-c77c-4d85-b59c-eab88a3f85e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/button/div</value>
+      <webElementGuid>00bd7a1d-8514-4e7e-b90e-2d95deebea5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'TO testing K2 Rekening' or . = 'TO testing K2 Rekening')]</value>
+      <webElementGuid>0bf90e96-c1c9-44aa-9fdb-b9ca196f97f8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

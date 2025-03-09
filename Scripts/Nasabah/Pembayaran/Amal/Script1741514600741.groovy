@@ -17,11 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.PROD_Url)
-
-WebUI.sendKeys(findTestObject('Login/input_CorpID'), 'MULTIE1')
-
-WebUI.sendKeys(findTestObject('Login/input_userID'), 'Admin1')
-
-WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
-

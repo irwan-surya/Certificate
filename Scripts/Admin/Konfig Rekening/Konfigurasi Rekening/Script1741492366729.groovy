@@ -17,47 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.SIT_Url)
+WebUI.openBrowser(GlobalVariable.PROD_Url)
 
-WebUI.sendKeys(findTestObject('Login/input_CorpID'), 'SINGLE25')
+WebUI.sendKeys(findTestObject('Login/input_CorpID'), 'MULTIE1')
 
-WebUI.sendKeys(findTestObject('Login/input_userID'), 'SINGLE25')
+WebUI.sendKeys(findTestObject('Login/input_userID'), 'Admin1')
 
-WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev2@')
+WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
 
 WebUI.click(findTestObject('Login/button_Login'))
 
-WebUI.click(findTestObject('Nasabah/Pembelian/Sidebar_Pembelian'))
+WebUI.click(findTestObject('Admin1/Sidebar_Pengaturan Rekening'))
 
-WebUI.click(findTestObject('Nasabah/Pembelian/Submenu_Top Up'))
+WebUI.click(findTestObject('Admin1/Konfigurasi Rekening/Submenu_Konfigurasi Rekening'))
 
-WebUI.click(findTestObject('Nasabah/Pembelian/dropdown_Penyedia Jasa'))
+WebUI.click(findTestObject('Admin1/Konfigurasi Rekening/Rekening_Tabungan BTN Batara'))
 
-WebUI.click(findTestObject('Nasabah/Pembelian/Provider_GoPay'))
-
-WebUI.click(findTestObject('Nasabah/Pembelian/Dropdown_Tipe'))
-
-WebUI.click(findTestObject('Nasabah/Pembelian/tipe_Customer'))
-
-WebUI.sendKeys(findTestObject('Nasabah/Pembelian/input_phoneNumber'), '08111803190')
-
-WebUI.sendKeys(findTestObject('Nasabah/Pembelian/input__amount'), '10000')
-
-WebUI.click(findTestObject('Nasabah/Pembelian/button_Selanjutnya'))
-
-WebUI.click(findTestObject('Nasabah/Pembelian/button_Selanjutnya_konfirmasi'))
-
-WebUI.sendKeys(findTestObject('Nasabah/Soft_Token/input_digit 1'), '1')
-
-WebUI.sendKeys(findTestObject('Nasabah/Soft_Token/input_digit 2'), '2')
-
-WebUI.sendKeys(findTestObject('Nasabah/Soft_Token/input_digit 3'), '3')
-
-WebUI.sendKeys(findTestObject('Nasabah/Soft_Token/input_digit 4'), '4')
-
-WebUI.sendKeys(findTestObject('Nasabah/Soft_Token/input_digit 5'), '5')
-
-WebUI.sendKeys(findTestObject('Nasabah/Soft_Token/input_digit 6'), '6')
+WebUI.clearText(findTestObject('Admin1/Konfigurasi Rekening/input_payment Limit'))
 
 WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
 

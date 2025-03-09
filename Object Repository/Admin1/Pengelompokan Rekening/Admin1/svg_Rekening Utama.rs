@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Rekening Utama</name>
+   <tag></tag>
+   <elementGuidId>79a66218-b449-43ab-a811-ac76db0b62d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@id=&quot;custom-menu-3&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiPopover-paper MuiMenu-paper MuiMenu-paper css-1lm9ra6&quot;]/ul[@class=&quot;MuiList-root MuiList-padding MuiMenu-list css-r8u8y9&quot;]/li[@class=&quot;MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-g3cp00&quot;]/p[@class=&quot;MuiTypography-root MuiTypography-body2 a-text-style #0061A7 400 css-kz2gwe&quot;][count(. | //*[(text() = 'Utama' or . = 'Utama')]) = count(//*[(text() = 'Utama' or . = 'Utama')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='custom-menu-3']/div[3]/ul/li/p)[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f4b3d521-909a-47a2-bff8-8d11b3213450</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body2 a-text-style #0061A7 400 css-kz2gwe</value>
+      <webElementGuid>e00d172c-9584-4b55-94ae-babd1e7b48a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Utama</value>
+      <webElementGuid>4c6dafba-fa64-40bc-85e4-2ed1dcf6cfb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@id=&quot;custom-menu-3&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiPopover-paper MuiMenu-paper MuiMenu-paper css-1lm9ra6&quot;]/ul[@class=&quot;MuiList-root MuiList-padding MuiMenu-list css-r8u8y9&quot;]/li[@class=&quot;MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-g3cp00&quot;]/p[@class=&quot;MuiTypography-root MuiTypography-body2 a-text-style #0061A7 400 css-kz2gwe&quot;]</value>
+      <webElementGuid>01168f89-f31e-443e-bbf4-fff288ef7e71</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//div[@id='custom-menu-3']/div[3]/ul/li/p)[3]</value>
+      <webElementGuid>63b74ecc-9b5f-4b52-9abc-35e16c1b4964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::p[3]</value>
+      <webElementGuid>64186e67-39c1-41a1-bd36-67cc44bf435f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/ul/li/p</value>
+      <webElementGuid>1b8a9a3a-b378-437d-b054-8f9ceb64d5f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Utama' or . = 'Utama')]</value>
+      <webElementGuid>d90ce8c4-47e3-475a-84d6-42e94669c3ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
