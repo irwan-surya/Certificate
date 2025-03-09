@@ -35,3 +35,9 @@ WebUI.click(findTestObject('Admin1/Konfigurasi Rekening/Rekening_Tabungan BTN Ba
 
 WebUI.clearText(findTestObject('Admin1/Konfigurasi Rekening/input_payment Limit'))
 
+WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
+
+WebUI.click(findTestObject('Login/button_Keluar'))
+
+WebUI.click(findTestObject('Login/button_Yakin'))
+
