@@ -15,14 +15,14 @@
       <guid>7f72d3dc-30cf-4cb9-a6bc-38c2ac87ca28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pembelian/Pembelian_Topup_Gopay</testCaseId>
+      <testCaseId>Test Cases/Nasabah/Pembelian/Pembelian_Topup_Gopay</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5556475e-b4d3-4ea1-a579-e7b2ee4cd266</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pembelian/Pembelian_Topup_Shopeepay</testCaseId>
+      <testCaseId>Test Cases/Nasabah/Pembelian/Pembelian_Topup_Shopeepay</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
