@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>UAT</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://ibbisnis-uat.btn.co.id/login'</initValue>
+      <name>UAT_Url_2</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

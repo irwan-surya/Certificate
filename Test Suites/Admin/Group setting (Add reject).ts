@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Topup</name>
+   <name>Group setting (Add reject)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>a4f89947-5804-4f84-a1b1-9348fa8dacf5</testSuiteGuid>
+   <testSuiteGuid>07464bab-e68a-4a0f-ad49-ba7630100b5f</testSuiteGuid>
    <testCaseLink>
-      <guid>7f72d3dc-30cf-4cb9-a6bc-38c2ac87ca28</guid>
+      <guid>1e8d1f69-070c-469b-8adc-c3974977f80a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Nasabah/Pembelian/Pembelian_Topup_Gopay</testCaseId>
+      <testCaseId>Test Cases/Admin/Pengaturan Kelompok/Pengaturan Kelompok (Add new grup)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5556475e-b4d3-4ea1-a579-e7b2ee4cd266</guid>
+      <guid>1aef4bb3-c15d-4aaf-92e1-d55b5bb2f25d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Nasabah/Pembelian/Pembelian_Topup_Shopeepay</testCaseId>
+      <testCaseId>Test Cases/Admin/Pengaturan Kelompok/Pengaturan Kelompok (Reject grup)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

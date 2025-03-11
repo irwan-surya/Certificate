@@ -10,13 +10,28 @@
       <name>PROD_Url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Link web UAT</description>
-      <initValue>'https://ibbisnis-uat.btn.co.id/login'</initValue>
-      <name>UAT_Url</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description>Link web SIT</description>
       <initValue>'http://ibbisnis-sit.btn.co.id/btn-ibb/login'</initValue>
       <name>SIT_Url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'masirwan'</initValue>
+      <name>CorpID_SIT_Maker_masirwan2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'maker'</initValue>
+      <name>UserID_SIT_Maker_masirwan2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'approver2'</initValue>
+      <name>UserID_SIT_Approver_masirwan2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Johndev2@'</initValue>
+      <name>Pass_SIT_masirwan2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
