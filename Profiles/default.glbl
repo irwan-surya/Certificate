@@ -5,11 +5,6 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>Link web production</description>
-      <initValue>'https://balebisnis.btn.co.id/login'</initValue>
-      <name>PROD_Url</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description>Link web SIT</description>
       <initValue>'http://ibbisnis-sit.btn.co.id/btn-ibb/login'</initValue>
       <name>SIT_Url</name>
@@ -33,5 +28,40 @@
       <description></description>
       <initValue>'Johndev2@'</initValue>
       <name>Pass_SIT_masirwan2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://balebisnis.btn.co.id/login'</initValue>
+      <name>Prod_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'MULTIE1'</initValue>
+      <name>CorpID_PROD_MULTIE1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'makerRiza'</initValue>
+      <name>UserID_PROD_Maker_makerRiza</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'approverB'</initValue>
+      <name>UserID_PROD_Approver_approverB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Admin1'</initValue>
+      <name>UserID_PROD_Admin1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Admin2'</initValue>
+      <name>UserID_PROD_Admin2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Johndev1!!'</initValue>
+      <name>Pass_Prod_MULTIE1</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

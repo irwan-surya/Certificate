@@ -6,12 +6,12 @@
    <UUID>469797a7-df8f-43ff-8a76-0fe47d2eb3f4</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.0.1</createdVersion>
-   <freeLicense>true</freeLicense>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>FREE</modifiedEdition>
-   <modifiedVersion>10.1.0</modifiedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.1.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/irwan/Katalon Studio/iBB/iBB.prj</projectFileLocation>
+   <projectFileLocation>/Users/irwan/git/git enterprise/Certificate/iBB.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

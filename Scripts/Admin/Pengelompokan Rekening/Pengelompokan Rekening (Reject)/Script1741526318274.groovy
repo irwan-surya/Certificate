@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.PROD_Url)
 
+WebUI.executeJavaScript('document.body.style.zoom="75%";', null)
+
 WebUI.sendKeys(findTestObject('Login/input_CorpID'), 'MULTIE1')
 
 WebUI.sendKeys(findTestObject('Login/input_userID'), 'Admin2')
@@ -27,17 +29,17 @@ WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
 
 WebUI.click(findTestObject('Login/button_Login'))
 
-WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin2/Sidebar_Daftar Tugas'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/Sidebar_Daftar Tugas'))
 
-WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin2/submenu_Pengaturan Rekening'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/submenu_Pengaturan Rekening'))
 
-WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin2/button_Lihat Detail'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_Lihat Detail'))
 
-WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin2/button_Tolak'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_Tolak'))
 
-WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin2/button_Ya Tolak'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_Ya Tolak'))
 
-WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin2/button_OK berhasil tolak'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_OK berhasil tolak'))
 
 WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
 

@@ -27,13 +27,13 @@ WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
 
 WebUI.click(findTestObject('Login/button_Login'))
 
-WebUI.click(findTestObject('Admin1/Sidebar_Pengaturan Rekening'))
+WebUI.click(findTestObject('Admin/Sidebar_Pengaturan Rekening'))
 
-WebUI.click(findTestObject('Admin1/Konfigurasi Rekening/Submenu_Konfigurasi Rekening'))
+WebUI.click(findTestObject('Admin/Konfigurasi Rekening/Submenu_Konfigurasi Rekening'))
 
-WebUI.click(findTestObject('Admin1/Konfigurasi Rekening/Rekening_Tabungan BTN Batara'))
+WebUI.click(findTestObject('Admin/Konfigurasi Rekening/Rekening_Tabungan BTN Batara'))
 
-WebUI.clearText(findTestObject('Admin1/Konfigurasi Rekening/input_payment Limit'))
+WebUI.clearText(findTestObject('Admin/Konfigurasi Rekening/input_payment Limit'))
 
 WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
 

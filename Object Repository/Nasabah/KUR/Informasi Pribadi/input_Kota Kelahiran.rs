@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_CorpID</name>
+   <name>input_Kota Kelahiran</name>
    <tag></tag>
-   <elementGuidId>7977b5cd-f2b0-452a-9dfd-2fc9e40f56c5</elementGuidId>
+   <elementGuidId>f5964445-bda1-4dbc-b7f6-22f64c74961d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'corporateID' and @name = 'corporateID' and @placeholder = 'Masukkan ID Perusahaan Anda' and @type = 'text']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#corporateID</value>
+         <value>input[name=&quot;placeBirth&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='corporateID']</value>
+         <value>(//input[@id=''])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Kota Kelahiran&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>73cc871c-e436-4d8e-9adc-e76dc51bbd86</webElementGuid>
+      <webElementGuid>0ccc5f3f-b7b6-4ed8-9e1b-03a8befd0902</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +37,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1e9e58cf-798b-45cb-9b4c-782a74e7cf69</webElementGuid>
+      <webElementGuid>701c952d-09fb-4856-9f5e-97d3732e8c43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,31 +45,23 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>762d8dab-c116-4abe-912d-a71ab75a24cd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>corporateID</value>
-      <webElementGuid>7c6ff0f0-85b4-421a-ac63-335e8a70e0de</webElementGuid>
+      <webElementGuid>e2b45a27-2895-440d-b51b-6e893024ec44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>corporateID</value>
-      <webElementGuid>ab0c43db-9c7d-4eef-b206-4076a4f0d15f</webElementGuid>
+      <value>placeBirth</value>
+      <webElementGuid>7ef867c4-7a4b-45d2-be64-8033727ced83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Masukkan ID Perusahaan Anda</value>
-      <webElementGuid>623318b5-9640-49ba-a560-5f543a5d66a2</webElementGuid>
+      <value>Kota Kelahiran</value>
+      <webElementGuid>9d78c598-d014-438f-959d-495af0041aab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,62 +69,62 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>7632d4b8-6b1e-4d1e-975a-f5b44b53f1ee</webElementGuid>
+      <webElementGuid>cfdb1e91-e0af-4c09-af2b-81399aa0357d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>10</value>
-      <webElementGuid>7ca8f720-0401-487f-8100-bed756ecbd77</webElementGuid>
+      <value>35</value>
+      <webElementGuid>a326ea5a-9e18-4ba1-8dac-3e19c06e08f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd css-1gnht4k</value>
-      <webElementGuid>791daef9-4ad6-4fee-b608-4c5ab10417af</webElementGuid>
+      <value>MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq</value>
+      <webElementGuid>fe9f74cb-abd1-4524-b20c-5521faf2fc10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;corporateID&quot;)</value>
-      <webElementGuid>4dde76a3-d962-4a53-b47a-919e9e971f97</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1ik9yx5&quot;]/div[@class=&quot;css-79elbk&quot;]/div[@class=&quot;css-wrvspg&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yqle2a&quot;]/div[@class=&quot;css-10c5ekf&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19d7qka&quot;]/form[1]/div[@class=&quot;css-sfyl1m&quot;]/div[@class=&quot;css-3rs2uk&quot;]/div[1]/div[@class=&quot;MuiFormControl-root MuiTextField-root a-input-text sm css-10il0js&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl css-xw1gz&quot;]/input[@class=&quot;MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq&quot;]</value>
+      <webElementGuid>35ce5bdf-e8a9-4fbe-b0ce-dda020887409</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='corporateID']</value>
-      <webElementGuid>5926ae3c-90b2-4ee4-81c8-247cc38a901c</webElementGuid>
+      <value>(//input[@id=''])[3]</value>
+      <webElementGuid>45d4873e-8de0-4dc8-8563-b77d5f95a4c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/form/div/div/div/input</value>
-      <webElementGuid>dfa3a3c3-f6ba-4663-88f2-fc916ed1feb8</webElementGuid>
+      <value>//div[@id='root']/div/div/main/div/div/div[4]/div[2]/div/div/div[2]/div/form/div/div[4]/div/div/div/input</value>
+      <webElementGuid>96118741-7fad-4792-8c7f-598d0ee69656</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>45aa7287-8478-47f6-b8b9-b8f4e4c948ca</webElementGuid>
+      <value>//div[4]/div/div/div/input</value>
+      <webElementGuid>02142235-aa6f-468f-9b30-13d924b660b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'corporateID' and @name = 'corporateID' and @placeholder = 'Masukkan ID Perusahaan Anda' and @type = 'text']</value>
-      <webElementGuid>29fbff54-b76d-4242-9a46-655f29cda0bf</webElementGuid>
+      <value>//input[@name = 'placeBirth' and @placeholder = 'Kota Kelahiran' and @type = 'text']</value>
+      <webElementGuid>ecd0cbc0-9c6c-411d-8807-b218a320e523</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

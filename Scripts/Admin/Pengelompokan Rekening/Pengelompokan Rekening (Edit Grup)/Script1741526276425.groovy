@@ -27,19 +27,19 @@ WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
 
 WebUI.click(findTestObject('Login/button_Login'))
 
-WebUI.click(findTestObject('Admin1/Sidebar_Pengaturan Rekening'))
+WebUI.click(findTestObject('Admin/Sidebar_Pengaturan Rekening'))
 
-WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Submenu_Pengelompokan Rekening'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Submenu_Pengelompokan Rekening'))
 
-WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/button_multiMenu_1'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_multiMenu_1'))
 
-WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/svg_Edit Kelompok'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/svg_Edit Kelompok'))
 
-WebUI.sendKeys(findTestObject('Admin1/Pengelompokan Rekening/Admin1/input_Nama Kelompok'), ' Edit')
+WebUI.sendKeys(findTestObject('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok'), ' Edit')
 
-WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/button_Simpan'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Simpan'))
 
-WebUI.click(findTestObject('Admin1/Pengelompokan Rekening/Admin1/button_OK waiting approval'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_OK waiting approval'))
 
 WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
 
