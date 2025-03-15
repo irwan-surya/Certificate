@@ -34,21 +34,19 @@ WebUI.click(findTestObject('Nasabah/KUR/CheckBox_TnC'))
 
 WebUI.click(findTestObject('Nasabah/KUR/button_Selanjutnya'))
 
-WebUI.click(findTestObject('Nasabah/KUR/informsai_pengajuan/Dropdown_Jangka Waktu Angsuran'))
+WebUI.click(findTestObject('Nasabah/KUR/info pengajuan/Dropdown_Jangka Waktu Angsuran'))
 
-WebUI.click(findTestObject('Nasabah/KUR/informsai_pengajuan/list_2 Tahun'))
+WebUI.click(findTestObject('Nasabah/KUR/info pengajuan/list_2 Tahun'))
 
-WebUI.click(findTestObject('Nasabah/KUR/informsai_pengajuan/Dropdown_Tujuan Pengajuan'))
+WebUI.click(findTestObject('Nasabah/KUR/info pengajuan/Dropdown_Tujuan Pengajuan'))
 
-WebUI.click(findTestObject('Nasabah/KUR/informsai_pengajuan/list_Modal Kerja'))
+WebUI.click(findTestObject('Nasabah/KUR/info pengajuan/list_Modal Kerja'))
 
-WebUI.sendKeys(findTestObject('Nasabah/KUR/informsai_pengajuan/input_Alasan Pengajuan'), 'Pengajuan KUR')
+WebUI.sendKeys(findTestObject('Nasabah/KUR/info pengajuan/input_Alasan Pengajuan'), 'Pengajuan KUR')
 
-WebUI.sendKeys(findTestObject('Nasabah/KUR/informsai_pengajuan/input_Jumlah Pinjaman'), '25000000')
+WebUI.sendKeys(findTestObject('Nasabah/KUR/info pengajuan/input_Jumlah Pinjaman'), '25000000')
 
-WebUI.click(findTestObject('Nasabah/KUR/Informasi Pribadi/button_Selanjutnya'))
-
-WebUI.click(findTestObject('Nasabah/KUR/Informasi Pribadi/radio_btn_Belum Menikah'))
+WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/button_Selanjutnya'))
 
 CustomKeywords.'login.login_keyword.UserLogout'()
 
