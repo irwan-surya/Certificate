@@ -1,4 +1,4 @@
-package login
+package custom
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -84,7 +84,7 @@ class login_keyword {
 			KeywordUtil.markError("Error message didn't match")
 		}
 	}
-	
+
 	@Keyword
 	def UserLogin(corpid,userid,pass,url) {
 		WebUI.openBrowser(url)
@@ -93,13 +93,12 @@ class login_keyword {
 		WebUI.sendKeys(findTestObject('Login/input_password'),pass)
 		WebUI.click(findTestObject('Login/button_Login'))
 	}
-	
+
 	@Keyword
 	def UserLogout() {
 		WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
 		WebUI.click(findTestObject('Login/button_Keluar'))
 		WebUI.click(findTestObject('Login/button_Yakin'))
-		
 	}
 
 	/**

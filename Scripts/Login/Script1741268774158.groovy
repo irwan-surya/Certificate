@@ -21,15 +21,15 @@ WebUI.openBrowser(GlobalVariable.PROD_Url)
 
 //WebUI.acceptAlert()
 
-CustomKeywords.'login.login_keyword.VerifyLineError'('Login/input_CorpID','ID Perusahaan wajib diisi', 'Login/txt_ID Perusahaan wajib diisi')
+CustomKeywords.'custom.login_keyword.VerifyLineError'('Login/input_CorpID','ID Perusahaan wajib diisi', 'Login/txt_ID Perusahaan wajib diisi')
 
 WebUI.sendKeys(findTestObject('Login/input_CorpID'), 'MULTIE1')
 
-CustomKeywords.'login.login_keyword.VerifyLineError'('Login/input_userID','ID Pengguna wajib diisi', 'Login/txt_ID Pengguna wajib diisi')
+CustomKeywords.'custom.login_keyword.VerifyLineError'('Login/input_userID','ID Pengguna wajib diisi', 'Login/txt_ID Pengguna wajib diisi')
 
 WebUI.sendKeys(findTestObject('Login/input_userID'), 'Admin1')
 
-CustomKeywords.'login.login_keyword.VerifyLineError'('Login/input_password','Kata sandi wajib diisi', 'Login/txt_Kata sandi wajib diisi')
+CustomKeywords.'custom.login_keyword.VerifyLineError'('Login/input_password','Kata sandi wajib diisi', 'Login/txt_Kata sandi wajib diisi')
 
 WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
 

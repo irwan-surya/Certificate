@@ -17,8 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'login.login_keyword.UserLogin'(GlobalVariable.CorpID_PROD_MULTIE1, GlobalVariable.UserID_PROD_Maker_makerRiza, 
-    GlobalVariable.Pass_Prod_MULTIE1, GlobalVariable.Prod_URL)
+CustomKeywords.'custom.login_keyword.UserLogin'(
+	GlobalVariable.CorpID_PROD_MULTIE1, 
+	GlobalVariable.UserID_PROD_Maker_makerRiza, 
+    GlobalVariable.Pass_Prod_MULTIE1, 
+	GlobalVariable.Prod_URL)
 
 WebUI.click(findTestObject('Nasabah/KUR/Sidebar_Pengajuan Produk'))
 
@@ -48,5 +51,13 @@ WebUI.sendKeys(findTestObject('Nasabah/KUR/info pengajuan/input_Jumlah Pinjaman'
 
 WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/button_Selanjutnya'))
 
-CustomKeywords.'login.login_keyword.UserLogout'()
+//WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/Dropdown_Jenis Kelamin'))
+//
+//WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/list_Laki-laki'))
+
+CustomKeywords.'custom.Select_Keyword.SelectDropdown'('Nasabah/KUR/Info Pribadi/Dropdown_Jenis Kelamin', 'Nasabah/KUR/Info Pribadi/list_Laki-laki')
+
+WebUI.scrollToElement(findTestObject('Nasabah/KUR/Info Pribadi/input_RT'), 10)
+
+CustomKeywords.'custom.login_keyword.UserLogout'()
 
