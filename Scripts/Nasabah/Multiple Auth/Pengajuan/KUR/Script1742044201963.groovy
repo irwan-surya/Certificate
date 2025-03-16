@@ -37,13 +37,15 @@ WebUI.click(findTestObject('Nasabah/KUR/CheckBox_TnC'))
 
 WebUI.click(findTestObject('Nasabah/KUR/button_Selanjutnya'))
 
-WebUI.click(findTestObject('Nasabah/KUR/info pengajuan/Dropdown_Jangka Waktu Angsuran'))
+//informasi pengajuan
 
-WebUI.click(findTestObject('Nasabah/KUR/info pengajuan/list_2 Tahun'))
+CustomKeywords.'custom.Select_Keyword.SelectDropdown'(
+	'Nasabah/KUR/info pengajuan/Dropdown_Jangka Waktu Angsuran',
+	'Nasabah/KUR/info pengajuan/list_2 Tahun')
 
-WebUI.click(findTestObject('Nasabah/KUR/info pengajuan/Dropdown_Tujuan Pengajuan'))
-
-WebUI.click(findTestObject('Nasabah/KUR/info pengajuan/list_Modal Kerja'))
+CustomKeywords.'custom.Select_Keyword.SelectDropdown'(
+	'Nasabah/KUR/info pengajuan/Dropdown_Tujuan Pengajuan',
+	'Nasabah/KUR/info pengajuan/list_Modal Kerja')
 
 WebUI.sendKeys(findTestObject('Nasabah/KUR/info pengajuan/input_Alasan Pengajuan'), 'Pengajuan KUR')
 
@@ -51,13 +53,47 @@ WebUI.sendKeys(findTestObject('Nasabah/KUR/info pengajuan/input_Jumlah Pinjaman'
 
 WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/button_Selanjutnya'))
 
-//WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/Dropdown_Jenis Kelamin'))
-//
-//WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/list_Laki-laki'))
+//informasi pribadi
 
-CustomKeywords.'custom.Select_Keyword.SelectDropdown'('Nasabah/KUR/Info Pribadi/Dropdown_Jenis Kelamin', 'Nasabah/KUR/Info Pribadi/list_Laki-laki')
+WebUI.sendKeys(findTestObject('Nasabah/KUR/Info Pribadi/input_Kota Kelahiran'),'Yogyakarta')
+
+CustomKeywords.'custom.Select_Keyword.SelectDropdown'(
+	'Nasabah/KUR/Info Pribadi/Dropdown_Jenis Kelamin', 
+	'Nasabah/KUR/Info Pribadi/list_Laki-laki')
+
+CustomKeywords.'custom.Select_Keyword.SelectDropdown'(
+	'Nasabah/KUR/Info Pribadi/datepicker_tanggal lahir',
+	'Nasabah/KUR/Info Pribadi/div_13') 
 
 WebUI.scrollToElement(findTestObject('Nasabah/KUR/Info Pribadi/input_RT'), 10)
+
+WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/radio_btn_Belum Menikah'))
+
+WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/radio_btn_Milik Sendiri'))
+
+WebUI.sendKeys(findTestObject('Nasabah/KUR/Info Pribadi/input_Alamat Domisili'), 'Jl satu dua tiga empat lima')
+
+CustomKeywords.'custom.Select_Keyword.SelectDropdown'(
+	'Nasabah/KUR/Info Pribadi/Dropdown_Pilih Provinsi',
+	'Nasabah/KUR/Info Pribadi/list_DI Yogyakarta')
+
+CustomKeywords.'custom.Select_Keyword.SelectDropdown'(
+	'Nasabah/KUR/Info Pribadi/Dropdown_Pilih Kota',
+	'Nasabah/KUR/Info Pribadi/list_Kota Yogyakarta')
+
+CustomKeywords.'custom.Select_Keyword.SelectDropdown'(
+	'Nasabah/KUR/Info Pribadi/Dropdown_Pilih Kecamatan',
+	'Nasabah/KUR/Info Pribadi/list_Gondomanan')
+
+CustomKeywords.'custom.Select_Keyword.SelectDropdown'(
+	'Nasabah/KUR/Info Pribadi/Dropdown_Pilih Kelurahan',
+	'Nasabah/KUR/Info Pribadi/list_Prawirodirjan')
+
+WebUI.sendKeys(findTestObject('Nasabah/KUR/Info Pribadi/input_RT'), '12')
+
+WebUI.sendKeys(findTestObject('Nasabah/KUR/Info Pribadi/input_RW'), '13')
+
+WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/button_Selanjutnya'))
 
 CustomKeywords.'custom.login_keyword.UserLogout'()
 
