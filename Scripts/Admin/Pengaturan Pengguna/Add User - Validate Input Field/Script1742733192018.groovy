@@ -65,4 +65,4 @@ for (def input : field) {
 //
 //WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_No HP'),HP)
 
-//CustomKeywords.'custom.login_keyword.UserLogout'()
+CustomKeywords.'custom.login_keyword.UserLogout'()
