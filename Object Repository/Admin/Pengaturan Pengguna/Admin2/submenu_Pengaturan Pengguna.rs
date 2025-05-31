@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>submenu_Pengaturan Pengguna</name>
+   <tag></tag>
+   <elementGuidId>68b39b48-e075-4ac2-91a3-d493e8af39fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/nav/div/div/div[2]/div/ul/div[4]/div/div/div/div[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Pengaturan Pengguna&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>258a9141-f1b0-47fc-85a3-a2d353c62647</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-ci7uu2</value>
+      <webElementGuid>f0391ada-306d-479b-b48b-c1faf1de0490</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>50350941-4dec-4075-8ef3-32fd5c275e52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>113dcc1f-c474-4dce-82b1-5a8e220dba6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pengaturan Pengguna</value>
+      <webElementGuid>ee50b80a-37c9-4f8c-ac07-145a4e6e0dcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/nav[@class=&quot;MuiBox-root css-mltz74&quot;]/div[@class=&quot;MuiDrawer-root MuiDrawer-docked css-7ffvr8&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-1l8j5k8&quot;]/div[@class=&quot;MuiBox-root css-avjogy&quot;]/div[1]/ul[@class=&quot;MuiList-root MuiList-padding css-1ontqvh&quot;]/div[@class=&quot;MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-c4sutr&quot;]/div[@class=&quot;MuiCollapse-wrapper MuiCollapse-vertical css-hboir5&quot;]/div[@class=&quot;MuiCollapse-wrapperInner MuiCollapse-vertical css-8atqhb&quot;]/div[@class=&quot;MuiList-root css-1uzmcsd&quot;]/div[@class=&quot;MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-ci7uu2&quot;]</value>
+      <webElementGuid>522f97b6-45cb-4153-a3bd-d0a372544ffd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/nav/div/div/div[2]/div/ul/div[4]/div/div/div/div[5]</value>
+      <webElementGuid>19d91817-58d3-4355-9097-7fd8098a4d7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AA'])[2]/following::div[23]</value>
+      <webElementGuid>96606504-c85f-4b36-8be8-058fb97e8a8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AA'])[1]/following::div[32]</value>
+      <webElementGuid>a5c90d2f-abd9-437c-966e-bb228cee2440</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AA'])[3]/preceding::div[141]</value>
+      <webElementGuid>aa7db962-e3b2-4a2a-aade-e22f5c4a4f7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[5]</value>
+      <webElementGuid>e379968f-7321-471d-a194-fda974461c1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pengaturan Pengguna' or . = 'Pengaturan Pengguna')]</value>
+      <webElementGuid>f0737361-ac60-4ab2-b73a-06c04739f54f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

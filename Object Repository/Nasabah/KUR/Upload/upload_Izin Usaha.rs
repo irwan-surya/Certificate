@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>upload_Izin Usaha</name>
+   <tag></tag>
+   <elementGuidId>00cbd01f-4c6d-465e-b20a-34bf1b5000b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@id=''])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.Mui-focused.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-1jegouz > input.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputAdornedEnd.css-1uvydh2</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1ik9yx5&quot;]/div[@class=&quot;css-79elbk&quot;]/div[@class=&quot;css-wrvspg&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yqle2a&quot;]/div[@class=&quot;css-16s1xfn&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19d7qka&quot;]/form[1]/div[@class=&quot;css-120ik2o&quot;]/div[@class=&quot;css-1ivgbss&quot;]/div[@class=&quot;MuiFormControl-root MuiTextField-root a-input-text md iconRight css-2y2opa&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd css-1jegouz&quot;]/input[@class=&quot;MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-1uvydh2&quot;][count(. | //*[@placeholder = 'Unggah Izin Usaha' and @type = 'text' and @class = 'MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-1uvydh2']) = count(//*[@placeholder = 'Unggah Izin Usaha' and @type = 'text' and @class = 'MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-1uvydh2'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f0793b9f-2792-4454-b02f-c874e26884e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>863fcff8-a195-4c20-8ff1-c47d42353075</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>new-password</value>
+      <webElementGuid>1ee6fefe-d33a-4a83-a14a-4a3e39f5b01c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Unggah Izin Usaha</value>
+      <webElementGuid>73fc2887-3914-4448-9a78-50061a417802</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>a7780343-603e-4c67-b4d9-ec73b7848830</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-1uvydh2</value>
+      <webElementGuid>0c315e22-c0db-44f3-bb2d-16a6ae4c26e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1ik9yx5&quot;]/div[@class=&quot;css-79elbk&quot;]/div[@class=&quot;css-wrvspg&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yqle2a&quot;]/div[@class=&quot;css-16s1xfn&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19d7qka&quot;]/form[1]/div[@class=&quot;css-120ik2o&quot;]/div[@class=&quot;css-1ivgbss&quot;]/div[@class=&quot;MuiFormControl-root MuiTextField-root a-input-text md iconRight css-2y2opa&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd css-1jegouz&quot;]/input[@class=&quot;MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-1uvydh2&quot;]</value>
+      <webElementGuid>01f6a93e-8ad3-42b1-9633-747b39553872</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@id=''])[4]</value>
+      <webElementGuid>2b060e72-e22b-4f1e-bf7d-5362f1099f73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div[6]/div[2]/div/div/div[2]/div/form/div/div[4]/div/div/input</value>
+      <webElementGuid>bab01396-23e9-474c-8d3d-6fe3cf83cc86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/input</value>
+      <webElementGuid>14b6ba4c-0e17-4c26-adb8-ab9ab9614e44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Unggah Izin Usaha' and @type = 'text']</value>
+      <webElementGuid>2a98b26e-8e51-4820-9979-46de11b8fa6b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

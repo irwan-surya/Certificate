@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>list_Gondomanan</name>
+   <tag></tag>
+   <elementGuidId>7f54c57e-29a0-42f4-80a1-43ff28d08a49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[9]/following::div[16]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-2mlqby > div.rc-virtual-list > div.rc-virtual-list-holder > div > div.rc-virtual-list-holder-inner > div.ant-select-item.ant-select-item-option.ant-select-item-option-active > div.ant-select-item-option-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9df7d436-9caa-4277-bdc0-4bcaca06e63e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-item-option-content</value>
+      <webElementGuid>7c496249-0626-4de8-a7af-7b020e5c56cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gondomanan</value>
+      <webElementGuid>c8841b83-74b0-4ff5-a7af-d1991bb70e79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[4]/div[1]/div[@class=&quot;ant-select-dropdown ant-select-dropdown-placement-bottomLeft&quot;]/div[1]/div[@class=&quot;css-2mlqby&quot;]/div[@class=&quot;rc-virtual-list&quot;]/div[@class=&quot;rc-virtual-list-holder&quot;]/div[1]/div[@class=&quot;rc-virtual-list-holder-inner&quot;]/div[@class=&quot;ant-select-item ant-select-item-option ant-select-item-option-active&quot;]/div[@class=&quot;ant-select-item-option-content&quot;]</value>
+      <webElementGuid>1992042f-c621-478d-a609-8d91d442119e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[9]/following::div[16]</value>
+      <webElementGuid>1deda93a-478b-44af-a09f-a5c5696be802</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[24]</value>
+      <webElementGuid>2dec6bd4-a4b3-4f92-8f97-c08cfcb59ea8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div[3]/div/div/div/div[4]/div</value>
+      <webElementGuid>3656fc74-e0f2-4e74-8bf1-6aaa1e2604c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Gondomanan' or . = 'Gondomanan')]</value>
+      <webElementGuid>35206ec6-4b98-4e6d-801d-2aed03aca5df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

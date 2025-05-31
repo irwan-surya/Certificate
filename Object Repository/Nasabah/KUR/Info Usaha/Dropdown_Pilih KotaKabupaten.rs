@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dropdown_Pilih KotaKabupaten</name>
+   <tag></tag>
+   <elementGuidId>799485a4-beb8-4619-9f8a-03f9e38bddf6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div[5]/div[2]/div/div/div[2]/div/form/div/div[6]/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-select.select-dropdown.super-lg.css-15ncs78.ant-select-focused.ant-select-single.ant-select-show-arrow.ant-select-open > div.ant-select-selector</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2147261a-768f-4924-84c9-33a5c5ec5d49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-selector</value>
+      <webElementGuid>b9850d4e-4e73-466c-ae38-26b955df2296</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih Kota/Kabupaten</value>
+      <webElementGuid>82a538d4-fd7e-4da4-8c43-4b28bfc641cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1ik9yx5&quot;]/div[@class=&quot;css-79elbk&quot;]/div[@class=&quot;css-wrvspg&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yqle2a&quot;]/div[@class=&quot;css-10c5ekf&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19d7qka&quot;]/form[1]/div[@class=&quot;css-sfyl1m&quot;]/div[@class=&quot;css-3rs2uk&quot;]/div[@class=&quot;MuiFormControl-root css-13sljp9&quot;]/div[@class=&quot;ant-select select-dropdown super-lg css-15ncs78 ant-select-focused ant-select-single ant-select-show-arrow ant-select-open&quot;]/div[@class=&quot;ant-select-selector&quot;]</value>
+      <webElementGuid>fd8608fa-c42b-466a-a788-240fc5b601e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div[5]/div[2]/div/div/div[2]/div/form/div/div[6]/div[2]/div/div</value>
+      <webElementGuid>b113a02f-f6a5-4bf5-8a3b-b0e1a5373662</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Provinsi'])[1]/following::div[3]</value>
+      <webElementGuid>30096240-6783-4828-99b2-46b3aa0796fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[4]/following::div[7]</value>
+      <webElementGuid>f5d36e05-1d9d-4304-bbed-e1102dec1b52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Kecamatan'])[1]/preceding::div[1]</value>
+      <webElementGuid>dc3ed826-c457-4dc2-b32c-d341175982a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div[2]/div/div</value>
+      <webElementGuid>17ab3532-31c8-458a-ad5f-4709b5fa507e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pilih Kota/Kabupaten' or . = 'Pilih Kota/Kabupaten')]</value>
+      <webElementGuid>992ce700-ed8f-4b6e-9d84-2d2e0d0b64e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

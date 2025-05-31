@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>list_Prawirodirjan</name>
+   <tag></tag>
+   <elementGuidId>a08e2d6f-a2d0-4424-93f0-6c62110e9326</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[10]/following::div[11]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(5) > div > div.ant-select-dropdown.ant-select-dropdown-placement-bottomLeft > div > div.css-2mlqby > div.rc-virtual-list > div.rc-virtual-list-holder > div > div.rc-virtual-list-holder-inner > div.ant-select-item.ant-select-item-option.ant-select-item-option-active > div.ant-select-item-option-content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aab60f26-59df-4add-8f98-a5070c2a78a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-item-option-content</value>
+      <webElementGuid>5c5d4098-ee86-4dfa-9197-c1d9b639451d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Prawirodirjan</value>
+      <webElementGuid>efc4eab4-ec81-4520-a585-3249040a80a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[5]/div[1]/div[@class=&quot;ant-select-dropdown ant-select-dropdown-placement-bottomLeft&quot;]/div[1]/div[@class=&quot;css-2mlqby&quot;]/div[@class=&quot;rc-virtual-list&quot;]/div[@class=&quot;rc-virtual-list-holder&quot;]/div[1]/div[@class=&quot;rc-virtual-list-holder-inner&quot;]/div[@class=&quot;ant-select-item ant-select-item-option ant-select-item-option-active&quot;]/div[@class=&quot;ant-select-item-option-content&quot;]</value>
+      <webElementGuid>00f1f953-ef0d-4c67-9dd3-9e6f25658f88</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[10]/following::div[11]</value>
+      <webElementGuid>24cffc9a-0bfb-4745-999a-86809bd85e53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[19]</value>
+      <webElementGuid>b57ac069-25e5-481d-b577-5294b95ef419</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div/div[3]/div/div/div/div[2]/div</value>
+      <webElementGuid>ce85b91a-f9d2-43fd-b8da-2d4bec46f816</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Prawirodirjan' or . = 'Prawirodirjan')]</value>
+      <webElementGuid>226b1972-f695-4ed6-aaea-e5c5ee2da02e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

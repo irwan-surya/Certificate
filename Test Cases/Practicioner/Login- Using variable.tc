@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login- Using variable</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>50bd357d-38f4-4f6e-bc1e-375a8a334bd3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a482ae9c-9846-4b99-a249-221d227c1891</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e541f006-47f6-48ff-894f-4bb3fcaccebb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cf7c5676-cdee-4d4e-8e25-7531a93fe620</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'MULTIE1'</defaultValue>
+      <description></description>
+      <id>a482ae9c-9846-4b99-a249-221d227c1891</id>
+      <masked>false</masked>
+      <name>CorpID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin1'</defaultValue>
+      <description></description>
+      <id>e541f006-47f6-48ff-894f-4bb3fcaccebb</id>
+      <masked>false</masked>
+      <name>UserID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Johndev1!!'</defaultValue>
+      <description></description>
+      <id>cf7c5676-cdee-4d4e-8e25-7531a93fe620</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+</TestCaseEntity>

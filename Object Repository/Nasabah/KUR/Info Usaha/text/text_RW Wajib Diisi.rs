@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_RW Wajib Diisi</name>
+   <tag></tag>
+   <elementGuidId>78bd6462-d449-463f-9a7c-883f55226d1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div[5]/div[2]/div/div/div[2]/div/form/div/div[8]/div[3]/p[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>4d719075-8c23-4f62-905e-42c7517a71b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-body2 a-text-style #d14848 400 css-198s0oq</value>
+      <webElementGuid>3d081c83-3609-4380-8c32-9f723b2e89be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Wajib Diisi </value>
+      <webElementGuid>1866ef08-88e0-4516-8585-cb488f1c8af3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1ik9yx5&quot;]/div[@class=&quot;css-79elbk&quot;]/div[@class=&quot;css-wrvspg&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yqle2a&quot;]/div[@class=&quot;css-10c5ekf&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19d7qka&quot;]/form[1]/div[@class=&quot;css-sfyl1m&quot;]/div[@class=&quot;css-1x9l2e4&quot;]/div[3]/p[@class=&quot;MuiTypography-root MuiTypography-body2 a-text-style #d14848 400 css-198s0oq&quot;]</value>
+      <webElementGuid>8576fcd4-19ec-4c2f-b30c-c3f8e451ede9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div[5]/div[2]/div/div/div[2]/div/form/div/div[8]/div[3]/p[2]</value>
+      <webElementGuid>09bfd7dc-4f3a-4786-8444-eb2119e9483e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[7]/following::p[1]</value>
+      <webElementGuid>2c822fa0-2e49-4a25-9ac2-3dec438a0e86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[6]/following::p[3]</value>
+      <webElementGuid>179a4c0d-a624-46b8-8fbe-bcc601d74224</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BB'])[3]/preceding::p[3]</value>
+      <webElementGuid>60882343-89e4-456e-83b2-c51bb4203ef5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/p[2]</value>
+      <webElementGuid>ebeb7306-2f03-41f0-b7bb-ab033951acd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Wajib Diisi ' or . = 'Wajib Diisi ')]</value>
+      <webElementGuid>66aad8f3-6cb6-4f0c-a71a-a50bf5be4440</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

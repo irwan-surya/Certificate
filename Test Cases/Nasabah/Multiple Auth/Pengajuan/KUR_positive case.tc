@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>KUR_positive case</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d574cc3d-0899-4f17-8818-5e75ecbec4d3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c557f910-d7ec-4d5e-805f-3f9fb4c1270f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e8197fb-6cc1-484e-bc3c-4bb3f56789f3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>10</defaultValue>
+      <description></description>
+      <id>c557f910-d7ec-4d5e-805f-3f9fb4c1270f</id>
+      <masked>false</masked>
+      <name>scrollWaitTime</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pengajuan KUR'</defaultValue>
+      <description></description>
+      <id>0e8197fb-6cc1-484e-bc3c-4bb3f56789f3</id>
+      <masked>false</masked>
+      <name>alasanPengajuan</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Status_Non Aktif</name>
+   <tag></tag>
+   <elementGuidId>f1a7e6b4-b68f-40df-a253-60e33004a0e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.css-34cydm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div[3]/div[9]/div/div/div[5]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Non Aktif&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0c188cee-52e7-4a4b-b870-9935b514681a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>red</value>
+      <webElementGuid>af1358c2-65e3-4aa4-9279-31d13deae5a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-34cydm</value>
+      <webElementGuid>b6104550-24ef-4c17-85dd-759964816824</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Non Aktif</value>
+      <webElementGuid>1eb637f7-1a6f-466c-b2e7-192a72290730</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-kxkmqf&quot;]/div[@class=&quot;o-table css-4xpsl1&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-mhyr6s&quot;]/div[@class=&quot;MuiCardContent-root css-qzdrxb&quot;]/div[@class=&quot;css-a8731x&quot;]/div[@class=&quot;MuiBox-root css-1xqtaqv&quot;]/div[@class=&quot;css-1bntj9o&quot;]/span[@class=&quot;css-34cydm&quot;]</value>
+      <webElementGuid>d4a90dc5-f289-4165-83f1-546425366144</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div[3]/div[9]/div/div/div[5]/div/span</value>
+      <webElementGuid>e79609f9-9367-4538-8eec-a0d754642a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Non Aktif']/parent::*</value>
+      <webElementGuid>58b4f9f8-7d44-4d77-acc4-3c23c2169e49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/div[5]/div/span</value>
+      <webElementGuid>35d450a0-e1fa-4c25-b42c-dd8f33ce5211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Non Aktif' or . = 'Non Aktif')]</value>
+      <webElementGuid>4f50f9e7-bf63-4d31-b3f3-353bdffd866f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

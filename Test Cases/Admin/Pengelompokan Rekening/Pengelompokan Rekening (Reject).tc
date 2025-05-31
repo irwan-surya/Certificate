@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Pengelompokan Rekening (Reject)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>0be47325-c507-46ad-8e13-46b328e8bd7a</testCaseGuid>
-</TestCaseEntity>

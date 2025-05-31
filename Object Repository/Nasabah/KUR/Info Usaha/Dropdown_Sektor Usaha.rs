@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dropdown_Sektor Usaha</name>
+   <tag></tag>
+   <elementGuidId>f377c12b-a52d-46c2-bd69-372c3f714d82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-select-selector</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div[5]/div[2]/div/div/div[2]/div/form/div/div[3]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0d72a970-a4c7-42d1-b555-878efb580f16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-selector</value>
+      <webElementGuid>b6866730-c105-470c-a883-44d3e9165a96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sektor Usaha</value>
+      <webElementGuid>0fd336b6-954b-4594-8d55-aec0bd1409e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1ik9yx5&quot;]/div[@class=&quot;css-79elbk&quot;]/div[@class=&quot;css-wrvspg&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yqle2a&quot;]/div[@class=&quot;css-10c5ekf&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19d7qka&quot;]/form[1]/div[@class=&quot;css-sfyl1m&quot;]/div[@class=&quot;css-3rs2uk&quot;]/div[@class=&quot;MuiFormControl-root css-13sljp9&quot;]/div[@class=&quot;ant-select select-dropdown md css-1nk1ln7 ant-select-focused ant-select-single ant-select-show-arrow ant-select-open&quot;]/div[@class=&quot;ant-select-selector&quot;]</value>
+      <webElementGuid>6d81784d-46ce-46cf-bbbe-8264e560afd3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div[5]/div[2]/div/div/div[2]/div/form/div/div[3]/div/div/div</value>
+      <webElementGuid>ce9b52f4-f9cd-4a10-85b2-62af6585b0bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::div[4]</value>
+      <webElementGuid>b5a9449b-f6cb-4c3a-85a9-cf13bd553402</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/preceding::div[2]</value>
+      <webElementGuid>84b22998-506c-4523-b785-4965662a383e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div/div/div</value>
+      <webElementGuid>0534eda5-eaf5-4104-9a71-ccb9adf4171d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sektor Usaha' or . = 'Sektor Usaha')]</value>
+      <webElementGuid>a2fdfcc5-d3d4-4fa1-904e-01aabb4925c2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

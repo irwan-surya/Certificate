@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dropdown_Status Tempat Usaha</name>
+   <tag></tag>
+   <elementGuidId>d8c5038e-48fb-413f-856e-ac0d4e415a51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-select.select-dropdown.md.css-1nk1ln7.ant-select-single.ant-select-show-arrow.ant-select-open > div.ant-select-selector</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div[5]/div[2]/div/div/div[2]/div/form/div/div[4]/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5a3496cc-4923-4c16-b5ee-4e80e0324cb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-selector</value>
+      <webElementGuid>d6949a2c-5fa5-4e08-a4c9-4819253b254c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Status Tempat Usaha</value>
+      <webElementGuid>d57b087e-bdb6-46f0-b17f-dedc359e741a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1ik9yx5&quot;]/div[@class=&quot;css-79elbk&quot;]/div[@class=&quot;css-wrvspg&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yqle2a&quot;]/div[@class=&quot;css-10c5ekf&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19d7qka&quot;]/form[1]/div[@class=&quot;css-sfyl1m&quot;]/div[@class=&quot;css-3rs2uk&quot;]/div[@class=&quot;css-8mqlam&quot;]/div[@class=&quot;MuiFormControl-root css-13sljp9&quot;]/div[@class=&quot;ant-select select-dropdown md css-1nk1ln7 ant-select-single ant-select-show-arrow ant-select-open&quot;]/div[@class=&quot;ant-select-selector&quot;]</value>
+      <webElementGuid>b09f303b-dfb2-4481-9261-c7227ea1bc5c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div[5]/div[2]/div/div/div[2]/div/form/div/div[4]/div[2]/div/div/div</value>
+      <webElementGuid>646639de-82e2-4137-933d-c9399a86a1ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[3]/following::div[4]</value>
+      <webElementGuid>8de9a719-9307-4231-87a7-676d60cd4817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/following::div[8]</value>
+      <webElementGuid>21d10a1a-1620-43fc-8551-81d6e88684b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[4]/preceding::div[1]</value>
+      <webElementGuid>e881df9a-9c8c-47ef-ab25-ba4a2b9768b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div</value>
+      <webElementGuid>9f7ed48d-1c03-4dd5-94c8-5f8d8cf15a85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Status Tempat Usaha' or . = 'Status Tempat Usaha')]</value>
+      <webElementGuid>a1db35e2-3e3f-44cc-8760-31ca5a6dd2ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
