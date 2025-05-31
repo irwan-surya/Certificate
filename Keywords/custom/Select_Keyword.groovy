@@ -17,13 +17,51 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import org.openqa.selenium.Keys
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable
+
 
 import internal.GlobalVariable
 
 public class Select_Keyword {
+	//	@Keyword
+	//	def SelectDropdown(dropdown,list) {
+	//		WebUI.click(findTestObject(dropdown))
+	//		WebUI.waitForElementClickable(findTestObject(list), 10)
+	//		WebUI.click(findTestObject(list))
+	//	}
+
 	@Keyword
-	def SelectDropdown(dropdown,list) {
-		WebUI.click(findTestObject(dropdown))
-		WebUI.click(findTestObject(list))
+	def SelectDropdown(String dropdown, String list) {
+		try {
+			WebUI.click(findTestObject(dropdown))
+			WebUI.waitForElementClickable(findTestObject(list), 10)
+			WebUI.click(findTestObject(list))
+
+			KeywordUtil.markPassed("Dropdown selection successful")
+		} catch (Exception e) {
+
+			KeywordUtil.markFailed("Dropdown selection failed: " + e.message)
+
+			UserLogout()
+
+			Assert.fail("Dropdown selection failed. Logged out.")
+		}
+	}
+
+	@Keyword
+	def UserLogout() {
+		WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
+		WebUI.click(findTestObject('Login/button_Keluar'))
+		WebUI.click(findTestObject('Login/button_Yakin'))
+	}
+
+	def ClearField(object) {
+		WebUI.click(findTestObject(object)) // Focus the field
+		WebUI.sendKeys(findTestObject(object), Keys.chord(Keys.COMMAND, 'a')) // Select all text
+		WebUI.sendKeys(findTestObject(object), Keys.chord(Keys.DELETE)) // Delete the selected text
 	}
 }

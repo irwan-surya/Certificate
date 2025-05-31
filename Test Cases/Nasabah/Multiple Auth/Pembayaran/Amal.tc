@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Amal</name>
-   <tag></tag>
+   <tag>GenAI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>57744015-3f52-4cf6-aefd-df132ef6dfd3</testCaseGuid>

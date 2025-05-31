@@ -6,12 +6,16 @@
    <elementGuidId>d9bfa229-7ed5-437f-ba82-cc7213d39c6c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div[4]/div[2]/div/div/div[2]/div/form/div/div[4]/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div[3]/div[4]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.react-datepicker__day.react-datepicker__day--013</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/main/div/div/div[4]/div[2]/div/div/div[2]/div/form/div/div[4]/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div[3]/div[4]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '12' or . = '12')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a3f03638-59ba-4e4d-a1b3-0a42630fd072</webElementGuid>
+      <webElementGuid>2ff17038-4716-4ff4-a997-cd65b4c63d1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>react-datepicker__day react-datepicker__day--013</value>
-      <webElementGuid>a7f98eb4-7dac-4826-9cc8-2ae0933021a2</webElementGuid>
+      <webElementGuid>8ce646c3-3444-4fe7-bdc8-2cb3ab668c76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>86f967fb-1f78-455d-9f15-3b8919f166a9</webElementGuid>
+      <webElementGuid>3b48546b-348b-4276-aa6f-b8e972cb248a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Choose Kamis, 13 Maret 2025</value>
-      <webElementGuid>6267aca7-5006-4595-8b4d-32a797a50346</webElementGuid>
+      <webElementGuid>00cc3151-56d2-4f52-a9b1-7f47f067cf6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>ed11fe7d-5acc-44d2-a3a3-251df95d1a41</webElementGuid>
+      <webElementGuid>6af4596b-2a27-41dc-a106-8de4078f0744</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5398bb2f-cff4-462a-88cf-5a2ec7dbbb85</webElementGuid>
+      <webElementGuid>61b15d66-ce25-4c68-aa73-2d880aabe3bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,15 +81,15 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d3ea8a98-4229-40d7-883e-936cbb004521</webElementGuid>
+      <webElementGuid>8bee851e-4de7-44bc-b461-a8a54cf5f88f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>13</value>
-      <webElementGuid>09c2007d-68ab-40ce-9d98-bcdeb4099fd4</webElementGuid>
+      <value>12</value>
+      <webElementGuid>6380581e-6e85-4137-bfae-b118eac46aa7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-1ik9yx5&quot;]/div[@class=&quot;css-79elbk&quot;]/div[@class=&quot;css-wrvspg&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1yqle2a&quot;]/div[@class=&quot;css-10c5ekf&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-19d7qka&quot;]/form[1]/div[@class=&quot;css-sfyl1m&quot;]/div[@class=&quot;css-3rs2uk&quot;]/div[@class=&quot;MuiFormControl-root css-13sljp9&quot;]/div[@class=&quot;css-41zjvz&quot;]/div[1]/div[@class=&quot;custom-calender css-1niafv1&quot;]/div[@class=&quot;react-datepicker__tab-loop&quot;]/div[@class=&quot;react-datepicker-popper&quot;]/div[1]/div[@class=&quot;react-datepicker&quot;]/div[@class=&quot;react-datepicker__month-container&quot;]/div[@class=&quot;react-datepicker__month&quot;]/div[@class=&quot;react-datepicker__week&quot;]/div[@class=&quot;react-datepicker__day react-datepicker__day--013&quot;]</value>
-      <webElementGuid>0dfe6b48-77b1-42b0-bee8-60c2560c10e9</webElementGuid>
+      <webElementGuid>2c383652-3479-45ad-87e6-cc4fd52b7c9d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/main/div/div/div[4]/div[2]/div/div/div[2]/div/form/div/div[4]/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div[3]/div[4]</value>
-      <webElementGuid>d43e7e74-d0c7-452f-8f6b-932c21308ad7</webElementGuid>
+      <webElementGuid>a96c51ad-9ca2-41af-84a2-4d8d8e644787</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Min'])[1]/following::div[22]</value>
-      <webElementGuid>b5ae4f49-81f5-4b62-9674-f3c43810ef51</webElementGuid>
+      <webElementGuid>bfaf539c-d11a-4f6a-b285-a5124bcaee62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sab'])[1]/following::div[23]</value>
-      <webElementGuid>2fab443a-4e8f-4df0-b197-b23c81b2b5c9</webElementGuid>
+      <webElementGuid>ff391e1d-1bdf-4fab-ba2b-5bd3920283ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[5]/preceding::div[30]</value>
-      <webElementGuid>0c172123-0db4-40ea-9075-ce1ba9930428</webElementGuid>
+      <webElementGuid>01286d4f-8061-4747-b69e-9f63b2a58745</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[6]/preceding::div[33]</value>
-      <webElementGuid>bb563ed5-9a00-40e5-ac09-35139581ac9f</webElementGuid>
+      <webElementGuid>305f4993-166f-490e-907a-c26f572be73b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='13']/parent::*</value>
-      <webElementGuid>78b56a6c-ae1b-4b12-b4e0-fbf5e3dec979</webElementGuid>
+      <webElementGuid>0fb7fc12-af27-430d-ac5a-1ef5e119f988</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +153,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[3]/div[4]</value>
-      <webElementGuid>8c98c694-6eca-4179-b683-65300a374a58</webElementGuid>
+      <webElementGuid>cec11d63-0835-44c9-87c1-2f92cfb993e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +161,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '13' or . = '13')]</value>
-      <webElementGuid>ec6d575a-c2bd-4b18-a309-b4ae0862305a</webElementGuid>
+      <webElementGuid>0311ea8c-dba4-4765-955f-4ef11cfc86eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

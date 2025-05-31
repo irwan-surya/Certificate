@@ -17,3 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//create login test case with 
+//field input user id from input_user id
+//field input corp id from input_corp id
+
+// Open the application
+WebUI.openBrowser('')
+
+// Navigate to the login page
+WebUI.navigateToUrl('http://example.com/login')
+
+// Input user ID
+WebUI.setText(findTestObject('Object Repository/LoginPage/input_user_id'), 'input_user_id')
+
+// Input corporate ID
+WebUI.setText(findTestObject('Object Repository/LoginPage/input_corp_id'), 'input_corp_id')
+
+// Click the login button
+WebUI.click(findTestObject('Object Repository/LoginPage/button_login'))
+
+// Verify successful login
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/welcome_message'), 10)

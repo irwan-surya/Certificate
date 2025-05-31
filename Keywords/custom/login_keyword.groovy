@@ -39,6 +39,28 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.JavascriptExecutor
+
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.By
+
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.testobject.ObjectRepository as OR
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+import org.openqa.selenium.WebDriver
+
+
+import CustomKeywords
+
 
 class login_keyword {
 	/**
@@ -78,10 +100,67 @@ class login_keyword {
 			String expectedErrorMessage = message
 			String actualErrorMessage = WebUI.getText(findTestObject(object))
 			WebUI.verifyEqual(actualErrorMessage, expectedErrorMessage, FailureHandling.CONTINUE_ON_FAILURE)
-			KeywordUtil.markPassed("Error message visible")
+			KeywordUtil.markPassed("Error message as expected")
 		} catch (AssertionError e){
 			WebUI.verifyNotEqual(actualErrorMessage, message, FailureHandling.CONTINUE_ON_FAILURE)
 			KeywordUtil.markError("Error message didn't match")
+		}
+	}
+
+	@Keyword
+	def VerifyInputLength(Object,input,Actuallength) {
+		WebUI.sendKeys(findTestObject(Object),input)
+		String value = WebUI.getAttribute(findTestObject(Object), 'value')
+		if (value.length() == Actuallength) {
+			KeywordUtil.markPassed("Input length is correct, expected:" + Actuallength + ", actual length: " + value.length())
+		} else {
+			KeywordUtil.markFailed("Incorrect input length, expected: " + Actuallength + ", actual length: " + value.length())
+		}
+	}
+
+	//	@Keyword
+	//	def VerifyInputLength(String Object, String input, int expectedLength) {
+	//		TestObject obj = findTestObject(Object)
+	//		String value = ""
+	//
+	//		try {
+	//			// Step 1: Clear the field before sending input
+	//			ClearField(Object)
+	//
+	//			// Step 2: Send the input
+	//			WebUI.sendKeys(obj, input)
+	//
+	//			// Step 3: Get the field value
+	//			value = WebUI.getAttribute(obj, 'value') ?: ""
+	//
+	//			// Step 4: Compare the lengths
+	//			int actualLength = value.length()
+	//			if (actualLength == expectedLength) {
+	//				KeywordUtil.markPassed("✅ Input length is correct. Expected: ${expectedLength}, Actual: ${actualLength}")
+	//			} else {
+	//				KeywordUtil.markFailed("❌ Incorrect input length. Expected: ${expectedLength}, Actual: ${actualLength}, Value: '${value}'")
+	//			}
+	//		} catch (Exception e) {
+	//			KeywordUtil.markError("⚠️ Failed to verify input length for object '${Object}': ${e.message}")
+	//		} finally {
+	//			// Step 5: Always clear field afterward
+	//			try {
+	//				ClearField(Object)
+	//			} catch (Exception clearErr) {
+	//				KeywordUtil.markWarning("Could not clear field '${Object}' after test: ${clearErr.message}")
+	//			}
+	//		}
+	//	}
+
+
+	@Keyword
+	def VerifyInputType(Object,input,ExpectedType) {
+		WebUI.sendKeys(findTestObject(Object),input)
+		String inputType = WebUI.getAttribute(findTestObject(Object), 'value')
+		if (inputType == ExpectedType) {
+			KeywordUtil.markPassed("Input type is correct, expected: " + ExpectedType + ", actual type: " + inputType)
+		} else {
+			KeywordUtil.markFailed("Incorrect input type, expected: " + ExpectedType + ", actual type: " + inputType)
 		}
 	}
 

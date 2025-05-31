@@ -15,14 +15,14 @@
       <guid>b72f9124-140d-43e6-a3e4-ce3e66410603</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Pengelompokan Rekening/Pengelompokan Rekening (Edit Grup)</testCaseId>
+      <testCaseId>Test Cases/Admin/Pengelompokan Rekening/Edit Grup</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>38887faf-31ad-47dc-a576-e66a48363b4a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Pengelompokan Rekening/Pengelompokan Rekening (Reject)</testCaseId>
+      <testCaseId>Test Cases/Admin/Pengelompokan Rekening/Reject Task</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

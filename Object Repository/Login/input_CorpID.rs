@@ -10,15 +10,15 @@
          <value>//*[@id = 'corporateID' and @name = 'corporateID' and @placeholder = 'Masukkan ID Perusahaan Anda' and @type = 'text']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#corporateID</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='corporateID']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#corporateID</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>73cc871c-e436-4d8e-9adc-e76dc51bbd86</webElementGuid>
+      <webElementGuid>f6812f69-bc00-4df7-a698-b2649083e774</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1e9e58cf-798b-45cb-9b4c-782a74e7cf69</webElementGuid>
+      <webElementGuid>9f8f85a2-059f-4e5b-839f-8fdb984e434d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>762d8dab-c116-4abe-912d-a71ab75a24cd</webElementGuid>
+      <webElementGuid>e4c27339-e2e4-4735-9fef-424e7a29c4f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>id</name>
       <type>Main</type>
       <value>corporateID</value>
-      <webElementGuid>7c6ff0f0-85b4-421a-ac63-335e8a70e0de</webElementGuid>
+      <webElementGuid>4e0627bf-2853-48cd-8c23-ecd8c435b060</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>name</name>
       <type>Main</type>
       <value>corporateID</value>
-      <webElementGuid>ab0c43db-9c7d-4eef-b206-4076a4f0d15f</webElementGuid>
+      <webElementGuid>4ba90042-5797-48da-b249-b902287a82dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -67,7 +67,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Masukkan ID Perusahaan Anda</value>
-      <webElementGuid>623318b5-9640-49ba-a560-5f543a5d66a2</webElementGuid>
+      <webElementGuid>576ac998-c91c-48b8-a1f3-a2c93ec524f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>7632d4b8-6b1e-4d1e-975a-f5b44b53f1ee</webElementGuid>
+      <webElementGuid>c74be88a-e639-412e-8fe6-09529e4f4bcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>7ca8f720-0401-487f-8100-bed756ecbd77</webElementGuid>
+      <webElementGuid>3aa483a5-1156-4da7-a5d3-e80e6f1ca54e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd css-1gnht4k</value>
-      <webElementGuid>791daef9-4ad6-4fee-b608-4c5ab10417af</webElementGuid>
+      <webElementGuid>8c42e294-1ac5-4996-92f7-732c2f782b29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;corporateID&quot;)</value>
-      <webElementGuid>4dde76a3-d962-4a53-b47a-919e9e971f97</webElementGuid>
+      <webElementGuid>5ac63925-dd30-419a-99d9-55376d445924</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='corporateID']</value>
-      <webElementGuid>5926ae3c-90b2-4ee4-81c8-247cc38a901c</webElementGuid>
+      <webElementGuid>5f80ba35-03ba-4f9b-9d16-1fb2b7b4b428</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/form/div/div/div/input</value>
-      <webElementGuid>dfa3a3c3-f6ba-4663-88f2-fc916ed1feb8</webElementGuid>
+      <webElementGuid>e7ebec6a-fd20-4106-a53f-5f1bb95bf0dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>45aa7287-8478-47f6-b8b9-b8f4e4c948ca</webElementGuid>
+      <webElementGuid>1876cac7-6b1d-4268-b2d4-97ea887085bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +131,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'corporateID' and @name = 'corporateID' and @placeholder = 'Masukkan ID Perusahaan Anda' and @type = 'text']</value>
-      <webElementGuid>29fbff54-b76d-4242-9a46-655f29cda0bf</webElementGuid>
+      <webElementGuid>0b7e5628-b82f-4d9f-a0a9-e196e1395afd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

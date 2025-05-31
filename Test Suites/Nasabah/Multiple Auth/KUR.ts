@@ -15,7 +15,19 @@
       <guid>879ea5b9-e27d-4b10-82cc-9266b95e2fda</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Nasabah/Multiple Auth/Pengajuan/KUR</testCaseId>
+      <testCaseId>Test Cases/Nasabah/Multiple Auth/Pengajuan/KUR_positive case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c557f910-d7ec-4d5e-805f-3f9fb4c1270f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e8197fb-6cc1-484e-bc3c-4bb3f56789f3</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
