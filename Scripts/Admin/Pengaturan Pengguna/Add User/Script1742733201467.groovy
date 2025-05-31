@@ -53,5 +53,4 @@ WebUI.click(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/b
 
 CustomKeywords.'custom.login_keyword.UserLogout'()
 
-WebUI.clearText(findTestObject(null))
 
