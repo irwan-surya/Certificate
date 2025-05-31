@@ -42,8 +42,8 @@ CustomKeywords.'custom.Select_Keyword.SelectDropdown'('Admin/Pengaturan Kelompok
 
 WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/Checkbox_Daftar Fitur Pengguna'))
 
-WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_Simpan'))
-
-WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_OK'))
+//WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_Simpan'))
+//
+//WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_OK'))
 
 CustomKeywords.'custom.login_keyword.UserLogout'()

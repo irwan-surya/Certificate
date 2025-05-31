@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_Kode Harus Terisi</name>
+   <tag></tag>
+   <elementGuidId>7801b1ab-2ccc-4e27-93d1-2520fa1ae563</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='error-birthPlace']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#error-birthPlace</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>b7e1d09d-c797-4486-805a-bedfd01203c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormHelperText-root Mui-error css-18iz75m</value>
+      <webElementGuid>595e0ccb-6afc-49d5-934d-929b4b286c29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>error-birthPlace</value>
+      <webElementGuid>b8584897-a9b1-4e24-8205-21526515931c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kode Harus Terisi</value>
+      <webElementGuid>2e86d3e2-0e93-4bc7-b32b-b1c5d132597b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-czpxt&quot;]/div[@class=&quot;css-1dxqe7w&quot;]/form[1]/div[@class=&quot;css-18hbbrr&quot;]/div[@class=&quot;css-8owaep&quot;]/div[@class=&quot;css-rgm74w&quot;]/div[@class=&quot;css-gg4vpm&quot;]/div[@class=&quot;css-1tzuax1&quot;]/p[@id=&quot;error-birthPlace&quot;]</value>
+      <webElementGuid>9ad7c9e0-7306-4272-8d21-67a3ea9a2177</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id='error-birthPlace']</value>
+      <webElementGuid>94a7cc50-32e4-4b76-93c4-a8173642c8c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/form/div/div/div/div/div/p[2]</value>
+      <webElementGuid>0f8767ce-19c5-4af9-9d9c-f3b9fa58d220</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::p[1]</value>
+      <webElementGuid>20efa297-e033-4925-b812-4f1c0e9e61b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode :'])[1]/following::p[1]</value>
+      <webElementGuid>bec7e12f-e3cd-47e7-b18a-5c7efe2a903c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Kelompok :'])[1]/preceding::p[1]</value>
+      <webElementGuid>e8af1423-5b30-4b33-a9ff-bf26d1dce10a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/preceding::p[2]</value>
+      <webElementGuid>11ca7a69-f875-4011-b3be-160b3e738ec7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kode Harus Terisi']/parent::*</value>
+      <webElementGuid>7dba1697-c801-4b1c-bd9e-294d1702796c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]</value>
+      <webElementGuid>10dc7182-681d-4b19-8f10-7b31c8d781c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'error-birthPlace' and (text() = 'Kode Harus Terisi' or . = 'Kode Harus Terisi')]</value>
+      <webElementGuid>ba09bbf3-2b24-4f42-a855-10a798b39300</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

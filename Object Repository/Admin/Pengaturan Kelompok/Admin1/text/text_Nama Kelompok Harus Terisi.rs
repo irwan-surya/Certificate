@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_Nama Kelompok Harus Terisi</name>
+   <tag></tag>
+   <elementGuidId>5e5a7d88-2c7d-4a70-824c-c551a6c27442</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//p[@id='error-birthPlace'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-15ocrab > #error-birthPlace</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f737e2e2-d370-44de-b206-42b5a597e9cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormHelperText-root Mui-error css-18iz75m</value>
+      <webElementGuid>26f71204-f803-4183-82d3-4d268833232b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>error-birthPlace</value>
+      <webElementGuid>c31688eb-7d8b-4a19-95fc-49ad120117ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nama Kelompok Harus Terisi</value>
+      <webElementGuid>6dcb519c-3253-4e46-857c-bb952a18b26a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-czpxt&quot;]/div[@class=&quot;css-1dxqe7w&quot;]/form[1]/div[@class=&quot;css-18hbbrr&quot;]/div[@class=&quot;css-8owaep&quot;]/div[@class=&quot;css-rgm74w&quot;]/div[@class=&quot;css-gg4vpm&quot;]/div[@class=&quot;css-15ocrab&quot;]/p[@id=&quot;error-birthPlace&quot;]</value>
+      <webElementGuid>8aa18402-5f9e-45c3-af25-0c9651412d13</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//p[@id='error-birthPlace'])[2]</value>
+      <webElementGuid>63c8870c-dd01-4c64-a548-b9d5e056e2bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/form/div/div/div/div/div[2]/p[2]</value>
+      <webElementGuid>a6cfc926-6405-4e96-bd37-d071ea47a61d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/following::p[1]</value>
+      <webElementGuid>1dd75131-929b-4248-8c09-e15831e1e4eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Kelompok :'])[1]/following::p[1]</value>
+      <webElementGuid>15c02409-eca7-4322-9e2b-83eef2c68258</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kelompok Rekening :'])[1]/preceding::p[1]</value>
+      <webElementGuid>92921114-798d-4d04-9334-96d93543793d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Kelompok Rekening'])[1]/preceding::p[2]</value>
+      <webElementGuid>1c331ad0-04e1-42a9-990e-92b3f3d42e84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nama Kelompok Harus Terisi']/parent::*</value>
+      <webElementGuid>77215c4f-7fbf-477b-9e8e-9797ee2bac95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p[2]</value>
+      <webElementGuid>2b9b988e-ef43-42da-a222-68c4b5c8983b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'error-birthPlace' and (text() = 'Nama Kelompok Harus Terisi' or . = 'Nama Kelompok Harus Terisi')]</value>
+      <webElementGuid>4ed4fa85-c272-4e3f-9cc6-d6435cc895e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
