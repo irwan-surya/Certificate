@@ -55,14 +55,14 @@ for (def input : field) {
 	CustomKeywords.'custom.Select_Keyword.ClearField'(input.objectPath)
 }
 
-//WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_userid'),UserID)
-//
-//WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_Nama'),Name)
-//
-//WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_email'),Email)
-//
-//WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_KTP'),KTP)
-//
-//WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_No HP'),HP)
+WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_userid'),UserID)
 
-//CustomKeywords.'custom.login_keyword.UserLogout'()
+WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_Nama'),Name)
+
+WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_email'),Email)
+
+WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_KTP'),KTP)
+
+WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_No HP'),HP)
+
+CustomKeywords.'custom.login_keyword.UserLogout'()
