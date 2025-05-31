@@ -29,18 +29,41 @@ CustomKeywords.'custom.login_keyword.VerifyLineError'(
 	'Kode Harus Terisi',
 	'Admin/Pengaturan Kelompok/Admin1/text/text_Kode Harus Terisi' )
 
-WebUI.sendKeys(findTestObject('Admin/Pengaturan Kelompok/Admin1/input_Kode kelompok'), '013')
-
 CustomKeywords.'custom.login_keyword.VerifyLineError'(
 	'Admin/Pengaturan Kelompok/Admin1/input_Nama Kelompok',
 	'Nama Kelompok Harus Terisi',
 	'Admin/Pengaturan Kelompok/Admin1/text/text_Nama Kelompok Harus Terisi' )
 
-WebUI.sendKeys(findTestObject('Admin/Pengaturan Kelompok/Admin1/input_Nama Kelompok'), 'Kelompok 77')
+def field = [
+	[name: 'Kode Kelompok', objectPath: 'Admin/Pengaturan Kelompok/Admin1/input_Kode kelompok', negativeLength: KodeKelompok_NegativeLength, expectedLength: KodeKelompok_ExpectedLength, negativeChar: KodeKelompok_NegativeChar, expectedChar: KodeKelompok_ExpectedChar ],
+	[name: 'Nama kelompok', objectPath: 'Admin/Pengaturan Kelompok/Admin1/input_Nama Kelompok', negativeLength: NamaKelompok_NegativeLength, expectedLength: NamaKelompok_ExpectedLength, negativeChar: NamaKelompok_NegativeChar, expectedChar: NamaKelompok_ExpectedChar ]
+	
+]
 
-CustomKeywords.'custom.Select_Keyword.SelectDropdown'('Admin/Pengaturan Kelompok/Admin1/Dropdown_Kelompok Rekening', 'Admin/Pengaturan Kelompok/Admin1/div_Default')
+for (def input : field) {
+
+	CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+		input.objectPath,
+		input.negativeLength,
+		input.expectedLength
+	)
+	CustomKeywords.'custom.Select_Keyword.ClearField'(input.objectPath)
+
+	CustomKeywords.'custom.login_keyword.VerifyInputType'(
+		input.objectPath,
+		input.negativeChar,
+		input.expectedChar
+	)
+	CustomKeywords.'custom.Select_Keyword.ClearField'(input.objectPath)
+}
+
+WebUI.sendKeys(findTestObject('Admin/Pengaturan Kelompok/Admin1/input_Kode kelompok'), kodeKelompok)
+
+WebUI.sendKeys(findTestObject('Admin/Pengaturan Kelompok/Admin1/input_Nama Kelompok'), NamaKelompok)
 
 WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/Checkbox_Daftar Fitur Pengguna'))
+
+CustomKeywords.'custom.Select_Keyword.SelectDropdown'('Admin/Pengaturan Kelompok/Admin1/Dropdown_Kelompok Rekening', 'Admin/Pengaturan Kelompok/Admin1/div_Default')
 
 //WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_Simpan'))
 //
