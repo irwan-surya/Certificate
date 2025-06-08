@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.WebElement
 
 CustomKeywords.'custom.login_keyword.UserLogin'(
 	GlobalVariable.CorpID_PROD_MULTIE1,
@@ -28,10 +31,6 @@ WebUI.maximizeWindow()
 WebUI.click(findTestObject('Admin/Sidebar_Daftar Tugas'))
 
 WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/submenu_Pengaturan Rekening'))
-
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import org.openqa.selenium.WebElement
 
 // Find all status elements from the table
 List<WebElement> statusElements = WebUI.findWebElements(
@@ -51,13 +50,14 @@ for (WebElement el : statusElements) {
 if (waitingExists) {
 	WebUI.comment("✅ Found 'Waiting for Approval'. Calling Test Case A...")
 	CustomKeywords.'custom.login_keyword.UserLogout'()
-	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Add new Grup - Validate popup pending task'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Reject task'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Add new Grup - Validate duplicate grup name'), [:], FailureHandling.STOP_ON_FAILURE)
+	
 
 } else {
 	WebUI.comment("❌ 'Waiting for Approval' not found. Calling Test Case B...")
 	CustomKeywords.'custom.login_keyword.UserLogout'()
-	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Add new Grup'), [:], FailureHandling.STOP_ON_FAILURE)
-	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Add new Grup - Validate popup pending task'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Add new Grup - Validate duplicate grup name'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
 

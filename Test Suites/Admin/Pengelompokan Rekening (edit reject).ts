@@ -22,7 +22,7 @@
       <guid>38887faf-31ad-47dc-a576-e66a48363b4a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Pengelompokan Rekening/Reject Task</testCaseId>
+      <testCaseId>Test Cases/Admin/Pengelompokan Rekening/Check status pending task</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
