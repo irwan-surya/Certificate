@@ -49,6 +49,6 @@ WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_OK waitin
 
 CustomKeywords.'custom.login_keyword.UserLogout'()
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 
 

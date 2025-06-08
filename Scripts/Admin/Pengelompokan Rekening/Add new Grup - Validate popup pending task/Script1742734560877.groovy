@@ -18,26 +18,39 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'custom.login_keyword.UserLogin'(
-	GlobalVariable.CorpID_PROD_MULTIE1,
-	GlobalVariable.UserID_PROD_Admin2,
+	GlobalVariable.CorpID_PROD_MULTIE1, 
+	GlobalVariable.UserID_PROD_Admin1, 
 	GlobalVariable.Pass_Prod_MULTIE1,
 	GlobalVariable.Prod_URL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Admin/Sidebar_Daftar Tugas'))
+WebUI.click(findTestObject('Admin/Sidebar_Pengaturan Rekening'))
 
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/submenu_Pengaturan Rekening'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Submenu_Pengelompokan Rekening'))
 
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_Lihat Detail'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Tambah Kelompok Baru'))
 
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_Tolak'))
+WebUI.sendKeys(findTestObject('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok'), 'Kelompok 1')
 
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_Ya Tolak'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Tambah Rekening Baru'))
 
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_OK berhasil tolak'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/Checkbox_Pilih Semua Rekening'))
+
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Simpan (pilih rekening)'))
+
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/svg_multiMenu'))
+
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/svg_Rekening Utama'))
+
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Simpan'))
+
+WebUI.verifyElementText(findTestObject('Admin/Pengelompokan Rekening/Admin1/text/text_Tidak dapat mengubah kelompok (pending task)'), 'Tidak dapat mengubah kelompok. Anda tidak dapat mengubah data karena data sedang menunggu persetujuan.')
+
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_OK waiting approval'))
 
 CustomKeywords.'custom.login_keyword.UserLogout'()
 
 WebUI.closeBrowser()
+
 
