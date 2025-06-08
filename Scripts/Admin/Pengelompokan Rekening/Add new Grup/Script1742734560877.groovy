@@ -23,6 +23,8 @@ CustomKeywords.'custom.login_keyword.UserLogin'(
 	GlobalVariable.Pass_Prod_MULTIE1,
 	GlobalVariable.Prod_URL)
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Admin/Sidebar_Pengaturan Rekening'))
 
 WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Submenu_Pengelompokan Rekening'))
@@ -45,9 +47,8 @@ WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Simpan'))
 
 WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_OK waiting approval'))
 
-WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
+CustomKeywords.'custom.login_keyword.UserLogout'()
 
-WebUI.click(findTestObject('Login/button_Keluar'))
+WebUI.closeBrowser()
 
-WebUI.click(findTestObject('Login/button_Yakin'))
 

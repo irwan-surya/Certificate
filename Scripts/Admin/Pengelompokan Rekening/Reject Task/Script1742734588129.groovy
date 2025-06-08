@@ -17,17 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.Prod_URL)
+CustomKeywords.'custom.login_keyword.UserLogin'(
+	GlobalVariable.CorpID_PROD_MULTIE1,
+	GlobalVariable.UserID_PROD_Admin2,
+	GlobalVariable.Pass_Prod_MULTIE1,
+	GlobalVariable.Prod_URL)
 
-WebUI.executeJavaScript('document.body.style.zoom="75%";', null)
-
-WebUI.sendKeys(findTestObject('Login/input_CorpID'), 'MULTIE1')
-
-WebUI.sendKeys(findTestObject('Login/input_userID'), 'Admin2')
-
-WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
-
-WebUI.click(findTestObject('Login/button_Login'))
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Admin/Sidebar_Daftar Tugas'))
 
@@ -41,9 +37,7 @@ WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_Ya Tolak'
 
 WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_OK berhasil tolak'))
 
-WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
+CustomKeywords.'custom.login_keyword.UserLogout'()
 
-WebUI.click(findTestObject('Login/button_Keluar'))
-
-WebUI.click(findTestObject('Login/button_Yakin'))
+WebUI.closeBrowser()
 

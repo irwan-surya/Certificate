@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Penglompokan Rekening</name>
+   <name>Pengelompokan Rekening (edit reject)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,16 +10,16 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>65e57227-3aba-45e0-9831-c2e50cda864e</testSuiteGuid>
+   <testSuiteGuid>36149c35-e70d-4025-af5f-a6e67a27d4b9</testSuiteGuid>
    <testCaseLink>
-      <guid>4e57f529-bcc6-4071-a86c-51181bb5708a</guid>
+      <guid>b72f9124-140d-43e6-a3e4-ce3e66410603</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Pengelompokan Rekening/Add new Grup</testCaseId>
+      <testCaseId>Test Cases/Admin/Pengelompokan Rekening/Edit Grup</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>95fdee6f-2974-4ccc-a582-1b6b9df0bea9</guid>
+      <guid>38887faf-31ad-47dc-a576-e66a48363b4a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin/Pengelompokan Rekening/Reject Task</testCaseId>
