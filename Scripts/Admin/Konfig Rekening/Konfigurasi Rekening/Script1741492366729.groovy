@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.PROD_Url)
+CustomKeywords.'custom.login_keyword.UserLogin'(
+	GlobalVariable.CorpID_PROD_MULTIE1, 
+	GlobalVariable.UserID_PROD_Admin1, 
+	GlobalVariable.Pass_Prod_MULTIE1,
+	GlobalVariable.Prod_URL)
 
-WebUI.sendKeys(findTestObject('Login/input_CorpID'), 'MULTIE1')
-
-WebUI.sendKeys(findTestObject('Login/input_userID'), 'Admin1')
-
-WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
-
-WebUI.click(findTestObject('Login/button_Login'))
+WebUI.executeJavaScript('document.body.style.zoom="75%";', null)
 
 WebUI.click(findTestObject('Admin/Sidebar_Pengaturan Rekening'))
 

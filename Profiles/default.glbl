@@ -8,60 +8,84 @@
       <description>Link web SIT</description>
       <initValue>'http://ibbisnis-sit.btn.co.id/btn-ibb/login'</initValue>
       <name>SIT_Url</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'masirwan'</initValue>
       <name>CorpID_SIT_Maker_masirwan2</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'maker'</initValue>
       <name>UserID_SIT_Maker_masirwan2</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'approver2'</initValue>
       <name>UserID_SIT_Approver_masirwan2</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Johndev2@'</initValue>
       <name>Pass_SIT_masirwan2</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://balebisnis.btn.co.id/login'</initValue>
       <name>Prod_URL</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'MULTIE1'</initValue>
       <name>CorpID_PROD_MULTIE1</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'makerRiza'</initValue>
       <name>UserID_PROD_Maker_makerRiza</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'approverB'</initValue>
       <name>UserID_PROD_Approver_approverB</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Admin1'</initValue>
       <name>UserID_PROD_Admin1</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Admin2'</initValue>
       <name>UserID_PROD_Admin2</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Johndev1!!'</initValue>
       <name>Pass_Prod_MULTIE1</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
