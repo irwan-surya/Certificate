@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Penglompokan Rekening</name>
+   <name>Penglompokan Rekening (add reject)</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -22,7 +22,7 @@
       <guid>95fdee6f-2974-4ccc-a582-1b6b9df0bea9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Admin/Pengelompokan Rekening/Reject Task</testCaseId>
+      <testCaseId>Test Cases/Admin/Pengelompokan Rekening/end to end - Check status pending task</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add new Grup - Validate duplicate grup name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af51b5e9-a348-4f04-81d8-ee7954f4d147</testCaseGuid>
+</TestCaseEntity>

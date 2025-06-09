@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add new Grup - Validate popup pending task</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e0c449d3-2c67-4ebd-8dd0-241c2583c83a</testCaseGuid>
+</TestCaseEntity>

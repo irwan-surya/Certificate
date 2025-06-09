@@ -23,27 +23,32 @@ CustomKeywords.'custom.login_keyword.UserLogin'(
 	GlobalVariable.Pass_Prod_MULTIE1,
 	GlobalVariable.Prod_URL)
 
-WebUI.click(findTestObject('Admin/Pengaturan Kelompok/sidebar_Pengaturan Kelompok'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_Tambah Daftar'))
+WebUI.click(findTestObject('Admin/Sidebar_Pengaturan Rekening'))
 
-WebUI.sendKeys(findTestObject('Admin/Pengaturan Kelompok/Admin1/input_Kode kelompok'), '013')
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Submenu_Pengelompokan Rekening'))
 
-WebUI.sendKeys(findTestObject('Admin/Pengaturan Kelompok/Admin1/input_Nama Kelompok'), 'Kelompok 77')
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Tambah Kelompok Baru'))
 
-WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/Dropdown_Kelompok Rekening'))
+WebUI.sendKeys(findTestObject('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok'), 'Default')
 
-WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/div_kelompok baru nih'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Tambah Rekening Baru'))
 
-WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/Checkbox_Daftar Fitur Pengguna'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/Checkbox_Pilih Semua Rekening'))
 
-WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_Simpan'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Simpan (pilih rekening)'))
 
-WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_OK'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/svg_multiMenu'))
 
-WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/svg_Rekening Utama'))
 
-WebUI.click(findTestObject('Login/button_Keluar'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Simpan'))
 
-WebUI.click(findTestObject('Login/button_Yakin'))
+WebUI.verifyElementText(findTestObject('Admin/Pengelompokan Rekening/Admin1/text/text_Nama Sudah Tersedia'), 'Nama Sudah Tersedia')
+
+CustomKeywords.'custom.login_keyword.UserLogout'()
+
+WebUI.closeBrowser()
+
 

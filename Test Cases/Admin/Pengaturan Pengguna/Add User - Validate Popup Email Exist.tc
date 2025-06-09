@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add User</name>
+   <name>Add User - Validate Popup Email Exist</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e3b1efdf-2e47-4011-82d6-c6d427bc9e63</testCaseGuid>
+   <testCaseGuid>276690e6-6f3d-4ed4-a014-b469228f8e78</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7e6f6cae-f00d-4495-a79d-25991820bda4</variableId>
+      <variableId>f6de9edf-72a4-4eb7-a0ed-457c54091e4d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5d5b36c0-7a7a-4a98-bbcc-bafb8396f169</variableId>
+      <variableId>0c1ac2df-393e-4fa9-9d1e-b2fdc42f6f8b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ac0fa24c-c1dc-4a97-b350-bf0b94959fc9</variableId>
+      <variableId>11691f10-4d7f-46e8-b10e-5fee88c273bc</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>128833fb-e398-4489-a779-a019921e698c</variableId>
+      <variableId>a026af77-3817-46d8-adf8-9353a3d2334a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0bb863d4-0311-47ea-b57a-0697466998bb</variableId>
+      <variableId>886193e5-f2e2-4c2e-9626-b7a44830a96d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8eac075c-13e8-46ad-811a-d8c9fcadf03e</variableId>
+      <variableId>b72478c3-f51e-47aa-8214-d7c9d6971a32</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Test'</defaultValue>
       <description></description>
-      <id>7e6f6cae-f00d-4495-a79d-25991820bda4</id>
+      <id>f6de9edf-72a4-4eb7-a0ed-457c54091e4d</id>
       <masked>false</masked>
       <name>UserID</name>
    </variable>
    <variable>
       <defaultValue>'User Test'</defaultValue>
       <description></description>
-      <id>5d5b36c0-7a7a-4a98-bbcc-bafb8396f169</id>
+      <id>0c1ac2df-393e-4fa9-9d1e-b2fdc42f6f8b</id>
       <masked>false</masked>
       <name>Name</name>
    </variable>
    <variable>
       <defaultValue>'useremail@gmail.com'</defaultValue>
       <description></description>
-      <id>ac0fa24c-c1dc-4a97-b350-bf0b94959fc9</id>
+      <id>11691f10-4d7f-46e8-b10e-5fee88c273bc</id>
       <masked>false</masked>
       <name>Email</name>
    </variable>
    <variable>
       <defaultValue>'1234567890128888'</defaultValue>
       <description></description>
-      <id>128833fb-e398-4489-a779-a019921e698c</id>
+      <id>a026af77-3817-46d8-adf8-9353a3d2334a</id>
       <masked>false</masked>
       <name>KTP</name>
    </variable>
    <variable>
       <defaultValue>'1234567890123'</defaultValue>
       <description></description>
-      <id>0bb863d4-0311-47ea-b57a-0697466998bb</id>
+      <id>886193e5-f2e2-4c2e-9626-b7a44830a96d</id>
       <masked>false</masked>
       <name>HP</name>
    </variable>
    <variable>
       <defaultValue>'irwandua23@gmail.com'</defaultValue>
       <description></description>
-      <id>8eac075c-13e8-46ad-811a-d8c9fcadf03e</id>
+      <id>b72478c3-f51e-47aa-8214-d7c9d6971a32</id>
       <masked>false</masked>
-      <name>Email_Existing</name>
+      <name>Email_Existting</name>
    </variable>
 </TestCaseEntity>

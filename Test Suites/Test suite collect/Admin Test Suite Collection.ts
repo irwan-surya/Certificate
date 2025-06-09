@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Admin/Penglompokan Rekening</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Admin/Penglompokan Rekening (add reject)</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Admin/Penglompokan Rekening</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Admin/Penglompokan Rekening (add reject)</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
