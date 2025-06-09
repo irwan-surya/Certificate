@@ -21,6 +21,8 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'custom.login_keyword.UserLogin'(GlobalVariable.CorpID_PROD_MULTIE1, GlobalVariable.UserID_PROD_Admin1, GlobalVariable.Pass_Prod_MULTIE1, 
     GlobalVariable.Prod_URL)
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/Sidebar_Pengaturan Pengguna'))
 
 WebUI.click(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/Tab_Aktif'))
@@ -37,17 +39,19 @@ CustomKeywords.'custom.Select_Keyword.SelectDropdown'('Admin/Pengaturan Pengguna
 
 CustomKeywords.'custom.Select_Keyword.SelectDropdown'('Admin/Pengaturan Pengguna/Admin1/Dropdown_Kelompok Pengguna', 'Admin/Pengaturan Pengguna/Admin1/List_Bermain')
 
-WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_userId'), UserID)
+WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_userId'), UserID_Existing)
 
 WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_Nama'), Name)
 
-WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_email'), Email_Existing)
+WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_email'), Email)
 
 WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_KTP'), KTP)
 
 WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_No HP'), HP)
 
 WebUI.click(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/button_Tambah 2'))
+
+WebUI.verifyElementText(findTestObject('Admin/Pengaturan Pengguna/Admin1/text/text_ID sudah tersedia'), 'ID sudah tersedia')
 
 WebUI.click(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/button_OK'))
 

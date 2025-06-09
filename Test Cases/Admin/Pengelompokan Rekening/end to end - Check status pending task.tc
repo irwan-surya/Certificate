@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Check status duplicate grup</name>
+   <name>end to end - Check status pending task</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>f6359235-3645-4b8b-abcf-91a82db86163</testCaseGuid>
+   <testCaseGuid>eacac505-fc87-4985-bc4a-4dd1138afc7f</testCaseGuid>
 </TestCaseEntity>

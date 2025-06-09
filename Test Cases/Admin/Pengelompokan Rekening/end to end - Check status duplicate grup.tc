@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Check status duplicate group</name>
+   <name>end to end - Check status duplicate grup</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0be47325-c507-46ad-8e13-46b328e8bd7a</testCaseGuid>
+   <testCaseGuid>f6359235-3645-4b8b-abcf-91a82db86163</testCaseGuid>
 </TestCaseEntity>
