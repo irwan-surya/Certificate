@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>end to end - Check status pending task (new group)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eacac505-fc87-4985-bc4a-4dd1138afc7f</testCaseGuid>
+</TestCaseEntity>

@@ -18,8 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'custom.login_keyword.UserLogin'(
-	GlobalVariable.CorpID_PROD_MULTIE1,
-	GlobalVariable.UserID_PROD_Admin1,
+	GlobalVariable.CorpID_PROD_MULTIE1, 
+	GlobalVariable.UserID_PROD_Admin1, 
 	GlobalVariable.Pass_Prod_MULTIE1,
 	GlobalVariable.Prod_URL)
 
@@ -31,17 +31,16 @@ WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Submenu_Pengelompokan R
 
 WebUI.click(findTestObject('Object Repository/Admin/Pengelompokan Rekening/Admin1/svg_multimenuv2'))
 
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/svg_Edit Kelompok'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/svg_Hapus kelompok'))
 
-CustomKeywords.'custom.Select_Keyword.ClearField'('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok')
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/text/button_Ya'))
 
-WebUI.sendKeys(findTestObject('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok'), ' Edit')
-
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Simpan'))
+WebUI.verifyElementText(findTestObject('Admin/Pengelompokan Rekening/Admin1/text/text_tidak dapat menghapus kelompok'), 'Anda tidak dapat menghapus kelompok karena kelompok masih memiliki pengguna atau ditunjuk sebagai kelompok spesifik di persetujuan matriks.')
 
 WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_OK waiting approval'))
 
-CustomKeywords.'custom.login_keyword.UserLogout'() 
+CustomKeywords.'custom.login_keyword.UserLogout'()
 
 WebUI.closeBrowser()
+
 

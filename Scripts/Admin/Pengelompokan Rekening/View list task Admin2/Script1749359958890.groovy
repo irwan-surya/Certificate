@@ -19,29 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'custom.login_keyword.UserLogin'(
 	GlobalVariable.CorpID_PROD_MULTIE1,
-	GlobalVariable.UserID_PROD_Admin1,
+	GlobalVariable.UserID_PROD_Admin2,
 	GlobalVariable.Pass_Prod_MULTIE1,
 	GlobalVariable.Prod_URL)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Admin/Sidebar_Pengaturan Rekening'))
+WebUI.click(findTestObject('Admin/Sidebar_Daftar Tugas'))
 
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Submenu_Pengelompokan Rekening'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/submenu_Pengaturan Rekening'))
 
-WebUI.click(findTestObject('Object Repository/Admin/Pengelompokan Rekening/Admin1/svg_multimenuv2'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_Lihat Detail'))
 
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/svg_Edit Kelompok'))
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_Tolak'))
 
-CustomKeywords.'custom.Select_Keyword.ClearField'('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok')
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_Ya Tolak'))
 
-WebUI.sendKeys(findTestObject('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok'), ' Edit')
+WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin2/button_OK berhasil tolak'))
 
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Simpan'))
-
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_OK waiting approval'))
-
-CustomKeywords.'custom.login_keyword.UserLogout'() 
-
-WebUI.closeBrowser()
+CustomKeywords.'custom.login_keyword.UserLogout'()
 

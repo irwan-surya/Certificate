@@ -3,10 +3,12 @@
    <description></description>
    <name>PROD</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Johndev1!!'</initValue>
       <name>Pass_Prod_MULTIE1</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

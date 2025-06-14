@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Grup - Validate popup grup in used</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2710d80e-6565-42bf-9283-699d3b41d7e8</testCaseGuid>
+</TestCaseEntity>

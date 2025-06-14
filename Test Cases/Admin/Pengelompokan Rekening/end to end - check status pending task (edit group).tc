@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>end to end - Check status pending task</name>
+   <name>end to end - check status pending task (edit group)</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>eacac505-fc87-4985-bc4a-4dd1138afc7f</testCaseGuid>
+   <testCaseGuid>09be4acb-0c24-4462-a0e9-de81aeb0115e</testCaseGuid>
 </TestCaseEntity>

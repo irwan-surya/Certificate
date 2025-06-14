@@ -35,9 +35,11 @@ WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/svg_Edit Kelompo
 
 CustomKeywords.'custom.Select_Keyword.ClearField'('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok')
 
-WebUI.sendKeys(findTestObject('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok'), ' Edit')
+WebUI.sendKeys(findTestObject('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok'), 'Kelompok 1')
 
 WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Simpan'))
+
+WebUI.verifyElementText(findTestObject('Admin/Pengelompokan Rekening/Admin1/text/text_Tidak dapat mengubah kelompok'), 'Tidak dapat mengubah kelompok. Anda tidak dapat mengubah data karena data sedang menunggu persetujuan.')
 
 WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_OK waiting approval'))
 
