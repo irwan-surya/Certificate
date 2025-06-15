@@ -20,7 +20,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.util.KeywordUtil
 import org.openqa.selenium.By
@@ -103,42 +102,6 @@ public class Transaction {
 		return ""
 	}
 
-	//	@Keyword
-	//	def void clickDateFromGlobalVariable() {
-	//		// Step 1: Get date from global variable
-	//		String targetDateString = GlobalVariable.transactionDate  // e.g., "05/06/2025"
-	//		if (!targetDateString) {
-	//			throw new Exception("❌ 'Date' not found in GlobalVariable.transactionData.")
-	//		}
-	//
-	//		// Step 2: Parse input string
-	//		SimpleDateFormat inputFormat = new SimpleDateFormat("dd/MM/yyyy")
-	//		Date targetDate = inputFormat.parse(targetDateString)
-	//
-	//		// Step 3: Convert to date picker's aria-label format
-	//		SimpleDateFormat ariaFormat = new SimpleDateFormat("'Choose' EEEE, d MMMM yyyy", new Locale("id"))
-	//		String expectedAriaLabel = ariaFormat.format(targetDate)
-	//		println "🎯 Target date aria-label: ${expectedAriaLabel}"
-	//
-	//		// Step 4: Find all date cells
-	//		WebElement dateContainer = DriverFactory.getWebDriver().findElement(By.cssSelector(".react-datepicker__month"))
-	//		List<WebElement> dateElements = dateContainer.findElements(By.cssSelector(".react-datepicker__day"))
-	//
-	//		for (WebElement day : dateElements) {
-	//			String ariaLabel = day.getAttribute("aria-label")
-	//			String isDisabled = day.getAttribute("aria-disabled")
-	//
-	//			if (ariaLabel == expectedAriaLabel && isDisabled == "false") {
-	//				day.click()
-	//				println "✅ Clicked on date: ${ariaLabel}"
-	//				return
-	//			}
-	//		}
-	//
-	//		throw new Exception("❌ Clickable date '${expectedAriaLabel}' not found in date picker.")
-	//	}
-
-
 	@Keyword
 	def searchReferenceWithProgressiveFilter(String referenceText) {
 		WebDriver driver = DriverFactory.getWebDriver()
@@ -159,22 +122,15 @@ public class Transaction {
 			for (String dateText : dateOptions) {
 				WebUI.comment("🕒 Reference not found. Trying with filter: '${dateText}'")
 
-				// Open dropdown
+				// Open drop down
 				WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/div_1 Bulan'))
 
-				//			 Type filter text like "1 Bulan", "2 Bulan", etc.
-//				WebUI.sendKeys(null,"${dateText}")  // null = currently focused element (dropdown input)
-
 				// Select filter option
-//				TestObject option = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//*/text()[normalize-space(.)='${dateText}']/parent::*")
-								
 					String script = """
 				  [...document.querySelectorAll('.css-md1jk9')].find(el => el.textContent.trim() === '${dateText}').click();
 				"""
 				WebUI.executeJavaScript(script, null)
-
-//				WebUI.click(option)
-
+				
 				// Click 'Terapkan'
 				TestObject applyButton = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//button[.//p[text()='Terapkan']]")
 				WebUI.click(applyButton)
@@ -229,9 +185,7 @@ public class Transaction {
 		return found
 	}
 
-
-
-
+	
 	def void clickDateFromGlobalVariable() {
 		// Step 1: Get date from GlobalVariable
 		String targetDateString = GlobalVariable.transactionDate  // e.g., "15/05/2025"

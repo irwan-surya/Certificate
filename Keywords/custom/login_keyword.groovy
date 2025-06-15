@@ -122,41 +122,6 @@ class login_keyword {
 		}
 	}
 
-	//	@Keyword
-	//	def VerifyInputLength(String Object, String input, int expectedLength) {
-	//		TestObject obj = findTestObject(Object)
-	//		String value = ""
-	//
-	//		try {
-	//			// Step 1: Clear the field before sending input
-	//			ClearField(Object)
-	//
-	//			// Step 2: Send the input
-	//			WebUI.sendKeys(obj, input)
-	//
-	//			// Step 3: Get the field value
-	//			value = WebUI.getAttribute(obj, 'value') ?: ""
-	//
-	//			// Step 4: Compare the lengths
-	//			int actualLength = value.length()
-	//			if (actualLength == expectedLength) {
-	//				KeywordUtil.markPassed("✅ Input length is correct. Expected: ${expectedLength}, Actual: ${actualLength}")
-	//			} else {
-	//				KeywordUtil.markFailed("❌ Incorrect input length. Expected: ${expectedLength}, Actual: ${actualLength}, Value: '${value}'")
-	//			}
-	//		} catch (Exception e) {
-	//			KeywordUtil.markError("⚠️ Failed to verify input length for object '${Object}': ${e.message}")
-	//		} finally {
-	//			// Step 5: Always clear field afterward
-	//			try {
-	//				ClearField(Object)
-	//			} catch (Exception clearErr) {
-	//				KeywordUtil.markWarning("Could not clear field '${Object}' after test: ${clearErr.message}")
-	//			}
-	//		}
-	//	}
-
-
 	@Keyword
 	def VerifyInputType(Object,input,ExpectedType) {
 		WebUI.sendKeys(findTestObject(Object),input)
@@ -179,38 +144,21 @@ class login_keyword {
 
 	@Keyword
 	def UserLogout() {
-//		WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
 		CustomKeywords.'custom.login_keyword.hoverOverRoundIcon'()
-//		WebUI.click(findTestObject('Login/button_Keluar'))
-		
+
 		String js = '''
   [...document.querySelectorAll('.css-b63xf')]
     .find(el => el.textContent.trim() === 'Keluar')?.click();
 '''
-	  WebUI.executeJavaScript(js, null)
-	  
-		
+		WebUI.executeJavaScript(js, null)
 		WebUI.click(findTestObject('Login/button_Yakin'))
 	}
-	
+
 	static void hoverOverRoundIcon() {
 		TestObject icon = new TestObject().addProperty(
-			"css", ConditionType.EQUALS, "button.MuiIconButton-root.MuiIconButton-sizeSmall.css-9xgzfu"
-		)
+				"css", ConditionType.EQUALS, "button.MuiIconButton-root.MuiIconButton-sizeSmall.css-9xgzfu"
+				)
 		WebUI.waitForElementVisible(icon, 10)
 		WebUI.mouseOver(icon)
-	}
-
-	/**
-	 * Get all rows of HTML table
-	 * @param table Katalon test object represent for HTML table
-	 * @param outerTagName outer tag name of TR tag, usually is TBODY
-	 * @return All rows inside HTML table
-	 */
-	@Keyword
-	def List<WebElement> getHtmlTableRows(TestObject table, String outerTagName) {
-		WebElement mailList = WebUiBuiltInKeywords.findWebElement(table)
-		List<WebElement> selectedRows = mailList.findElements(By.xpath("./" + outerTagName + "/tr"))
-		return selectedRows
 	}
 }
