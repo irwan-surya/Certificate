@@ -126,11 +126,11 @@ public class Transaction {
 				WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/div_1 Bulan'))
 
 				// Select filter option
-					String script = """
+				String script = """
 				  [...document.querySelectorAll('.css-md1jk9')].find(el => el.textContent.trim() === '${dateText}').click();
 				"""
 				WebUI.executeJavaScript(script, null)
-				
+
 				// Click 'Terapkan'
 				TestObject applyButton = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//button[.//p[text()='Terapkan']]")
 				WebUI.click(applyButton)
@@ -185,7 +185,7 @@ public class Transaction {
 		return found
 	}
 
-	
+
 	def void clickDateFromGlobalVariable() {
 		// Step 1: Get date from GlobalVariable
 		String targetDateString = GlobalVariable.transactionDate  // e.g., "15/05/2025"
