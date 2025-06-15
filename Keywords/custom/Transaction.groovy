@@ -25,12 +25,22 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.util.KeywordUtil
 import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.exception.StepFailedException
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+
+
 
 import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 import java.text.SimpleDateFormat
 import java.util.Locale
+
+import org.openqa.selenium.*
+import org.openqa.selenium.support.ui.*
+import java.text.SimpleDateFormat
 
 public class Transaction {
 
@@ -93,31 +103,194 @@ public class Transaction {
 		return ""
 	}
 
+	//	@Keyword
+	//	def void clickDateFromGlobalVariable() {
+	//		// Step 1: Get date from global variable
+	//		String targetDateString = GlobalVariable.transactionDate  // e.g., "05/06/2025"
+	//		if (!targetDateString) {
+	//			throw new Exception("❌ 'Date' not found in GlobalVariable.transactionData.")
+	//		}
+	//
+	//		// Step 2: Parse input string
+	//		SimpleDateFormat inputFormat = new SimpleDateFormat("dd/MM/yyyy")
+	//		Date targetDate = inputFormat.parse(targetDateString)
+	//
+	//		// Step 3: Convert to date picker's aria-label format
+	//		SimpleDateFormat ariaFormat = new SimpleDateFormat("'Choose' EEEE, d MMMM yyyy", new Locale("id"))
+	//		String expectedAriaLabel = ariaFormat.format(targetDate)
+	//		println "🎯 Target date aria-label: ${expectedAriaLabel}"
+	//
+	//		// Step 4: Find all date cells
+	//		WebElement dateContainer = DriverFactory.getWebDriver().findElement(By.cssSelector(".react-datepicker__month"))
+	//		List<WebElement> dateElements = dateContainer.findElements(By.cssSelector(".react-datepicker__day"))
+	//
+	//		for (WebElement day : dateElements) {
+	//			String ariaLabel = day.getAttribute("aria-label")
+	//			String isDisabled = day.getAttribute("aria-disabled")
+	//
+	//			if (ariaLabel == expectedAriaLabel && isDisabled == "false") {
+	//				day.click()
+	//				println "✅ Clicked on date: ${ariaLabel}"
+	//				return
+	//			}
+	//		}
+	//
+	//		throw new Exception("❌ Clickable date '${expectedAriaLabel}' not found in date picker.")
+	//	}
+
+
 	@Keyword
-	def void clickDateFromGlobalVariable() {
-		// Step 1: Get date from global variable
-		String targetDateString = GlobalVariable.transactionDate  // e.g., "05/06/2025"
-		if (!targetDateString) {
-			throw new Exception("❌ 'Date' not found in GlobalVariable.transactionData.")
+	def searchReferenceWithProgressiveFilter(String referenceText) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		List<String> dateOptions = [
+			'3 Bulan',
+			'6 Bulan',
+			'1 Tahun'
+		]
+		boolean found = false
+
+		// Step 1: Initial search without applying any filter
+		WebUI.comment("🔍 Searching '${referenceText}' in default view (no filter)...")
+		found = searchReferenceOnAllPages(referenceText)
+
+		if (found) return
+
+			// Step 2: Apply filters progressively
+			for (String dateText : dateOptions) {
+				WebUI.comment("🕒 Reference not found. Trying with filter: '${dateText}'")
+
+				// Open dropdown
+				WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/div_1 Bulan'))
+
+				//			 Type filter text like "1 Bulan", "2 Bulan", etc.
+//				WebUI.sendKeys(null,"${dateText}")  // null = currently focused element (dropdown input)
+
+				// Select filter option
+//				TestObject option = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//*/text()[normalize-space(.)='${dateText}']/parent::*")
+								
+					String script = """
+				  [...document.querySelectorAll('.css-md1jk9')].find(el => el.textContent.trim() === '${dateText}').click();
+				"""
+				WebUI.executeJavaScript(script, null)
+
+//				WebUI.click(option)
+
+				// Click 'Terapkan'
+				TestObject applyButton = new TestObject().addProperty("xpath", ConditionType.EQUALS, "//button[.//p[text()='Terapkan']]")
+				WebUI.click(applyButton)
+
+				// Wait for filter to apply
+				WebUI.delay(2)
+
+				// Step 4: Search again with this filter
+				found = searchReferenceOnAllPages(referenceText)
+
+				if (found) {
+					WebUI.comment("✅ Found '${referenceText}' under filter '${dateText}'")
+					break
+				}
+			}
+
+		if (!found) {
+			WebUI.comment("❌ '${referenceText}' not found in any filter level.")
+		}
+	}
+
+	@Keyword
+	def searchReferenceOnAllPages(String referenceText) {
+		WebDriver driver = DriverFactory.getWebDriver()
+		boolean found = false
+
+		while (true) {
+			List<WebElement> rows = driver.findElements(By.xpath("//div[contains(@class,'MuiCard-root') and .//p[contains(text(),'IBB')]]"))
+			for (WebElement row : rows) {
+				if (row.getText().contains(referenceText)) {
+					WebUI.comment("📍 Found '${referenceText}'")
+					WebElement lihatDetailBtn = row.findElement(By.xpath(".//button[.//p[text()='Lihat Detail']]"))
+					lihatDetailBtn.click()
+					found = true
+					break
+				}
+			}
+
+			if (found) break
+
+				// Check and click next page
+				try {
+					WebElement nextBtn = driver.findElement(By.xpath("//button[contains(@class,'MuiPaginationItem-root') and @aria-label='Go to next page' and not(@disabled)]"))
+					nextBtn.click()
+					WebUI.delay(1)
+				} catch (Exception e) {
+					WebUI.comment("📄 No more pages.")
+					break
+				}
 		}
 
-		// Step 2: Parse input string
+		return found
+	}
+
+
+
+
+	def void clickDateFromGlobalVariable() {
+		// Step 1: Get date from GlobalVariable
+		String targetDateString = GlobalVariable.transactionDate  // e.g., "15/05/2025"
+		if (!targetDateString) {
+			throw new Exception("❌ 'Date' not found in GlobalVariable.transactionDate.")
+		}
+
+		// Step 2: Parse the date string
 		SimpleDateFormat inputFormat = new SimpleDateFormat("dd/MM/yyyy")
 		Date targetDate = inputFormat.parse(targetDateString)
 
-		// Step 3: Convert to date picker's aria-label format
+		// Extract day, month, year
+		Calendar targetCal = Calendar.getInstance()
+		targetCal.setTime(targetDate)
+		int targetMonth = targetCal.get(Calendar.MONTH)  // 0-based (May = 4)
+		int targetYear = targetCal.get(Calendar.YEAR)
+
+		// Step 3: Get current month and year from datepicker
+		WebDriver driver = DriverFactory.getWebDriver()
+		WebElement monthLabel = driver.findElement(By.cssSelector(".react-datepicker__current-month"))
+		WebElement yearLabel = driver.findElement(By.cssSelector(".react-datepicker__year-read-view--selected-year"))
+
+		String visibleMonthText = monthLabel.getText().trim()  // e.g., "Juni"
+		String visibleYearText = yearLabel.getText().trim()
+
+		// Convert month name to number
+		Map<String, Integer> monthMap = [
+			"Januari": 0, "Februari": 1, "Maret": 2, "April": 3,
+			"Mei": 4, "Juni": 5, "Juli": 6, "Agustus": 7,
+			"September": 8, "Oktober": 9, "November": 10, "Desember": 11
+		]
+
+		int visibleMonth = monthMap[visibleMonthText]
+		int visibleYear = Integer.parseInt(visibleYearText)
+
+		// Step 4: Navigate to correct month/year
+		while (visibleYear > targetYear || (visibleYear == targetYear && visibleMonth > targetMonth)) {
+			WebElement prevButton = driver.findElement(By.cssSelector(".react-datepicker__navigation--previous"))
+			prevButton.click()
+			WebUI.delay(0.5)
+
+			// Re-read after clicking
+			monthLabel = driver.findElement(By.cssSelector(".react-datepicker__current-month"))
+			yearLabel = driver.findElement(By.cssSelector(".react-datepicker__year-read-view--selected-year"))
+			visibleMonth = monthMap[monthLabel.getText().trim()]
+			visibleYear = Integer.parseInt(yearLabel.getText().trim())
+		}
+
+		// Step 5: Convert to aria-label format used in the calendar
 		SimpleDateFormat ariaFormat = new SimpleDateFormat("'Choose' EEEE, d MMMM yyyy", new Locale("id"))
 		String expectedAriaLabel = ariaFormat.format(targetDate)
-		println "🎯 Target date aria-label: ${expectedAriaLabel}"
 
-		// Step 4: Find all date cells
-		WebElement dateContainer = DriverFactory.getWebDriver().findElement(By.cssSelector(".react-datepicker__month"))
+		// Step 6: Find and click the correct date
+		WebElement dateContainer = driver.findElement(By.cssSelector(".react-datepicker__month"))
 		List<WebElement> dateElements = dateContainer.findElements(By.cssSelector(".react-datepicker__day"))
 
 		for (WebElement day : dateElements) {
 			String ariaLabel = day.getAttribute("aria-label")
 			String isDisabled = day.getAttribute("aria-disabled")
-
 			if (ariaLabel == expectedAriaLabel && isDisabled == "false") {
 				day.click()
 				println "✅ Clicked on date: ${ariaLabel}"
@@ -126,5 +299,49 @@ public class Transaction {
 		}
 
 		throw new Exception("❌ Clickable date '${expectedAriaLabel}' not found in date picker.")
+	}
+
+
+	/**
+	 * Clicks on the first menu item that matches the given title and date using TestObject-based XPath
+	 */
+	@Keyword
+	def clickMenuItem(String expectedTitle, String expectedDate) {
+		int index = 1
+		while (true) {
+			// XPath to match list item at position i
+			String baseXPath = "(//li[@role='menuitem'])[$index]"
+
+			// XPath for the title and date within that list item
+			String titleXPath = baseXPath + "//p[contains(@class,'400') and contains(text(),'" + expectedTitle + "')]"
+			String dateXPath = baseXPath + "//p[contains(@class,'detail') and normalize-space(text())='" + expectedDate + "']"
+
+			TestObject titleObj = createTestObject(titleXPath)
+			TestObject dateObj = createTestObject(dateXPath)
+			TestObject itemToClick = createTestObject(baseXPath)
+
+			// Break the loop if no more items
+			if (!WebUI.verifyElementPresent(itemToClick, 1, FailureHandling.OPTIONAL)) {
+				WebUI.comment("❌ No matching menu item found with title '${expectedTitle}' and date '${expectedDate}'")
+				throw new StepFailedException("Matching item not found.")
+			}
+
+			// Check if both title and date match
+			if (WebUI.verifyElementPresent(titleObj, 1, FailureHandling.OPTIONAL) &&
+					WebUI.verifyElementPresent(dateObj, 1, FailureHandling.OPTIONAL)) {
+
+				WebUI.click(itemToClick)
+				WebUI.comment("✅ Clicked menu item #$index with title '$expectedTitle' and date '$expectedDate'")
+				return
+			}
+			index++
+		}
+	}
+
+	// Utility to create TestObject from XPath
+	private TestObject createTestObject(String xpath) {
+		TestObject to = new TestObject()
+		to.addProperty("xpath", ConditionType.EQUALS, xpath)
+		return to
 	}
 }

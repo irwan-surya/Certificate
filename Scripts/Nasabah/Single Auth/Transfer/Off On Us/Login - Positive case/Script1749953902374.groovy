@@ -36,9 +36,16 @@ WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/div_1 Bulan'))
 
 //WebUI.mouseOver(findTestObject('Nasabah/Kotak Masuk/Waktu/div_3 Bulanv2'))
 
-WebUI.sendKeys(null,'3')
+//WebUI.sendKeys(null,'3')
 
-WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/p_3 Bulan'))
+
+
+String dateText = '6 Bulan'  // or get it from test data or global variable
+String script = """
+  [...document.querySelectorAll('.css-md1jk9')].find(el => el.textContent.trim() === '${dateText}').click();
+"""
+WebUI.executeJavaScript(script, null)
+
 
 CustomKeywords.'custom.login_keyword.UserLogout'()
 

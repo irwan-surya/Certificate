@@ -58,6 +58,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import org.openqa.selenium.WebDriver
 
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
 
 import CustomKeywords
 
@@ -175,9 +179,26 @@ class login_keyword {
 
 	@Keyword
 	def UserLogout() {
-		WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
-		WebUI.click(findTestObject('Login/button_Keluar'))
+//		WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
+		CustomKeywords.'custom.login_keyword.hoverOverRoundIcon'()
+//		WebUI.click(findTestObject('Login/button_Keluar'))
+		
+		String js = '''
+  [...document.querySelectorAll('.css-b63xf')]
+    .find(el => el.textContent.trim() === 'Keluar')?.click();
+'''
+	  WebUI.executeJavaScript(js, null)
+	  
+		
 		WebUI.click(findTestObject('Login/button_Yakin'))
+	}
+	
+	static void hoverOverRoundIcon() {
+		TestObject icon = new TestObject().addProperty(
+			"css", ConditionType.EQUALS, "button.MuiIconButton-root.MuiIconButton-sizeSmall.css-9xgzfu"
+		)
+		WebUI.waitForElementVisible(icon, 10)
+		WebUI.mouseOver(icon)
 	}
 
 	/**

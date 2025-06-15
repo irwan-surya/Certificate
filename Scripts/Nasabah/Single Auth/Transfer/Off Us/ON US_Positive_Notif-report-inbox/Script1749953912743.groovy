@@ -31,32 +31,15 @@ CustomKeywords.'custom.login_keyword.UserLogin'(
 	GlobalVariable.Pass_Prod_SINGLEC1,
 	GlobalVariable.Prod_URL)
 
-WebUI.maximizeWindow()
+//WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Nasabah/Notif/button_Notif'))
 
-WebUI.click(findTestObject('Object Repository/Nasabah/Notif/List_notifv2'))
-
-
-// Use a CSS selector for the root container
-//def transactionData = TE.extractTransactionDetails('.css-1putcy6')
-
-//def extractor = new custom.Transaction()
-//def data = extractor.extractTransactionDetails('.css-1putcy6')
-
-//// Create instance
-//def extractor = new TransactionExtractor()
-//
-//// Call the method and assign to variable
-//def transactionData = extractor.extractTransactionDetails('.css-1putcy6')
+CustomKeywords.'custom.Transaction.clickMenuItem'("Transfer BI-FAST", "11/04/2025")
 
 def transactionData = CustomKeywords.'custom.Transaction.extractTransactionDetails'('.css-1putcy6','.css-1b2apei')
 
 def transactionDate = CustomKeywords.'custom.Transaction.extractTransactionDate'('.css-wtrezf')
-// Output: 05/06/2025
-
-
-//def transactionDate = CustomKeywords.'custom.Transaction.extractTransactionDetails'('.css-wtrezf','.css-18p54y6')
 
 // store data to global variable
 GlobalVariable.transactionData = transactionData
@@ -78,35 +61,80 @@ CustomKeywords.'custom.Transaction.clickDateFromGlobalVariable'()
 
 WebUI.click(findTestObject('Nasabah/Laporan/button_Terapkan'))
 
-//KeywordUtil.logInfo(GlobalVariable.transactionData['ID Transaksi'])
-//KeywordUtil.logInfo(GlobalVariable.transactionData['No Ref'])
-//KeywordUtil.logInfo(GlobalVariable.transactionData['Berita'])
-
-
-
-
 //		//verifikasi di halaman inbox
 WebUI.click(findTestObject('Nasabah/Kotak Masuk/sidebar_Layanan Nasabah'))
 
 WebUI.click(findTestObject('Nasabah/Kotak Masuk/div_Kotak Masuk'))
 
-WebUI.click(findTestObject('Nasabah/Kotak Masuk/button_Lihat Detail inbox'))
+def Noreff = GlobalVariable.transactionData['No Ref']
+
+CustomKeywords.'custom.Transaction.searchReferenceWithProgressiveFilter'(Noreff)
+
 
 // Extract again from new page
 def extractedDetails = CustomKeywords.'custom.Transaction.extractTransactionDetails'('.css-16xvqac','.css-83zc01')
 
-// Comparison
-def expectedID = GlobalVariable.transactionData['ID Transaksi']
-def expectedNoref = GlobalVariable.transactionData['No Ref']
+//// Get detail template from global variable
+//def expectedID = GlobalVariable.transactionData['ID Transaksi']
+//def expectedNoref = GlobalVariable.transactionData['No Ref']
+//def expectedTransferCategory = GlobalVariable.transactionData['Kategori Transfer']
+//def expectedTransferOption = GlobalVariable.transactionData['Pilihan Transfer']
+////def expectedTransferAmount = GlobalVariable.transactionData['Nominal Transfer']
+////def expectedTransferFee = GlobalVariable.transactionData['Biaya Transaksi']
+////def expectedTransactionAdminFee = GlobalVariable.transactionData['Biaya Admin']
+////def expectedTotalFee = GlobalVariable.transactionData['Total Biaya']
+//
+//
+////log each data
+//KeywordUtil.logInfo("Expected Transaction ID: " + expectedID)
+//KeywordUtil.logInfo("Expected Noref: " + expectedNoref)
+//KeywordUtil.logInfo("Expected Transfer Category: " + expectedTransferCategory)
+//KeywordUtil.logInfo("Expected Transfer Option: " + expectedTransferOption)
+//
+//
+////compare data from global variable with inbox
+//WebUI.verifyMatch(extractedDetails['ID Transaksi'], expectedID, false)
+//WebUI.verifyMatch(extractedDetails['No Ref'], expectedNoref, false)
+//WebUI.verifyMatch(extractedDetails['Kategori Transfer'], expectedTransferCategory, false)
+//WebUI.verifyMatch(extractedDetails['Pilihan Transfer'], expectedTransferOption, false)
 
-KeywordUtil.logInfo("Expected Transaction ID: " + expectedID)
-KeywordUtil.logInfo("Expected Noref: " + expectedNoref)
+// Map of field keys from GlobalVariable + human-readable log labels
+def fields = [
+	'ID Transaksi'      : 'Transaction ID',
+	'No Ref'            : 'Noref',
+	'Kategori Transfer' : 'Transfer Category',
+	'Tipe Transfer'		: 'Transfer Type',
+	'Tipe BI-FAST'		: 'Proxy BI-FAST',
+//	'Pilihan Transfer'  : 'Transfer Option',
+	'Nominal Transfer'  : 'Transfer Amount',
+	'Biaya Transaksi'   : 'Transaction Fee',
+	'Biaya Admin'       : 'Admin Fee',
+	'Total Biaya'       : 'Total Fee',
+	'Berita'			: 'Berita',
+	'Total Transaksi'	: 'Total Transaction'
+]
 
-WebUI.verifyMatch(extractedDetails['ID Transaksi'], expectedID, false)
-WebUI.verifyMatch(extractedDetails['No Ref'], expectedNoref, false)
+// Iterate through each field, log expected value, and verify match
+fields.each { key, label ->
+	def expectedValue = GlobalVariable.transactionData[key]
+	def actualValue = extractedDetails[key]
+	
+	KeywordUtil.logInfo("Expected ${label}: ${expectedValue}")
+//	WebUI.verifyMatch(actualValue, expectedValue, false)
+	try {
+		WebUI.verifyMatch(actualValue, expectedValue, false)
+		KeywordUtil.logInfo("✅ Match PASSED for ${label}: ${expectedValue}")
+	} catch (Exception e) {
+		KeywordUtil.logInfo("❌ Match FAILED: Expected '${expectedValue}' but got '${actualValue}'")
+		throw e
+	}
+}
 
+
+
+//logout
 CustomKeywords.'custom.login_keyword.UserLogout'()
-////WebUI.closeBrowser()
+WebUI.closeBrowser()
 
 
 
