@@ -21,10 +21,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class dropdown {
-	
+
 	@Keyword
 	def pegadaian(String option) {
-		
+
 		String script = """
 				  [...document.querySelectorAll('.css-1f3xush')].find(el => el.textContent.trim() === '${option}').click();
 				"""

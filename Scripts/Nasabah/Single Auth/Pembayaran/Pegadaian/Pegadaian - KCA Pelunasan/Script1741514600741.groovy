@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'custom.helper.setDestinationFolder'('/Users/irwan/Documents/screenshots/Pembayaran/Pegadaian - KCA Pelunasan')
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
+CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_PROD_SINGLEC1,
 	GlobalVariable.UserID_PROD_SINGLEC1,
 	GlobalVariable.Pass_Prod_SINGLEC1,
@@ -57,7 +57,7 @@ CustomKeywords.'custom.helper.Screenshoot'()
 
 WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_OK'))
 
-CustomKeywords.'custom.login_keyword.UserLogout'()
+CustomKeywords.'custom.Access.UserLogout'()
 
 WebUI.closeBrowser()
 

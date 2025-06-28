@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
+CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_PROD_MULTIE1, 
 	GlobalVariable.UserID_PROD_Admin1, 
 	GlobalVariable.Pass_Prod_MULTIE1, 
@@ -27,12 +27,12 @@ WebUI.click(findTestObject('Admin/Pengaturan Kelompok/sidebar_Pengaturan Kelompo
 
 WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_Tambah Daftar'))
 
-CustomKeywords.'custom.login_keyword.VerifyLineError'(
+CustomKeywords.'custom.Access.VerifyLineError'(
 	'Admin/Pengaturan Kelompok/Admin1/input_Kode kelompok',
 	'Kode Harus Terisi',
 	'Admin/Pengaturan Kelompok/Admin1/text/text_Kode Harus Terisi' )
 
-CustomKeywords.'custom.login_keyword.VerifyLineError'(
+CustomKeywords.'custom.Access.VerifyLineError'(
 	'Admin/Pengaturan Kelompok/Admin1/input_Nama Kelompok',
 	'Nama Kelompok Harus Terisi',
 	'Admin/Pengaturan Kelompok/Admin1/text/text_Nama Kelompok Harus Terisi' )
@@ -45,14 +45,14 @@ def field = [
 
 for (def input : field) {
 
-	CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+	CustomKeywords.'custom.Access.VerifyInputLength'(
 		input.objectPath,
 		input.negativeLength,
 		input.expectedLength
 	)
 	CustomKeywords.'custom.Select_Keyword.ClearField'(input.objectPath)
 
-	CustomKeywords.'custom.login_keyword.VerifyInputType'(
+	CustomKeywords.'custom.Access.VerifyInputType'(
 		input.objectPath,
 		input.negativeChar,
 		input.expectedChar
@@ -72,4 +72,4 @@ CustomKeywords.'custom.Select_Keyword.SelectDropdown'('Admin/Pengaturan Kelompok
 //
 //WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_OK'))
 
-CustomKeywords.'custom.login_keyword.UserLogout'()
+CustomKeywords.'custom.Access.UserLogout'()

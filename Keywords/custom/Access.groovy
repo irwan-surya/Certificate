@@ -66,7 +66,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import CustomKeywords
 
 
-class login_keyword {
+class Access {
 	/**
 	 * Refresh browser
 	 */
@@ -144,7 +144,7 @@ class login_keyword {
 
 	@Keyword
 	def UserLogout() {
-		CustomKeywords.'custom.login_keyword.hoverOverRoundIcon'()
+		CustomKeywords.'custom.Access.hoverOverRoundIcon'()
 
 		String js = '''
   [...document.querySelectorAll('.css-b63xf')]

@@ -26,7 +26,7 @@ import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
+CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_PROD_MULTIE1,
 	GlobalVariable.UserID_PROD_Admin2,
 	GlobalVariable.Pass_Prod_MULTIE1,
@@ -66,12 +66,12 @@ for (WebElement row : rows) {
 // Branch to the correct test case
 if (matchFound) {
 	WebUI.comment("Found row with 'Edit Group' and 'Waiting for Approval'. Start validate popup.")
-	CustomKeywords.'custom.login_keyword.UserLogout'()
+	CustomKeywords.'custom.Access.UserLogout'()
 	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Edit Grup - validate popup pending task'), [:], FailureHandling.STOP_ON_FAILURE)
 	
 } else {
 	WebUI.comment("No matching row found. Start edit group and validate popup.")
-	CustomKeywords.'custom.login_keyword.UserLogout'()
+	CustomKeywords.'custom.Access.UserLogout'()
 	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Edit Grup'), [:], FailureHandling.STOP_ON_FAILURE)
 	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Edit Grup - validate popup pending task'), [:], FailureHandling.STOP_ON_FAILURE)
 }

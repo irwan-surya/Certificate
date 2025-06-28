@@ -20,7 +20,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import org.openqa.selenium.WebElement
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
+CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_PROD_MULTIE1,
 	GlobalVariable.UserID_PROD_Admin2,
 	GlobalVariable.Pass_Prod_MULTIE1,
@@ -49,14 +49,14 @@ for (WebElement el : statusElements) {
 
 if (waitingExists) {
 	WebUI.comment("✅ Found 'Waiting for Approval'. Calling Test Case A...")
-	CustomKeywords.'custom.login_keyword.UserLogout'()
+	CustomKeywords.'custom.Access.UserLogout'()
 	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Reject task'), [:], FailureHandling.STOP_ON_FAILURE)
 	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Add new Grup - Validate duplicate grup name'), [:], FailureHandling.STOP_ON_FAILURE)
 	
 
 } else {
 	WebUI.comment("❌ 'Waiting for Approval' not found. Calling Test Case B...")
-	CustomKeywords.'custom.login_keyword.UserLogout'()
+	CustomKeywords.'custom.Access.UserLogout'()
 	WebUI.callTestCase(findTestCase('Test Cases/Admin/Pengelompokan Rekening/Add new Grup - Validate duplicate grup name'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 

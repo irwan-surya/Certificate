@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.testobject.ResponseObject
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
+CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_PROD_SINGLEC1, 
 	GlobalVariable.UserID_PROD_SINGLEC1, 
 	GlobalVariable.Pass_Prod_SINGLEC1,
@@ -46,7 +46,7 @@ CustomKeywords.'custom.helper.Screenshoot'()
 
 //WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/p_3 Bulan'))
 
-CustomKeywords.'custom.login_keyword.UserLogout'()
+CustomKeywords.'custom.Access.UserLogout'()
 
 CustomKeywords.'custom.helper.Screenshoot'()
 

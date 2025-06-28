@@ -17,7 +17,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import custom.login_keyword
+import custom.Access
 
 
 import internal.GlobalVariable
@@ -26,21 +26,31 @@ public class PROD {
 
 	@Keyword
 	SINGLEC1(){
-		login_keyword.UserLogin(
+		Access.UserLogin(
 				GlobalVariable.CorpID_PROD_SINGLEC1,
 				GlobalVariable.UserID_PROD_SINGLEC1,
 				GlobalVariable.Pass_Prod_SINGLEC1,
 				GlobalVariable.Prod_URL
 				)
 	}
-	
+
 	@Keyword
-	MULTIE1Admin1(){
-		login_keyword.UserLogin(
-			GlobalVariable.CorpID_PROD_MULTIE1,
-			GlobalVariable.UserID_PROD_Admin1,
-			GlobalVariable.Pass_Prod_MULTIE1,
-			GlobalVariable.Prod_URL
-			)
+	MULTIE1_Admin1(){
+		Access.UserLogin(
+				GlobalVariable.CorpID_PROD_MULTIE1,
+				GlobalVariable.UserID_PROD_Admin1,
+				GlobalVariable.Pass_Prod_MULTIE1,
+				GlobalVariable.Prod_URL
+				)
+	}
+
+	@Keyword
+	MULTIE1_Admin2(){
+		Access.UserLogin(
+				GlobalVariable.CorpID_PROD_MULTIE1,
+				GlobalVariable.UserID_PROD_Admin2,
+				GlobalVariable.Pass_Prod_MULTIE1,
+				GlobalVariable.Prod_URL
+				)
 	}
 }

@@ -18,7 +18,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'custom.login_keyword.UserLogin'(GlobalVariable.CorpID_PROD_MULTIE1, GlobalVariable.UserID_PROD_Admin1, GlobalVariable.Pass_Prod_MULTIE1, 
+CustomKeywords.'custom.Access.UserLogin'(GlobalVariable.CorpID_PROD_MULTIE1, GlobalVariable.UserID_PROD_Admin1, GlobalVariable.Pass_Prod_MULTIE1, 
     GlobalVariable.Prod_URL)
 
 WebUI.maximizeWindow()
@@ -55,6 +55,6 @@ WebUI.verifyElementText(findTestObject('Admin/Pengaturan Pengguna/Admin1/text/te
 
 WebUI.click(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/button_OK'))
 
-CustomKeywords.'custom.login_keyword.UserLogout'()
+CustomKeywords.'custom.Access.UserLogout'()
 
 

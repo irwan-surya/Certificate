@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
+CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_PROD_MULTIE1,
 	GlobalVariable.UserID_PROD_Maker_makerRiza,
 	GlobalVariable.Pass_Prod_MULTIE1,
@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Nasabah/Transfer/Pindah Dana/menu_Pindah Dana'))
 
 CustomKeywords.'custom.account.selectAccountWithSmallestBalance'()
 
-CustomKeywords.'custom.login_keyword.UserLogout'()
+CustomKeywords.'custom.Access.UserLogout'()
 
 
 

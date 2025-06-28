@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'custom.helper.setDestinationFolder'('/Users/irwan/Documents/screenshots/Pembayaran/Pegadaian - Mikro')
 
-//CustomKeywords.'custom.login_keyword.UserLogin'(
+//CustomKeywords.'custom.Access.UserLogin'(
 //	GlobalVariable.CorpID_PROD_SINGLEC1,
 //	GlobalVariable.UserID_PROD_SINGLEC1,
 //	GlobalVariable.Pass_Prod_SINGLEC1,
@@ -49,17 +49,13 @@ WebUI.sendKeys(findTestObject('Nasabah/Pembayaran/Pegadaian/input_no kredit'), '
 
 CustomKeywords.'custom.helper.Screenshoot'()
 
-//WebUI.sendKeys(findTestObject('Nasabah/Pembayaran/Pegadaian/input_nominal'), '25000000')
-//
-//CustomKeywords.'custom.helper.Screenshoot'()
-
 WebUI.click(findTestObject('Nasabah/Pembayaran/Pegadaian/button_Selanjutnya'))
 
 CustomKeywords.'custom.helper.Screenshoot'()
 
 WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_OK'))
 
-CustomKeywords.'custom.login_keyword.UserLogout'()
+CustomKeywords.'custom.Access.UserLogout'()
 
 WebUI.closeBrowser()
 

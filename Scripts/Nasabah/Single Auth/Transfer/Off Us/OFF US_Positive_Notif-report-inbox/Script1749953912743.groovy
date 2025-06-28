@@ -25,7 +25,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
+CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_PROD_SINGLEC1, 
 	GlobalVariable.UserID_PROD_SINGLEC1, 
 	GlobalVariable.Pass_Prod_SINGLEC1,
@@ -107,7 +107,7 @@ fields.each { key, label ->
 }
 
 //logout
-CustomKeywords.'custom.login_keyword.UserLogout'()
+CustomKeywords.'custom.Access.UserLogout'()
 WebUI.closeBrowser()
 
 
