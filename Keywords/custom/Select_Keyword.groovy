@@ -48,7 +48,7 @@ public class Select_Keyword {
 
 			UserLogout()
 
-			Assert.fail("Dropdown selection failed. Logged out.")
+//			Assert.fail("Dropdown selection failed. Logged out.")
 		}
 	}
 

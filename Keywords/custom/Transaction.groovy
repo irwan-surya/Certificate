@@ -102,6 +102,81 @@ public class Transaction {
 		return ""
 	}
 
+
+	@Keyword
+	def String extractTransactionDateTime(String containerCssSelector) {
+		WebElement container = DriverFactory.getWebDriver().findElement(By.cssSelector(containerCssSelector))
+		List<WebElement> paragraphs = container.findElements(By.tagName("p"))
+
+		if (paragraphs.size() >= 3) {
+			String fullText = paragraphs[2].getText().trim()
+
+			// Expecting format like "13/06/2025 | 8:04:05"
+			String[] parts = fullText.split("\\|")
+			if (parts.length == 2) {
+				String rawDate = parts[0].trim()   // 13/06/2025
+				String rawTime = parts[1].trim()   // 8:04:05 or 1:4:5
+
+				try {
+					// Format the date part
+					SimpleDateFormat inputDateFormat = new SimpleDateFormat("dd/MM/yyyy")
+					SimpleDateFormat outputDateFormat = new SimpleDateFormat("dd MMM yyyy")
+					String formattedDate = outputDateFormat.format(inputDateFormat.parse(rawDate))
+
+					// Normalize and pad the time
+					String[] timeParts = rawTime.split(":")
+					if (timeParts.length == 3) {
+						String hour = timeParts[0].padLeft(2, '0')
+						String minute = timeParts[1].padLeft(2, '0')
+						String second = timeParts[2].padLeft(2, '0')
+						String paddedTime = "${hour}:${minute}:${second}"
+
+						String finalDateTime = "${formattedDate} ${paddedTime}"
+						KeywordUtil.logInfo("📅 Extracted Formatted DateTime: ${finalDateTime}")
+						println "📅 Extracted Formatted DateTime: ${finalDateTime}"
+						return finalDateTime
+					} else {
+						KeywordUtil.logInfo("⚠️ Time format is invalid: ${rawTime}")
+					}
+				} catch (Exception e) {
+					KeywordUtil.logInfo("❌ Date parsing error: ${e.message}")
+				}
+			}
+		}
+
+		KeywordUtil.logInfo("⚠️ Failed to extract or format date/time from: ${containerCssSelector}")
+		return ""
+	}
+
+	@Keyword
+	def void verifyAnyTransactionDateMatches(String dateCssSelector, String expectedDate) {
+		try {
+			List<WebElement> dateElements = DriverFactory.getWebDriver().findElements(By.cssSelector(dateCssSelector))
+
+			KeywordUtil.logInfo("🔍 Total elements found with selector '${dateCssSelector}': ${dateElements.size()}")
+
+			boolean isMatchFound = false
+
+			for (WebElement dateElement : dateElements) {
+				String actualDate = dateElement.getText().trim()
+				KeywordUtil.logInfo("📅 Found date: ${actualDate}")
+
+				if (actualDate == expectedDate) {
+					KeywordUtil.markPassed("✅ Match found: ${actualDate}")
+					isMatchFound = true
+					break
+				}
+			}
+
+			if (!isMatchFound) {
+				KeywordUtil.markFailed("❌ No match found for expected date: ${expectedDate}")
+			}
+		} catch (Exception e) {
+			KeywordUtil.markFailed("❌ Exception occurred during date verification: ${e.message}")
+		}
+	}
+
+
 	@Keyword
 	def searchReferenceWithProgressiveFilter(String referenceText) {
 		WebDriver driver = DriverFactory.getWebDriver()
@@ -253,49 +328,5 @@ public class Transaction {
 		}
 
 		throw new Exception("❌ Clickable date '${expectedAriaLabel}' not found in date picker.")
-	}
-
-
-	/**
-	 * Clicks on the first menu item that matches the given title and date using TestObject-based XPath
-	 */
-	@Keyword
-	def clickMenuItem(String expectedTitle, String expectedDate) {
-		int index = 1
-		while (true) {
-			// XPath to match list item at position i
-			String baseXPath = "(//li[@role='menuitem'])[$index]"
-
-			// XPath for the title and date within that list item
-			String titleXPath = baseXPath + "//p[contains(@class,'400') and contains(text(),'" + expectedTitle + "')]"
-			String dateXPath = baseXPath + "//p[contains(@class,'detail') and normalize-space(text())='" + expectedDate + "']"
-
-			TestObject titleObj = createTestObject(titleXPath)
-			TestObject dateObj = createTestObject(dateXPath)
-			TestObject itemToClick = createTestObject(baseXPath)
-
-			// Break the loop if no more items
-			if (!WebUI.verifyElementPresent(itemToClick, 1, FailureHandling.OPTIONAL)) {
-				WebUI.comment("❌ No matching menu item found with title '${expectedTitle}' and date '${expectedDate}'")
-				throw new StepFailedException("Matching item not found.")
-			}
-
-			// Check if both title and date match
-			if (WebUI.verifyElementPresent(titleObj, 1, FailureHandling.OPTIONAL) &&
-					WebUI.verifyElementPresent(dateObj, 1, FailureHandling.OPTIONAL)) {
-
-				WebUI.click(itemToClick)
-				WebUI.comment("✅ Clicked menu item #$index with title '$expectedTitle' and date '$expectedDate'")
-				return
-			}
-			index++
-		}
-	}
-
-	// Utility to create TestObject from XPath
-	private TestObject createTestObject(String xpath) {
-		TestObject to = new TestObject()
-		to.addProperty("xpath", ConditionType.EQUALS, xpath)
-		return to
 	}
 }

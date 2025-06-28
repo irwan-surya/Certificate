@@ -17,36 +17,49 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.testobject.ResponseObject
+CustomKeywords.'custom.helper.setDestinationFolder'('/Users/irwan/Documents/screenshots/Pembayaran/Pegadaian - Mikro')
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
-	GlobalVariable.CorpID_PROD_SINGLEC1, 
-	GlobalVariable.UserID_PROD_SINGLEC1, 
-	GlobalVariable.Pass_Prod_SINGLEC1,
-	GlobalVariable.Prod_URL)
+//CustomKeywords.'custom.login_keyword.UserLogin'(
+//	GlobalVariable.CorpID_PROD_SINGLEC1,
+//	GlobalVariable.UserID_PROD_SINGLEC1,
+//	GlobalVariable.Pass_Prod_SINGLEC1,
+//	GlobalVariable.Prod_URL)
 
-CustomKeywords.'custom.helper.setDestinationFolder'('/Users/irwan/Documents/screenshots/Inbox')
+CustomKeywords.'credential.PROD.SINGLEC1'()
 
-CustomKeywords.'custom.helper.Screenshoot'()
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Nasabah/Kotak Masuk/sidebar_Layanan Nasabah'))
+//CustomKeywords.'custom.helper.Screenshoot'()
 
-CustomKeywords.'custom.helper.Screenshoot'()
-
-WebUI.click(findTestObject('Nasabah/Kotak Masuk/div_Kotak Masuk'))
+WebUI.click(findTestObject('Nasabah/Pembayaran/sidebar_Pembayaran'))
 
 CustomKeywords.'custom.helper.Screenshoot'()
 
-//WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/div_1 Bulan'))
+WebUI.click(findTestObject('Nasabah/Pembayaran/Pegadaian/menu_Pegadaian'))
+
+CustomKeywords.'custom.helper.Screenshoot'()
+
+WebUI.click(findTestObject('Nasabah/Pembayaran/Pegadaian/dropdown_Pilih Institusi'))
+
+CustomKeywords.'object.dropdown.pegadaian'('Pegadaian Mikro')
+  
+ CustomKeywords.'custom.helper.Screenshoot'()
+
+WebUI.sendKeys(findTestObject('Nasabah/Pembayaran/Pegadaian/input_no kredit'), '25000000')
+
+CustomKeywords.'custom.helper.Screenshoot'()
+
+//WebUI.sendKeys(findTestObject('Nasabah/Pembayaran/Pegadaian/input_nominal'), '25000000')
 //
-////WebUI.mouseOver(findTestObject('Nasabah/Kotak Masuk/Waktu/div_3 Bulanv2'))
-//
-//WebUI.sendKeys(null,'3')
+//CustomKeywords.'custom.helper.Screenshoot'()
 
-//WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/p_3 Bulan'))
+WebUI.click(findTestObject('Nasabah/Pembayaran/Pegadaian/button_Selanjutnya'))
+
+CustomKeywords.'custom.helper.Screenshoot'()
+
+WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_OK'))
 
 CustomKeywords.'custom.login_keyword.UserLogout'()
 
-CustomKeywords.'custom.helper.Screenshoot'()
+WebUI.closeBrowser()
 

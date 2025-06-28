@@ -90,23 +90,23 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'SINGLEC1'</initValue>
+      <initValue>''</initValue>
       <name>CorpID_PROD_SINGLEC1</name>
-      <protected>false</protected>
+      <protected>true</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'SINGLEC01'</initValue>
+      <initValue>''</initValue>
       <name>UserID_PROD_SINGLEC1</name>
-      <protected>false</protected>
+      <protected>true</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Johndev1!!'</initValue>
+      <initValue>''</initValue>
       <name>Pass_Prod_SINGLEC1</name>
-      <protected>false</protected>
+      <protected>true</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -120,5 +120,51 @@
       <initValue>[:]</initValue>
       <name>transactionDate</name>
       <protected>false</protected>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[:]</initValue>
+      <name>transactionDateFull</name>
+      <protected>false</protected>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[:]</initValue>
+      <name>TransactionDateOnly</name>
+      <protected>false</protected>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[:]</initValue>
+      <name>transactionType</name>
+      <protected>false</protected>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://ibbisnis-uat.btn.co.id/login'</initValue>
+      <name>UAT_Url</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ngakak'</initValue>
+      <name>CorpID_UAT_Ngakak</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ngakak'</initValue>
+      <name>UserID_UAT_Ngakak</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Johndev1!'</initValue>
+      <name>Pass_UAT_Ngakak</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -134,7 +134,7 @@ class login_keyword {
 	}
 
 	@Keyword
-	def UserLogin(corpid,userid,pass,url) {
+	static def UserLogin(String corpid,String userid,String pass,String url) {
 		WebUI.openBrowser(url)
 		WebUI.sendKeys(findTestObject('Login/input_CorpID'),corpid)
 		WebUI.sendKeys(findTestObject('Login/input_userID'),userid)

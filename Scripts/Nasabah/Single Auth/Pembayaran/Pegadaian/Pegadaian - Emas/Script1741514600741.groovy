@@ -17,36 +17,47 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.testobject.ResponseObject
+CustomKeywords.'custom.helper.setDestinationFolder'('/Users/irwan/Documents/screenshots/Pembayaran/Pegadaian - Emas')
 
 CustomKeywords.'custom.login_keyword.UserLogin'(
-	GlobalVariable.CorpID_PROD_SINGLEC1, 
-	GlobalVariable.UserID_PROD_SINGLEC1, 
+	GlobalVariable.CorpID_PROD_SINGLEC1,
+	GlobalVariable.UserID_PROD_SINGLEC1,
 	GlobalVariable.Pass_Prod_SINGLEC1,
 	GlobalVariable.Prod_URL)
 
-CustomKeywords.'custom.helper.setDestinationFolder'('/Users/irwan/Documents/screenshots/Inbox')
+WebUI.maximizeWindow()
+
+//CustomKeywords.'custom.helper.Screenshoot'()
+
+WebUI.click(findTestObject('Nasabah/Pembayaran/sidebar_Pembayaran'))
 
 CustomKeywords.'custom.helper.Screenshoot'()
 
-WebUI.click(findTestObject('Nasabah/Kotak Masuk/sidebar_Layanan Nasabah'))
+WebUI.click(findTestObject('Nasabah/Pembayaran/Pegadaian/menu_Pegadaian'))
 
 CustomKeywords.'custom.helper.Screenshoot'()
 
-WebUI.click(findTestObject('Nasabah/Kotak Masuk/div_Kotak Masuk'))
+WebUI.click(findTestObject('Nasabah/Pembayaran/Pegadaian/dropdown_Pilih Institusi'))
+
+CustomKeywords.'object.dropdown.pegadaian'('Pegadaian Emas')
+  
+ CustomKeywords.'custom.helper.Screenshoot'()
+
+WebUI.sendKeys(findTestObject('Nasabah/Pembayaran/Pegadaian/input_no kredit'), '25000000')
 
 CustomKeywords.'custom.helper.Screenshoot'()
 
-//WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/div_1 Bulan'))
-//
-////WebUI.mouseOver(findTestObject('Nasabah/Kotak Masuk/Waktu/div_3 Bulanv2'))
-//
-//WebUI.sendKeys(null,'3')
+WebUI.sendKeys(findTestObject('Nasabah/Pembayaran/Pegadaian/input_nominal emas'), '25000000')
 
-//WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/p_3 Bulan'))
+CustomKeywords.'custom.helper.Screenshoot'()
+
+WebUI.click(findTestObject('Nasabah/Pembayaran/Pegadaian/button_Selanjutnya'))
+
+CustomKeywords.'custom.helper.Screenshoot'()
+
+WebUI.click(findTestObject('Admin/Pengaturan Kelompok/Admin1/button_OK'))
 
 CustomKeywords.'custom.login_keyword.UserLogout'()
 
-CustomKeywords.'custom.helper.Screenshoot'()
+WebUI.closeBrowser()
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Amal</name>
+   <name>Pegadaian - Emas</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>536fcd04-9e1e-497e-be4c-6ff77c79d607</testCaseGuid>
+   <testCaseGuid>b85b5e20-bfcf-4a97-a846-b6682318b2b4</testCaseGuid>
 </TestCaseEntity>

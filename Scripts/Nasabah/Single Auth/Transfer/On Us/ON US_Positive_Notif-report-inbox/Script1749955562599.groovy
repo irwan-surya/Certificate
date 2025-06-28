@@ -34,22 +34,41 @@ CustomKeywords.'custom.login_keyword.UserLogin'(
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Nasabah/Notif/button_Notif'))
+WebUI.executeJavaScript("document.body.style.zoom='80%'", null)
 
-CustomKeywords.'custom.Transaction.clickMenuItem'("Transfer Sesama BTN", "11/04/2025")
+
+def TransactionDateOnly = "11/04/2025"
+def transactionType = "Transfer Sesama BTN"
+def transactionTypeReport = "Sesama BTN"
+
+CustomKeywords.'custom.Notif.clickMenuItem'(transactionType, TransactionDateOnly)
+
+GlobalVariable.TransactionDateOnly = TransactionDateOnly
+GlobalVariable.transactionType = transactionType
+//GlobalVariable.transactionType['report'] = transactionTypeReport
+GlobalVariable.transactionType = [:] // create empty map
+GlobalVariable.transactionType['report'] = transactionTypeReport
+
 
 def transactionData = CustomKeywords.'custom.Transaction.extractTransactionDetails'('.css-1putcy6','.css-1b2apei')
 
 def transactionDate = CustomKeywords.'custom.Transaction.extractTransactionDate'('.css-wtrezf')
 
+def transactionDateFull = CustomKeywords.'custom.Transaction.extractTransactionDateTime'('.css-wtrezf')
+
 // store data to global variable
 GlobalVariable.transactionData = transactionData
 GlobalVariable.transactionDate = transactionDate
+GlobalVariable.transactionDateFull = transactionDateFull
 
 KeywordUtil.logInfo(GlobalVariable.transactionDate)
+KeywordUtil.logInfo(GlobalVariable.transactionDateFull)
 
 WebUI.click(findTestObject('Nasabah/Laporan/sidebar_Laporan'))
 
 WebUI.click(findTestObject('Nasabah/Laporan/submenu_Financial'))
+
+WebUI.executeJavaScript("document.body.style.zoom='80%'", null)
 
 WebUI.click(findTestObject('Nasabah/Laporan/input_datepicker start'))
 
@@ -60,6 +79,11 @@ WebUI.click(findTestObject('Nasabah/Laporan/input_datepicker end'))
 CustomKeywords.'custom.Transaction.clickDateFromGlobalVariable'()
 
 WebUI.click(findTestObject('Nasabah/Laporan/button_Terapkan'))
+
+CustomKeywords.'custom.Report.verifyAnyTransactionDateMatches'('.css-163owz0')
+
+CustomKeywords.'custom.Report.extractAndValidateTransactionDetails'('div.css-mhyr6s')
+
 
 // verifikasi di halaman inbox
 WebUI.click(findTestObject('Nasabah/Kotak Masuk/sidebar_Layanan Nasabah'))
