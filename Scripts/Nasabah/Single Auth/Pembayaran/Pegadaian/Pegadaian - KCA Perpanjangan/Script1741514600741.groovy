@@ -19,15 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'custom.helper.setDestinationFolder'('/Users/irwan/Documents/screenshots/Pembayaran/Pegadaian - KCA Perpanjangan')
 
-CustomKeywords.'custom.Access.UserLogin'(
-	GlobalVariable.CorpID_PROD_SINGLEC1,
-	GlobalVariable.UserID_PROD_SINGLEC1,
-	GlobalVariable.Pass_Prod_SINGLEC1,
-	GlobalVariable.Prod_URL)
+CustomKeywords.'credential.PROD.SINGLEC1'()
 
 WebUI.maximizeWindow()
-
-//CustomKeywords.'custom.helper.Screenshoot'()
 
 WebUI.click(findTestObject('Nasabah/Pembayaran/sidebar_Pembayaran'))
 
@@ -46,10 +40,6 @@ CustomKeywords.'object.dropdown.pegadaian'('KCA Perpanjangan')
 WebUI.sendKeys(findTestObject('Nasabah/Pembayaran/Pegadaian/input_no kredit'), '25000000')
 
 CustomKeywords.'custom.helper.Screenshoot'()
-
-//WebUI.sendKeys(findTestObject('Nasabah/Pembayaran/Pegadaian/input_nominal'), '25000000')
-//
-//CustomKeywords.'custom.helper.Screenshoot'()
 
 WebUI.click(findTestObject('Nasabah/Pembayaran/Pegadaian/button_Selanjutnya'))
 

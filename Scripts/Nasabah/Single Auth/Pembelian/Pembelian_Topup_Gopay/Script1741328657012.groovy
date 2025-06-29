@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'custom.Access.UserLogin'(
-	GlobalVariable.CorpID_UAT_Ngakak, 
-	GlobalVariable.UserID_UAT_Ngakak, 
-	GlobalVariable.Pass_UAT_cantiks,
-	GlobalVariable.UAT_Url)
+CustomKeywords.'credential.UAT.Ngakak'()
 
 WebUI.maximizeWindow()
 

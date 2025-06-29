@@ -19,15 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'custom.helper.setDestinationFolder'('/Users/irwan/Documents/screenshots/Pembayaran/Pegadaian - KCA Cicilan')
 
-CustomKeywords.'custom.Access.UserLogin'(
-	GlobalVariable.CorpID_PROD_SINGLEC1,
-	GlobalVariable.UserID_PROD_SINGLEC1,
-	GlobalVariable.Pass_Prod_SINGLEC1,
-	GlobalVariable.Prod_URL)
+CustomKeywords.'credential.PROD.SINGLEC1'()
 
 WebUI.maximizeWindow()
-
-//CustomKeywords.'custom.helper.Screenshoot'()
 
 WebUI.click(findTestObject('Nasabah/Pembayaran/sidebar_Pembayaran'))
 

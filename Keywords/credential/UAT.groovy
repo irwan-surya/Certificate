@@ -32,7 +32,7 @@ public class UAT {
 				GlobalVariable.UAT_Url
 				)
 	}
-	
+
 	@Keyword
 	cantiks(){
 		Access.UserLogin(
@@ -42,31 +42,31 @@ public class UAT {
 				GlobalVariable.UAT_Url
 				)
 	}
-	
+
 	@Keyword
 	manualir1_maker(){
 		Access.UserLogin(
-			GlobalVariable.CorpID_UAT_manualir1,
-			GlobalVariable.UserID_UAT_manualir1_Maker,
-			GlobalVariable.Pass_UAT_manualir1,
-			GlobalVariable.UAT_Url)
+				GlobalVariable.CorpID_UAT_manualir1,
+				GlobalVariable.UserID_UAT_manualir1_Maker,
+				GlobalVariable.Pass_UAT_manualir1,
+				GlobalVariable.UAT_Url)
 	}
-	
+
 	@Keyword
 	manualir1_approver(){
 		Access.UserLogin(
-			GlobalVariable.CorpID_UAT_manualir1,
-			GlobalVariable.UserID_UAT_manualir1_Approver,
-			GlobalVariable.Pass_UAT_manualir1,
-			GlobalVariable.UAT_Url)
+				GlobalVariable.CorpID_UAT_manualir1,
+				GlobalVariable.UserID_UAT_manualir1_Approver,
+				GlobalVariable.Pass_UAT_manualir1,
+				GlobalVariable.UAT_Url)
 	}
-	
+
 	@Keyword
 	manualir1_releaser(){
 		Access.UserLogin(
-			GlobalVariable.CorpID_UAT_manualir1,
-			GlobalVariable.UserID_UAT_manualir1_Releaser,
-			GlobalVariable.Pass_UAT_manualir1,
-			GlobalVariable.UAT_Url)
+				GlobalVariable.CorpID_UAT_manualir1,
+				GlobalVariable.UserID_UAT_manualir1_Releaser,
+				GlobalVariable.Pass_UAT_manualir1,
+				GlobalVariable.UAT_Url)
 	}
 }
