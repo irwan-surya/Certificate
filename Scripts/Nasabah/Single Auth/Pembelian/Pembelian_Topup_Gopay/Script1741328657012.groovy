@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_UAT_Ngakak, 
 	GlobalVariable.UserID_UAT_Ngakak, 
-	GlobalVariable.Pass_UAT_Ngakak,
+	GlobalVariable.Pass_UAT_cantiks,
 	GlobalVariable.UAT_Url)
 
 WebUI.maximizeWindow()

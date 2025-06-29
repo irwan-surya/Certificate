@@ -22,14 +22,51 @@ import custom.Access
 import internal.GlobalVariable
 
 public class UAT {
-	
+
 	@Keyword
 	Ngakak(){
 		Access.UserLogin(
-			GlobalVariable.CorpID_UAT_Ngakak,
-			GlobalVariable.UserID_UAT_Ngakak,
-			GlobalVariable.Pass_UAT_Ngakak,
-			GlobalVariable.UAT_Url
-			)
+				GlobalVariable.CorpID_UAT_Ngakak,
+				GlobalVariable.UserID_UAT_Ngakak,
+				GlobalVariable.Pass_UAT_Ngakak,
+				GlobalVariable.UAT_Url
+				)
+	}
+	
+	@Keyword
+	cantiks(){
+		Access.UserLogin(
+				GlobalVariable.CorpID_UAT_cantiks,
+				GlobalVariable.UserID_UAT_cantiks,
+				GlobalVariable.Pass_UAT_cantiks,
+				GlobalVariable.UAT_Url
+				)
+	}
+	
+	@Keyword
+	manualir1_maker(){
+		Access.UserLogin(
+			GlobalVariable.CorpID_UAT_manualir1,
+			GlobalVariable.UserID_UAT_manualir1_Maker,
+			GlobalVariable.Pass_UAT_manualir1,
+			GlobalVariable.UAT_Url)
+	}
+	
+	@Keyword
+	manualir1_approver(){
+		Access.UserLogin(
+			GlobalVariable.CorpID_UAT_manualir1,
+			GlobalVariable.UserID_UAT_manualir1_Approver,
+			GlobalVariable.Pass_UAT_manualir1,
+			GlobalVariable.UAT_Url)
+	}
+	
+	@Keyword
+	manualir1_releaser(){
+		Access.UserLogin(
+			GlobalVariable.CorpID_UAT_manualir1,
+			GlobalVariable.UserID_UAT_manualir1_Releaser,
+			GlobalVariable.Pass_UAT_manualir1,
+			GlobalVariable.UAT_Url)
 	}
 }
