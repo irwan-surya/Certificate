@@ -67,4 +67,4 @@ CustomKeywords.'custom.Access.InputSoftToken'()
 
 CustomKeywords.'custom.Access.UserLogout'()
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
