@@ -161,4 +161,20 @@ class Access {
 		WebUI.waitForElementVisible(icon, 10)
 		WebUI.mouseOver(icon)
 	}
+	
+	@Keyword
+	def InputSoftToken() {
+		def input = [
+			[object : 'Nasabah/Soft_Token/input_digit 1',input : '1'],
+			[object : 'Nasabah/Soft_Token/input_digit 2',input : '2'],
+			[object : 'Nasabah/Soft_Token/input_digit 3',input : '3'],
+			[object : 'Nasabah/Soft_Token/input_digit 4',input : '4'],
+			[object : 'Nasabah/Soft_Token/input_digit 5',input : '5'],
+			[object : 'Nasabah/Soft_Token/input_digit 6',input : '6']]
+			
+		for (def select : input) {
+			WebUI.sendKeys(findTestObject(select.object), select.input)
+		}
+		
+	}
 }
