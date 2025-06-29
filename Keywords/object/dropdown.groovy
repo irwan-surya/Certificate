@@ -20,7 +20,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class dropdown {
+public class dropdown{
 
 	@Keyword
 	def pegadaian(String option) {
@@ -28,6 +28,25 @@ public class dropdown {
 		String script = """
 				  [...document.querySelectorAll('.css-1f3xush')].find(el => el.textContent.trim() === '${option}').click();
 				"""
+		WebUI.executeJavaScript(script, null)
+	}
+	
+	@Keyword
+	def amal(String option) {
+		String script = """
+				  [...document.querySelectorAll('.css-1f3xush')].find(el => el.textContent.trim() === '${option}').click();
+				"""
+  WebUI.executeJavaScript(script, null)
+	}
+	
+	@Keyword
+	def Nominal(String option) {
+		String script = """
+		[...document.querySelectorAll('.css-1f3xush')].find(el => {
+			const numberText = el.textContent.replace(/\\D/g, '');
+			return numberText === '${option}';
+		})?.click();
+	"""
 		WebUI.executeJavaScript(script, null)
 	}
 }
