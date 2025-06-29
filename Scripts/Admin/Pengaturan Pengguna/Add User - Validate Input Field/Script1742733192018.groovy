@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'custom.login_keyword.UserLogin'(GlobalVariable.CorpID_PROD_MULTIE1, GlobalVariable.UserID_PROD_Admin1, GlobalVariable.Pass_Prod_MULTIE1,
+CustomKeywords.'custom.Access.UserLogin'(GlobalVariable.CorpID_PROD_MULTIE1, GlobalVariable.UserID_PROD_Admin1, GlobalVariable.Pass_Prod_MULTIE1,
 	GlobalVariable.Prod_URL)
 
 WebUI.click(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/Sidebar_Pengaturan Pengguna'))
@@ -40,14 +40,14 @@ def field = [
 
 for (def input : field) {
 
-	CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+	CustomKeywords.'custom.Access.VerifyInputLength'(
 		input.objectPath,
 		input.negativeLength,
 		input.expectedLength
 	)
 	CustomKeywords.'custom.Select_Keyword.ClearField'(input.objectPath)
 
-	CustomKeywords.'custom.login_keyword.VerifyInputType'(
+	CustomKeywords.'custom.Access.VerifyInputType'(
 		input.objectPath,
 		input.negativeChar,
 		input.expectedChar
@@ -65,4 +65,4 @@ WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin
 
 WebUI.sendKeys(findTestObject('Object Repository/Admin/Pengaturan Pengguna/Admin1/input_No HP'),HP)
 
-CustomKeywords.'custom.login_keyword.UserLogout'()
+CustomKeywords.'custom.Access.UserLogout'()

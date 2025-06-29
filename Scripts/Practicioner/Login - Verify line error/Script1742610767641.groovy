@@ -20,15 +20,15 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser(GlobalVariable.Prod_URL)
 
 //WebUI.acceptAlert()
-CustomKeywords.'custom.login_keyword.VerifyLineError'('Login/input_CorpID', 'ID Perusahaan wajib diisi', 'Login/txt_ID Perusahaan wajib diisi')
+CustomKeywords.'custom.Access.VerifyLineError'('Login/input_CorpID', 'ID Perusahaan wajib diisi', 'Login/txt_ID Perusahaan wajib diisi')
 
 WebUI.sendKeys(findTestObject('Login/input_CorpID'), 'MULTIE1')
 
-CustomKeywords.'custom.login_keyword.VerifyLineError'('Login/input_userID', 'ID Pengguna wajib diisi', 'Login/txt_ID Pengguna wajib diisi')
+CustomKeywords.'custom.Access.VerifyLineError'('Login/input_userID', 'ID Pengguna wajib diisi', 'Login/txt_ID Pengguna wajib diisi')
 
 WebUI.sendKeys(findTestObject('Login/input_userID'), 'Admin1')
 
-CustomKeywords.'custom.login_keyword.VerifyLineError'('Login/input_password', 'Kata sandi wajib diisi', 'Login/txt_Kata sandi wajib diisi')
+CustomKeywords.'custom.Access.VerifyLineError'('Login/input_password', 'Kata sandi wajib diisi', 'Login/txt_Kata sandi wajib diisi')
 
 WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
 

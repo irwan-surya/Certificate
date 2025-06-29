@@ -17,19 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
+CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_PROD_MULTIE1,
 	GlobalVariable.UserID_PROD_Admin1,
 	GlobalVariable.Pass_Prod_MULTIE1,
 	GlobalVariable.Prod_URL)
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Admin/Sidebar_Pengaturan Rekening'))
 
 WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Submenu_Pengelompokan Rekening'))
 
-WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_multiMenu_1'))
+WebUI.click(findTestObject('Object Repository/Admin/Pengelompokan Rekening/Admin1/svg_multimenuv2'))
 
 WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/svg_Edit Kelompok'))
+
+CustomKeywords.'custom.Select_Keyword.ClearField'('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok')
 
 WebUI.sendKeys(findTestObject('Admin/Pengelompokan Rekening/Admin1/input_Nama Kelompok'), ' Edit')
 
@@ -37,5 +41,7 @@ WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_Simpan'))
 
 WebUI.click(findTestObject('Admin/Pengelompokan Rekening/Admin1/button_OK waiting approval'))
 
-CustomKeywords.'custom.login_keyword.UserLogout'()
+CustomKeywords.'custom.Access.UserLogout'() 
+
+WebUI.closeBrowser()
 

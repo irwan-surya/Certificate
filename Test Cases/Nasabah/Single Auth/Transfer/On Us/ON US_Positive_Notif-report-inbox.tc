@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ON US_Positive_Notif-report-inbox</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f18b69e-3e39-4ede-8114-38bed37e6e37</testCaseGuid>
+</TestCaseEntity>

@@ -20,13 +20,33 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.testobject.ResponseObject
 
-WebUI.openBrowser(GlobalVariable.Prod_URL)
+CustomKeywords.'custom.Access.UserLogin'(
+	GlobalVariable.CorpID_PROD_SINGLEC1, 
+	GlobalVariable.UserID_PROD_SINGLEC1, 
+	GlobalVariable.Pass_Prod_SINGLEC1,
+	GlobalVariable.Prod_URL)
 
-WebUI.sendKeys(findTestObject('Login/input_CorpID'), 'MULTIE1')
+CustomKeywords.'custom.helper.setDestinationFolder'('/Users/irwan/Documents/screenshots/Inbox')
 
-WebUI.sendKeys(findTestObject('Login/input_userID'), 'Admin1')
+CustomKeywords.'custom.helper.Screenshoot'()
 
-WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev1!!')
+WebUI.click(findTestObject('Nasabah/Kotak Masuk/sidebar_Layanan Nasabah'))
 
-WebUI.click(findTestObject('Object Repository/Login/button_Login'))
+CustomKeywords.'custom.helper.Screenshoot'()
+
+WebUI.click(findTestObject('Nasabah/Kotak Masuk/div_Kotak Masuk'))
+
+CustomKeywords.'custom.helper.Screenshoot'()
+
+//WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/div_1 Bulan'))
+//
+////WebUI.mouseOver(findTestObject('Nasabah/Kotak Masuk/Waktu/div_3 Bulanv2'))
+//
+//WebUI.sendKeys(null,'3')
+
+//WebUI.click(findTestObject('Nasabah/Kotak Masuk/Waktu/p_3 Bulan'))
+
+CustomKeywords.'custom.Access.UserLogout'()
+
+CustomKeywords.'custom.helper.Screenshoot'()
 

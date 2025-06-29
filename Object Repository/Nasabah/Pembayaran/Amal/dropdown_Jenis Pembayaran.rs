@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_Jenis Pembayaran</name>
+   <tag></tag>
+   <elementGuidId>f1a72a80-309f-425b-9eee-de6867eddd2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div/form/div[2]/div[2]/div[2]/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-select.select-dropdown.lg.css-1nk1ln7.ant-select-focused.ant-select-single.ant-select-show-arrow.ant-select-open > div.ant-select-selector</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9909025c-e278-4b77-8b9e-f40482e80c21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-select-selector</value>
+      <webElementGuid>a1db0a8f-3660-4f7d-ad5a-f09ffe6f1243</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jenis Pembayaran</value>
+      <webElementGuid>60d3c306-671b-450f-9147-5318a0cf38d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiScopedCssBaseline-root css-y57rlh&quot;]/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-jmbm5p&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-i6s8oy&quot;]/div[@class=&quot;css-uwwqev&quot;]/div[@class=&quot;css-1v8gcgw&quot;]/form[1]/div[@class=&quot;css-fyovt6&quot;]/div[@class=&quot;css-s2l8m&quot;]/div[@class=&quot;css-wlhzxl&quot;]/div[@class=&quot;css-1i4hhpl&quot;]/div[@class=&quot;ant-select select-dropdown lg css-1nk1ln7 ant-select-focused ant-select-single ant-select-show-arrow ant-select-open&quot;]/div[@class=&quot;ant-select-selector&quot;]</value>
+      <webElementGuid>2d98efd2-e49f-42f9-a6e6-d2b95eace216</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div/form/div[2]/div[2]/div[2]/div[2]/div/div</value>
+      <webElementGuid>520aa948-d962-49ad-9a3f-4bfb707382d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::div[12]</value>
+      <webElementGuid>11cacbfc-5c57-4eac-a147-5cc76da177ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaksi Terakhir'])[1]/following::div[14]</value>
+      <webElementGuid>9b38c84f-ea2f-44f3-8a60-8912344f5db6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div[2]/div/div</value>
+      <webElementGuid>9a72e15e-c1fa-4159-baf1-1ebee8e0afdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Jenis Pembayaran' or . = 'Jenis Pembayaran')]</value>
+      <webElementGuid>edcfb32e-3d37-4bec-891b-f3e2c857966f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

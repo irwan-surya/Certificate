@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
+CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_PROD_MULTIE1, 
 	GlobalVariable.UserID_PROD_Maker_makerRiza, 
     GlobalVariable.Pass_Prod_MULTIE1, 
@@ -92,5 +92,5 @@ WebUI.sendKeys(findTestObject('Nasabah/KUR/Info Pribadi/input_RT'), '12')
 WebUI.sendKeys(findTestObject('Nasabah/KUR/Info Pribadi/input_RW'), '13')
 
 WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/button_Selanjutnya'))
-CustomKeywords.'custom.login_keyword.UserLogout'()
+CustomKeywords.'custom.Access.UserLogout'()
 

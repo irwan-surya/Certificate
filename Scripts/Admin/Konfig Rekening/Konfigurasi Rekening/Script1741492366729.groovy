@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
+CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_PROD_MULTIE1, 
 	GlobalVariable.UserID_PROD_Admin1, 
 	GlobalVariable.Pass_Prod_MULTIE1,
 	GlobalVariable.Prod_URL)
 
-WebUI.executeJavaScript('document.body.style.zoom="75%";', null)
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Admin/Sidebar_Pengaturan Rekening'))
 
@@ -31,11 +31,9 @@ WebUI.click(findTestObject('Admin/Konfigurasi Rekening/Submenu_Konfigurasi Reken
 
 WebUI.click(findTestObject('Admin/Konfigurasi Rekening/Rekening_Tabungan BTN Batara'))
 
-WebUI.clearText(findTestObject('Admin/Konfigurasi Rekening/input_payment Limit'))
+CustomKeywords.'custom.Select_Keyword.ClearField'('Admin/Konfigurasi Rekening/input_payment Limit')
 
-WebUI.mouseOver(findTestObject('Object Repository/Login/icon_profile'))
+WebUI.sendKeys(findTestObject('Admin/Konfigurasi Rekening/input_payment Limit'), '100000')
 
-WebUI.click(findTestObject('Login/button_Keluar'))
-
-WebUI.click(findTestObject('Login/button_Yakin'))
+CustomKeywords.'custom.Access.UserLogout'()
 

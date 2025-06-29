@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'custom.login_keyword.UserLogin'(
+CustomKeywords.'custom.Access.UserLogin'(
 	GlobalVariable.CorpID_PROD_MULTIE1, 
 	GlobalVariable.UserID_PROD_Maker_makerRiza, 
     GlobalVariable.Pass_Prod_MULTIE1, 
@@ -46,19 +46,19 @@ CustomKeywords.'custom.Select_Keyword.SelectDropdown'(
 	'Nasabah/KUR/info pengajuan/Dropdown_Tujuan Pengajuan', 
 	'Nasabah/KUR/info pengajuan/list_Modal Kerja')
 
-CustomKeywords.'custom.login_keyword.VerifyLineError'(
+CustomKeywords.'custom.Access.VerifyLineError'(
 	'Nasabah/KUR/info pengajuan/input_Alasan Pengajuan', 
 	'Wajib Diisi',
 	'Nasabah/KUR/Info Pribadi/Text/text_Alasan Pengajuan Wajib Diisi' )
 
-CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+CustomKeywords.'custom.Access.VerifyInputLength'(
 	'Nasabah/KUR/info pengajuan/input_Alasan Pengajuan',
 	alasanPengajuan_NegativeLength,
 	alasanPengajuan_ExpectedLength 
 	)
 CustomKeywords.'custom.Select_Keyword.ClearField'('Nasabah/KUR/info pengajuan/input_Alasan Pengajuan')
 	
-CustomKeywords.'custom.login_keyword.VerifyInputType'(
+CustomKeywords.'custom.Access.VerifyInputType'(
 	'Nasabah/KUR/info pengajuan/input_Alasan Pengajuan', 
 	alasanPengajuan_NegativeChar, 
 	alasanPengajuan_ExpectedChar)
@@ -72,19 +72,19 @@ WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/button_Selanjutnya'))
 
 //informasi pribadi
 
-CustomKeywords.'custom.login_keyword.VerifyLineError'(
+CustomKeywords.'custom.Access.VerifyLineError'(
 	'Nasabah/KUR/Info Pribadi/input_Kota Kelahiran',
 	'Wajib Diisi',
 	'Nasabah/KUR/Info Pribadi/Text/text_Kota Kelahiran Wajib Diisi' )
 
-CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+CustomKeywords.'custom.Access.VerifyInputLength'(
 	'Nasabah/KUR/Info Pribadi/input_Kota Kelahiran', 
 	kotaKelahiran_NegativeLength, 
 	kotaKelahiran_ExpectedLength)
 
 CustomKeywords.'custom.Select_Keyword.ClearField'('Nasabah/KUR/Info Pribadi/input_Kota Kelahiran')
 
-CustomKeywords.'custom.login_keyword.VerifyInputType'(
+CustomKeywords.'custom.Access.VerifyInputType'(
 	'Nasabah/KUR/Info Pribadi/input_Kota Kelahiran',
 	kotaKelahiran_NegativeChar,
 	kotaKelahiran_ExpectedChar)
@@ -107,18 +107,18 @@ WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/radio_btn_Belum Menikah'))
 WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/radio_btn_Milik Sendiri'))
 
 	//alamat domisili
-CustomKeywords.'custom.login_keyword.VerifyLineError'(
+CustomKeywords.'custom.Access.VerifyLineError'(
 	'Nasabah/KUR/Info Pribadi/input_Alamat Domisili',
 	'Wajib Diisi',
 	'Nasabah/KUR/Info Pribadi/Text/text_Alamat Domisili Wajib Diisi' )
 
-CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+CustomKeywords.'custom.Access.VerifyInputLength'(
 	'Nasabah/KUR/Info Pribadi/input_Alamat Domisili',
 	alamatDomisili_NegativeLength,
 	alamatDomisili_ExpectedLength)
 CustomKeywords.'custom.Select_Keyword.ClearField'('Nasabah/KUR/Info Pribadi/input_Alamat Domisili')
 
-CustomKeywords.'custom.login_keyword.VerifyInputType'(
+CustomKeywords.'custom.Access.VerifyInputType'(
 	'Nasabah/KUR/Info Pribadi/input_Alamat Domisili',
 	alamatDomisili_NegativeChar,
 	alamatDomisili_ExpectedChar)
@@ -147,20 +147,20 @@ def field = [
 ]
 
 for (def input : field) {
-	CustomKeywords.'custom.login_keyword.VerifyLineError'(
+	CustomKeywords.'custom.Access.VerifyLineError'(
 		input.objectPath,
 		'Wajib Diisi',
 		input.textPath
 	)
 
-	CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+	CustomKeywords.'custom.Access.VerifyInputLength'(
 		input.objectPath,
 		RTRW_NegativeLength,
 		RTRW_ExpectedLength
 	)
 	CustomKeywords.'custom.Select_Keyword.ClearField'(input.objectPath)
 
-	CustomKeywords.'custom.login_keyword.VerifyInputType'(
+	CustomKeywords.'custom.Access.VerifyInputType'(
 		input.objectPath,
 		RTRW_NegativeChar,
 		RTRW_ExpectedChar
@@ -177,18 +177,18 @@ WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/button_Selanjutnya'))
 	//Nama Usaha
 CustomKeywords.'custom.Select_Keyword.ClearField'('Nasabah/KUR/Info Usaha/input_Nama Usaha')
 
-CustomKeywords.'custom.login_keyword.VerifyLineError'(
+CustomKeywords.'custom.Access.VerifyLineError'(
 	'Nasabah/KUR/Info Usaha/input_Nama Usaha',
 	'Wajib Diisi',
 	'Nasabah/KUR/Info Usaha/Text/text_nama usaha Wajib Diisi' )
 
-CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+CustomKeywords.'custom.Access.VerifyInputLength'(
 	'Nasabah/KUR/Info Usaha/input_Nama Usaha',
 	NamaUsaha_NegativeLength,
 	NamaUsaha_ExpectedLength)
 CustomKeywords.'custom.Select_Keyword.ClearField'('Nasabah/KUR/Info Usaha/input_Nama Usaha')
 
-CustomKeywords.'custom.login_keyword.VerifyInputType'(
+CustomKeywords.'custom.Access.VerifyInputType'(
 	'Nasabah/KUR/Info Usaha/input_Nama Usaha',
 	NamaUsaha_NegativeChar,
 	NamaUsaha_ExpectedChar)
@@ -197,18 +197,18 @@ CustomKeywords.'custom.Select_Keyword.ClearField'('Nasabah/KUR/Info Usaha/input_
 WebUI.sendKeys(findTestObject('Nasabah/KUR/Info Usaha/input_Nama Usaha'), NamaUsaha)
 
 	//omset usaha
-CustomKeywords.'custom.login_keyword.VerifyLineError'(
+CustomKeywords.'custom.Access.VerifyLineError'(
 	'Nasabah/KUR/Info Usaha/input_Omset Usaha',
 	'Wajib Diisi',
 	'Nasabah/KUR/Info Usaha/Text/text_omset usaha Wajib Diisi' )
 
-CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+CustomKeywords.'custom.Access.VerifyInputLength'(
 	'Nasabah/KUR/Info Usaha/input_Omset Usaha',
 	omsetUsaha_NegativeLength,
 	omsetUsaha_ExpectedLength)
 CustomKeywords.'custom.Select_Keyword.ClearField'('Nasabah/KUR/Info Usaha/input_Omset Usaha')
 
-CustomKeywords.'custom.login_keyword.VerifyInputType'(
+CustomKeywords.'custom.Access.VerifyInputType'(
 	'Nasabah/KUR/Info Usaha/input_Omset Usaha',
 	omsetUsaha_NegativeChar,
 	omsetUsaha_ExpectedChar)
@@ -227,18 +227,18 @@ for (def select : dropdown2) {
 		select.list)
 }
 	//lama usaha
-CustomKeywords.'custom.login_keyword.VerifyLineError'(
+CustomKeywords.'custom.Access.VerifyLineError'(
 	'Nasabah/KUR/Info Usaha/input_Lama Usaha',
 	'Wajib Diisi',
 	'Nasabah/KUR/Info Usaha/Text/text_lama usaha Wajib Diisi' )
 
-CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+CustomKeywords.'custom.Access.VerifyInputLength'(
 	'Nasabah/KUR/Info Usaha/input_Lama Usaha',
 	lamaUsaha_NegativeLength,
 	lamaUsaha_ExpectedLength)
 CustomKeywords.'custom.Select_Keyword.ClearField'('Nasabah/KUR/Info Usaha/input_Lama Usaha')
 
-CustomKeywords.'custom.login_keyword.VerifyInputType'(
+CustomKeywords.'custom.Access.VerifyInputType'(
 	'Nasabah/KUR/Info Usaha/input_Lama Usaha',
 	lamaUsaha_NegativeChar,
 	lamaUsaha_ExpectedChar)
@@ -246,18 +246,18 @@ CustomKeywords.'custom.Select_Keyword.ClearField'('Nasabah/KUR/Info Usaha/input_
 WebUI.sendKeys(findTestObject('Nasabah/KUR/Info Usaha/input_Lama Usaha'), lamaUsaha)
 
 	//alamat usaha
-CustomKeywords.'custom.login_keyword.VerifyLineError'(
+CustomKeywords.'custom.Access.VerifyLineError'(
 	'Nasabah/KUR/Info Usaha/input_Alamat Usaha',
 	'Wajib Diisi',
 	'Nasabah/KUR/Info Usaha/Text/text_alamat usaha Wajib Diisi' )
 
-CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+CustomKeywords.'custom.Access.VerifyInputLength'(
 	'Nasabah/KUR/Info Usaha/input_Alamat Usaha',
 	alamatUsaha_NegativeLength,
 	alamatUsaha_ExpectedLength)
 CustomKeywords.'custom.Select_Keyword.ClearField'('Nasabah/KUR/Info Usaha/input_Alamat Usaha')
 
-CustomKeywords.'custom.login_keyword.VerifyInputType'(
+CustomKeywords.'custom.Access.VerifyInputType'(
 	'Nasabah/KUR/Info Usaha/input_Alamat Usaha',
 	alamatUsaha_NegativeChar,
 	alamatUsaha_ExpectedChar)
@@ -286,20 +286,20 @@ def fields = [
 	[name: 'RW', objectPath: 'Nasabah/KUR/Info Usaha/input_RW Usaha', textPath: 'Nasabah/KUR/Info Usaha/text/text_RW Wajib Diisi']
 ]
 for (def input : fields) {
-	CustomKeywords.'custom.login_keyword.VerifyLineError'(
+	CustomKeywords.'custom.Access.VerifyLineError'(
 		input.objectPath,
 		'Wajib Diisi',
 		input.textPath
 	)
 
-	CustomKeywords.'custom.login_keyword.VerifyInputLength'(
+	CustomKeywords.'custom.Access.VerifyInputLength'(
 		input.objectPath,
 		RTRW_NegativeLength,
 		RTRW_ExpectedLength
 	)
 	CustomKeywords.'custom.Select_Keyword.ClearField'(input.objectPath)
 
-	CustomKeywords.'custom.login_keyword.VerifyInputType'(
+	CustomKeywords.'custom.Access.VerifyInputType'(
 		input.objectPath,
 		RTRW_NegativeChar,
 		RTRW_ExpectedChar
@@ -313,5 +313,5 @@ WebUI.click(findTestObject('Nasabah/KUR/Info Pribadi/button_Selanjutnya'))
 
 
 
-//CustomKeywords.'custom.login_keyword.UserLogout'()
+//CustomKeywords.'custom.Access.UserLogout'()
 

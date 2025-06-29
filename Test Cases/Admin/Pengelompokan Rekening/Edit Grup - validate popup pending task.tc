@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Grup - validate popup pending task</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3cbc4783-02ee-4694-91f0-45b52903b887</testCaseGuid>
+</TestCaseEntity>

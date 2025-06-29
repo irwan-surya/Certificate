@@ -17,15 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.SIT_Url)
+CustomKeywords.'credential.UAT.Ngakak'()
 
-WebUI.sendKeys(findTestObject('Login/input_CorpID'), 'SINGLE25')
-
-WebUI.sendKeys(findTestObject('Login/input_userID'), 'SINGLE25')
-
-WebUI.sendKeys(findTestObject('Login/input_password'), 'Johndev2@')
-
-WebUI.click(findTestObject('Login/button_Login'))
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Nasabah/Pembelian/Sidebar_Pembelian'))
 
