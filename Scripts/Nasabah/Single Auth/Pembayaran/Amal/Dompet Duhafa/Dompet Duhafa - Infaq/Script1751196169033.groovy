@@ -63,6 +63,10 @@ CustomKeywords.'custom.helper.Screenshoot'()
 
 def transactionData = CustomKeywords.'custom.Transaction.extractTransactionDetails'('.css-1v8gcgw','.css-1b2apei')
 
+WebUI.click(findTestObject('Nasabah/Pembayaran/button_Selanjutnya'))
+
+CustomKeywords.'custom.Access.InputSoftToken'()
+
 CustomKeywords.'custom.Access.UserLogout'()
 
 WebUI.closeBrowser()
